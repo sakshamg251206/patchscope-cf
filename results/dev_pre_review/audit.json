@@ -1,0 +1,1878 @@
+[
+  {
+    "ast_build_ms": 156.5539160001208,
+    "base_commit": "c78b50f4337ecbe536a961336ca91a1176efc0e8",
+    "bm25_build_ms": 7.317542000237154,
+    "control_build_ms": 7.241833000080078,
+    "gold_in_degree": [
+      17
+    ],
+    "gold_out_degree": [
+      0
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pvlib__pvlib-python-1606",
+    "isolates": 2,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 4080,
+        "start": 4066,
+        "text": "pvlib/tools.py"
+      },
+      {
+        "end": 5646,
+        "start": 5632,
+        "text": "pvlib/tools.py"
+      }
+    ],
+    "num_edges": 108,
+    "num_files": 48,
+    "query_sha256": "57c15d2248fcbd416181049e5120ae10cf9f83d5315e124ee02756c18078dcf7",
+    "repo": "pvlib/pvlib-python",
+    "rewiring": [
+      {
+        "attempts": 1346,
+        "requested_swaps": 540,
+        "retained_edge_fraction": 0.3425925925925926,
+        "seed": 2026,
+        "successful_swaps": 540
+      },
+      {
+        "attempts": 1341,
+        "requested_swaps": 540,
+        "retained_edge_fraction": 0.4074074074074074,
+        "seed": 2027,
+        "successful_swaps": 540
+      },
+      {
+        "attempts": 1386,
+        "requested_swaps": 540,
+        "retained_edge_fraction": 0.3148148148148148,
+        "seed": 2028,
+        "successful_swaps": 540
+      }
+    ],
+    "snapshot_ms": 23837.67483400152,
+    "source": {
+      "commit": "c78b50f4337ecbe536a961336ca91a1176efc0e8",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 48,
+      "repo": "pvlib/pvlib-python",
+      "skipped": [],
+      "source_sha256": "0c435795ef8c18651be4d749078106c3776ec31c42642f3ed29a0856341ce776",
+      "tree_sha256": "2b7cf3c16803d996e5ee738ae4d9a3d4ccb134135626f15d99edb371015dd6d5"
+    }
+  },
+  {
+    "ast_build_ms": 68.8490840002487,
+    "base_commit": "3746878d8edf1cbda6fbcf35eec69f9ba79301ca",
+    "bm25_build_ms": 2.7904590006073704,
+    "control_build_ms": 8.721208998395014,
+    "gold_in_degree": [
+      10
+    ],
+    "gold_out_degree": [
+      6
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pydicom__pydicom-901",
+    "isolates": 9,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 71,
+        "start": 65,
+        "text": "config"
+      }
+    ],
+    "num_edges": 133,
+    "num_files": 51,
+    "query_sha256": "dd82fd5840430c753ded7ca386c89ce41df5b620b389ad2860cc15fd5f177931",
+    "repo": "pydicom/pydicom",
+    "rewiring": [
+      {
+        "attempts": 1631,
+        "requested_swaps": 665,
+        "retained_edge_fraction": 0.37593984962406013,
+        "seed": 2026,
+        "successful_swaps": 665
+      },
+      {
+        "attempts": 1544,
+        "requested_swaps": 665,
+        "retained_edge_fraction": 0.39849624060150374,
+        "seed": 2027,
+        "successful_swaps": 665
+      },
+      {
+        "attempts": 1649,
+        "requested_swaps": 665,
+        "retained_edge_fraction": 0.3609022556390977,
+        "seed": 2028,
+        "successful_swaps": 665
+      }
+    ],
+    "snapshot_ms": 1385.619291999319,
+    "source": {
+      "commit": "3746878d8edf1cbda6fbcf35eec69f9ba79301ca",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 51,
+      "repo": "pydicom/pydicom",
+      "skipped": [
+        {
+          "path": "pydicom/_dicom_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/_private_dict.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "b068f581b81a23ef7c1a186c97999347340a98f0befd25040ecf1b129c88e601",
+      "tree_sha256": "ba0a57fb98aa77e2391a126d6f07f4dfaa5f0e3f8fc3d3e8b5714d76004ba815"
+    }
+  },
+  {
+    "ast_build_ms": 143.0120410004747,
+    "base_commit": "27a3a07ebc84b11014d3753e4923902adf9a38c0",
+    "bm25_build_ms": 18.15754100061895,
+    "control_build_ms": 7.022040999800083,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      10
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pvlib__pvlib-python-1854",
+    "isolates": 3,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 8,
+        "start": 0,
+        "text": "PVSystem"
+      },
+      {
+        "end": 131,
+        "start": 123,
+        "text": "PVSystem"
+      },
+      {
+        "end": 223,
+        "start": 215,
+        "text": "PVSystem"
+      },
+      {
+        "end": 255,
+        "start": 241,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 328,
+        "start": 314,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 368,
+        "start": 354,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 377,
+        "start": 369,
+        "text": "PVSystem"
+      },
+      {
+        "end": 624,
+        "start": 610,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 705,
+        "start": 691,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 753,
+        "start": 739,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 762,
+        "start": 754,
+        "text": "PVSystem"
+      },
+      {
+        "end": 827,
+        "start": 810,
+        "text": "pvlib\\pvsystem.py"
+      },
+      {
+        "end": 1252,
+        "start": 1244,
+        "text": "PVSystem"
+      },
+      {
+        "end": 1356,
+        "start": 1348,
+        "text": "PVSystem"
+      },
+      {
+        "end": 1464,
+        "start": 1456,
+        "text": "PVSystem"
+      },
+      {
+        "end": 1586,
+        "start": 1572,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 1659,
+        "start": 1645,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 1699,
+        "start": 1685,
+        "text": "pvlib.pvsystem"
+      },
+      {
+        "end": 1708,
+        "start": 1700,
+        "text": "PVSystem"
+      },
+      {
+        "end": 1955,
+        "start": 1947,
+        "text": "PVSystem"
+      }
+    ],
+    "num_edges": 107,
+    "num_files": 48,
+    "query_sha256": "ba71e95f1bb89ea8782e8789e57d9f3f5878fa8a03c94c46b00e807854e0e130",
+    "repo": "pvlib/pvlib-python",
+    "rewiring": [
+      {
+        "attempts": 1395,
+        "requested_swaps": 535,
+        "retained_edge_fraction": 0.4205607476635514,
+        "seed": 2026,
+        "successful_swaps": 535
+      },
+      {
+        "attempts": 1359,
+        "requested_swaps": 535,
+        "retained_edge_fraction": 0.3177570093457944,
+        "seed": 2027,
+        "successful_swaps": 535
+      },
+      {
+        "attempts": 1305,
+        "requested_swaps": 535,
+        "retained_edge_fraction": 0.34579439252336447,
+        "seed": 2028,
+        "successful_swaps": 535
+      }
+    ],
+    "snapshot_ms": 16385.681750000003,
+    "source": {
+      "commit": "27a3a07ebc84b11014d3753e4923902adf9a38c0",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 48,
+      "repo": "pvlib/pvlib-python",
+      "skipped": [],
+      "source_sha256": "c53884e2d0ce8a615fceb1708339d3bb0e7e56dac9118feedc477b145446e73b",
+      "tree_sha256": "8cd9080c7f244a2127e591c6be86b1679d6e256a33216bc6f5aabff8261b7677"
+    }
+  },
+  {
+    "ast_build_ms": 145.31745800013596,
+    "base_commit": "40e9e978c170bdde4eeee1547729417665dbc34c",
+    "bm25_build_ms": 7.3130000000674045,
+    "control_build_ms": 7.747666000796016,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      1
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pvlib__pvlib-python-1707",
+    "isolates": 3,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 221,
+        "start": 212,
+        "text": "pvlib.iam"
+      }
+    ],
+    "num_edges": 112,
+    "num_files": 48,
+    "query_sha256": "7c02516a72352ed042e9a91acdf852617b5ed76813b5bf01dd7be21354d08ee5",
+    "repo": "pvlib/pvlib-python",
+    "rewiring": [
+      {
+        "attempts": 1517,
+        "requested_swaps": 560,
+        "retained_edge_fraction": 0.36607142857142855,
+        "seed": 2026,
+        "successful_swaps": 560
+      },
+      {
+        "attempts": 1556,
+        "requested_swaps": 560,
+        "retained_edge_fraction": 0.3482142857142857,
+        "seed": 2027,
+        "successful_swaps": 560
+      },
+      {
+        "attempts": 1550,
+        "requested_swaps": 560,
+        "retained_edge_fraction": 0.41964285714285715,
+        "seed": 2028,
+        "successful_swaps": 560
+      }
+    ],
+    "snapshot_ms": 3805.0406249985826,
+    "source": {
+      "commit": "40e9e978c170bdde4eeee1547729417665dbc34c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 48,
+      "repo": "pvlib/pvlib-python",
+      "skipped": [],
+      "source_sha256": "34452d106d6986ede47b15633823824efe63bef8238adacff7def3c412c38724",
+      "tree_sha256": "a85e0269bf643cb02f23a9f8ca046716d3ab948f6b156ca7169532968be8b8c6"
+    }
+  },
+  {
+    "ast_build_ms": 185.37258300057147,
+    "base_commit": "a10057635e5b2559293a676486f0b730981f037a",
+    "bm25_build_ms": 13.33308399989619,
+    "control_build_ms": 20.24354200148082,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sqlfluff__sqlfluff-1763",
+    "isolates": 6,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 390,
+    "num_files": 145,
+    "query_sha256": "52966c82cc936539441571386228a8390f67664504a9d1d58d527fb223e8d22a",
+    "repo": "sqlfluff/sqlfluff",
+    "rewiring": [
+      {
+        "attempts": 2985,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.1717948717948718,
+        "seed": 2026,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 2929,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.19743589743589743,
+        "seed": 2027,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 2892,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.17692307692307693,
+        "seed": 2028,
+        "successful_swaps": 1950
+      }
+    ],
+    "snapshot_ms": 1175.8854579984472,
+    "source": {
+      "commit": "a10057635e5b2559293a676486f0b730981f037a",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 145,
+      "repo": "sqlfluff/sqlfluff",
+      "skipped": [],
+      "source_sha256": "bdcdabeb6fc1618228f87d88f59a42e39295550f2a596c26eccb8c78b1f3b31c",
+      "tree_sha256": "ca4f1f955c4aee6e0b39bff1365faa10a046a70a854cf4ef6d8876c3d1f7f5fd"
+    }
+  },
+  {
+    "ast_build_ms": 176.5005420002126,
+    "base_commit": "14e1a23a3166b9a645a16de96f694c77a5d4abb7",
+    "bm25_build_ms": 5.679500000042026,
+    "control_build_ms": 20.566832999975304,
+    "gold_in_degree": [
+      0
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sqlfluff__sqlfluff-1625",
+    "isolates": 6,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 11,
+        "start": 7,
+        "text": "L031"
+      },
+      {
+        "end": 414,
+        "start": 410,
+        "text": "L031"
+      }
+    ],
+    "num_edges": 381,
+    "num_files": 140,
+    "query_sha256": "b432eac46f954607134de8cfc01853cf90d6dd23f7c83676974ac4b5559489f9",
+    "repo": "sqlfluff/sqlfluff",
+    "rewiring": [
+      {
+        "attempts": 2885,
+        "requested_swaps": 1905,
+        "retained_edge_fraction": 0.1942257217847769,
+        "seed": 2026,
+        "successful_swaps": 1905
+      },
+      {
+        "attempts": 2831,
+        "requested_swaps": 1905,
+        "retained_edge_fraction": 0.17585301837270342,
+        "seed": 2027,
+        "successful_swaps": 1905
+      },
+      {
+        "attempts": 2878,
+        "requested_swaps": 1905,
+        "retained_edge_fraction": 0.16535433070866143,
+        "seed": 2028,
+        "successful_swaps": 1905
+      }
+    ],
+    "snapshot_ms": 2220.6722910013923,
+    "source": {
+      "commit": "14e1a23a3166b9a645a16de96f694c77a5d4abb7",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 140,
+      "repo": "sqlfluff/sqlfluff",
+      "skipped": [],
+      "source_sha256": "3923d7eeb7962e034d1c5e0c683ac59b254d8f9795c859eef7cf4ab6997fa5c1",
+      "tree_sha256": "b7d8834cf3791a965feb89e9de7ea3c9b54ec83deb1dbfb7c165751184a4dfb2"
+    }
+  },
+  {
+    "ast_build_ms": 119.51500000031956,
+    "base_commit": "04a523fafbd61bc2e49420963b84ed8e2bd1b3cf",
+    "bm25_build_ms": 6.445041000915808,
+    "control_build_ms": 6.301708999671973,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      1
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pvlib__pvlib-python-1072",
+    "isolates": 3,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 11,
+        "start": 0,
+        "text": "temperature"
+      },
+      {
+        "end": 143,
+        "start": 132,
+        "text": "temperature"
+      },
+      {
+        "end": 1372,
+        "start": 1355,
+        "text": "pvlib.temperature"
+      },
+      {
+        "end": 1622,
+        "start": 1605,
+        "text": "pvlib.temperature"
+      },
+      {
+        "end": 1780,
+        "start": 1763,
+        "text": "pvlib.temperature"
+      },
+      {
+        "end": 1881,
+        "start": 1861,
+        "text": "pvlib/temperature.py"
+      },
+      {
+        "end": 2104,
+        "start": 2093,
+        "text": "temperature"
+      }
+    ],
+    "num_edges": 82,
+    "num_files": 41,
+    "query_sha256": "f07d27d56ebb8157d446fe705e1e4c61fc9de31cffb1ebddc2d0b4d1baadc254",
+    "repo": "pvlib/pvlib-python",
+    "rewiring": [
+      {
+        "attempts": 1079,
+        "requested_swaps": 410,
+        "retained_edge_fraction": 0.3902439024390244,
+        "seed": 2026,
+        "successful_swaps": 410
+      },
+      {
+        "attempts": 1138,
+        "requested_swaps": 410,
+        "retained_edge_fraction": 0.3780487804878049,
+        "seed": 2027,
+        "successful_swaps": 410
+      },
+      {
+        "attempts": 1128,
+        "requested_swaps": 410,
+        "retained_edge_fraction": 0.4024390243902439,
+        "seed": 2028,
+        "successful_swaps": 410
+      }
+    ],
+    "snapshot_ms": 3238.2251670005644,
+    "source": {
+      "commit": "04a523fafbd61bc2e49420963b84ed8e2bd1b3cf",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 41,
+      "repo": "pvlib/pvlib-python",
+      "skipped": [],
+      "source_sha256": "0cb51db15e9e424306d9c289d0205ca199f06425a726c5acb4016ed54cd5d87d",
+      "tree_sha256": "397d7aee2b0e3d7fc2aeac32d309b0ded8e85a2a0ddff761918b7ae509bb03b5"
+    }
+  },
+  {
+    "ast_build_ms": 130.33433300006436,
+    "base_commit": "49a3da4a3d9c24d7e8427a25048a1c7d5c4f7724",
+    "bm25_build_ms": 4.320500000176253,
+    "control_build_ms": 11.020207999536069,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pydicom__pydicom-1256",
+    "isolates": 8,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1023,
+        "start": 1013,
+        "text": "jsonrep.py"
+      }
+    ],
+    "num_edges": 170,
+    "num_files": 62,
+    "query_sha256": "f061b100095a172158e0ec70463f899ad8ead6ca9b1196407e81d0b756a8ba61",
+    "repo": "pydicom/pydicom",
+    "rewiring": [
+      {
+        "attempts": 1727,
+        "requested_swaps": 850,
+        "retained_edge_fraction": 0.3235294117647059,
+        "seed": 2026,
+        "successful_swaps": 850
+      },
+      {
+        "attempts": 1768,
+        "requested_swaps": 850,
+        "retained_edge_fraction": 0.3352941176470588,
+        "seed": 2027,
+        "successful_swaps": 850
+      },
+      {
+        "attempts": 1781,
+        "requested_swaps": 850,
+        "retained_edge_fraction": 0.31176470588235294,
+        "seed": 2028,
+        "successful_swaps": 850
+      }
+    ],
+    "snapshot_ms": 1392.8616659995896,
+    "source": {
+      "commit": "49a3da4a3d9c24d7e8427a25048a1c7d5c4f7724",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 62,
+      "repo": "pydicom/pydicom",
+      "skipped": [
+        {
+          "path": "pydicom/_dicom_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/_private_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_cid_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_concepts_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_snomed_dict.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "80704782ea8c5dfe4fef253a24652cedcb8ba1e4346acf315e94821f70173065",
+      "tree_sha256": "608dc043403e9fe31a03e0e892f32c7c09aca933bea3bc26862fb103d8d1776b"
+    }
+  },
+  {
+    "ast_build_ms": 26.2388329992973,
+    "base_commit": "b40a0f4e33823e6d0f341f7e8684e359a99060d1",
+    "bm25_build_ms": 1.2722499996016268,
+    "control_build_ms": 4.154041000219877,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "marshmallow-code__marshmallow-1359",
+    "isolates": 0,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 20,
+        "start": 14,
+        "text": "fields"
+      },
+      {
+        "end": 75,
+        "start": 69,
+        "text": "fields"
+      },
+      {
+        "end": 133,
+        "start": 127,
+        "text": "fields"
+      },
+      {
+        "end": 204,
+        "start": 198,
+        "text": "fields"
+      },
+      {
+        "end": 224,
+        "start": 218,
+        "text": "fields"
+      },
+      {
+        "end": 398,
+        "start": 392,
+        "text": "fields"
+      },
+      {
+        "end": 453,
+        "start": 447,
+        "text": "fields"
+      },
+      {
+        "end": 465,
+        "start": 459,
+        "text": "fields"
+      },
+      {
+        "end": 759,
+        "start": 753,
+        "text": "fields"
+      },
+      {
+        "end": 1233,
+        "start": 1224,
+        "text": "fields.py"
+      },
+      {
+        "end": 1415,
+        "start": 1406,
+        "text": "fields.py"
+      },
+      {
+        "end": 1715,
+        "start": 1709,
+        "text": "fields"
+      }
+    ],
+    "num_edges": 25,
+    "num_files": 12,
+    "query_sha256": "e4caac19c9afeacc3d0660b41106012bca605a2f90ebb4756e7cc3be9b15b062",
+    "repo": "marshmallow-code/marshmallow",
+    "rewiring": [
+      {
+        "attempts": 1142,
+        "requested_swaps": 125,
+        "retained_edge_fraction": 0.76,
+        "seed": 2026,
+        "successful_swaps": 125
+      },
+      {
+        "attempts": 1139,
+        "requested_swaps": 125,
+        "retained_edge_fraction": 0.68,
+        "seed": 2027,
+        "successful_swaps": 125
+      },
+      {
+        "attempts": 1022,
+        "requested_swaps": 125,
+        "retained_edge_fraction": 0.72,
+        "seed": 2028,
+        "successful_swaps": 125
+      }
+    ],
+    "snapshot_ms": 917.937833999531,
+    "source": {
+      "commit": "b40a0f4e33823e6d0f341f7e8684e359a99060d1",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 12,
+      "repo": "marshmallow-code/marshmallow",
+      "skipped": [],
+      "source_sha256": "1ac95ad3dc1cb7938fd16b4412215dbd6ba558621c919303cfd3b0ac3ba92d9e",
+      "tree_sha256": "a108624e3f6ad04430efdd196cad5987651b1b74d3353b030e957dcc0ae605ed"
+    }
+  },
+  {
+    "ast_build_ms": 29.241250000268337,
+    "base_commit": "2be2d83a1a9a6d3d9b85804f3ab545cecc409bb0",
+    "bm25_build_ms": 1.0730829999374691,
+    "control_build_ms": 4.100916999959736,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      10
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "marshmallow-code__marshmallow-1343",
+    "isolates": 0,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 181,
+        "start": 175,
+        "text": "Schema"
+      },
+      {
+        "end": 222,
+        "start": 216,
+        "text": "Schema"
+      },
+      {
+        "end": 371,
+        "start": 365,
+        "text": "Schema"
+      },
+      {
+        "end": 652,
+        "start": 643,
+        "text": "schema.py"
+      },
+      {
+        "end": 821,
+        "start": 812,
+        "text": "schema.py"
+      },
+      {
+        "end": 1536,
+        "start": 1530,
+        "text": "schema"
+      },
+      {
+        "end": 1614,
+        "start": 1605,
+        "text": "schema.py"
+      },
+      {
+        "end": 1783,
+        "start": 1774,
+        "text": "schema.py"
+      },
+      {
+        "end": 1943,
+        "start": 1934,
+        "text": "schema.py"
+      }
+    ],
+    "num_edges": 35,
+    "num_files": 15,
+    "query_sha256": "80804e297cb80ecd785d28f627d865e6326170be2c8a42d4ec95f6dfe9712190",
+    "repo": "marshmallow-code/marshmallow",
+    "rewiring": [
+      {
+        "attempts": 941,
+        "requested_swaps": 175,
+        "retained_edge_fraction": 0.6857142857142857,
+        "seed": 2026,
+        "successful_swaps": 175
+      },
+      {
+        "attempts": 1005,
+        "requested_swaps": 175,
+        "retained_edge_fraction": 0.5714285714285714,
+        "seed": 2027,
+        "successful_swaps": 175
+      },
+      {
+        "attempts": 989,
+        "requested_swaps": 175,
+        "retained_edge_fraction": 0.5428571428571428,
+        "seed": 2028,
+        "successful_swaps": 175
+      }
+    ],
+    "snapshot_ms": 1861.9681660002243,
+    "source": {
+      "commit": "2be2d83a1a9a6d3d9b85804f3ab545cecc409bb0",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 15,
+      "repo": "marshmallow-code/marshmallow",
+      "skipped": [],
+      "source_sha256": "943831194ce0276efe517829d666a37685be5de65fb673a793bf7b8186491c02",
+      "tree_sha256": "1dc57d6c5570eae875916d18763a8544478aeeddf0b25408945373bbc47ad1ed"
+    }
+  },
+  {
+    "ast_build_ms": 172.34462499982328,
+    "base_commit": "304a197829f98e7425a46d872ada73176137e5ae",
+    "bm25_build_ms": 12.930916000186699,
+    "control_build_ms": 19.053416999668116,
+    "gold_in_degree": [
+      9
+    ],
+    "gold_out_degree": [
+      2
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sqlfluff__sqlfluff-1517",
+    "isolates": 6,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 2664,
+        "start": 2629,
+        "text": "src/sqlfluff/core/parser/helpers.py"
+      }
+    ],
+    "num_edges": 366,
+    "num_files": 139,
+    "query_sha256": "3cf151b6d14abeaed7c23424b8f9b6dc1d7b6504ceff4f95d7cd9312d86e0bcd",
+    "repo": "sqlfluff/sqlfluff",
+    "rewiring": [
+      {
+        "attempts": 2805,
+        "requested_swaps": 1830,
+        "retained_edge_fraction": 0.21311475409836064,
+        "seed": 2026,
+        "successful_swaps": 1830
+      },
+      {
+        "attempts": 2839,
+        "requested_swaps": 1830,
+        "retained_edge_fraction": 0.2103825136612022,
+        "seed": 2027,
+        "successful_swaps": 1830
+      },
+      {
+        "attempts": 2772,
+        "requested_swaps": 1830,
+        "retained_edge_fraction": 0.16939890710382513,
+        "seed": 2028,
+        "successful_swaps": 1830
+      }
+    ],
+    "snapshot_ms": 1720.206625001083,
+    "source": {
+      "commit": "304a197829f98e7425a46d872ada73176137e5ae",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 139,
+      "repo": "sqlfluff/sqlfluff",
+      "skipped": [],
+      "source_sha256": "297b3a6d31d8334a8417bd5b7dd9993cdae5fb97fd84a9b596f999974fbb9da9",
+      "tree_sha256": "92649099b5400eee87364927f9a815f09cfef1e7b1373dee67f4c15a3faf4984"
+    }
+  },
+  {
+    "ast_build_ms": 285.0687919999473,
+    "base_commit": "db6ee8dd4a747b8864caae36c5d05883976a3ae5",
+    "bm25_build_ms": 11.32970800063049,
+    "control_build_ms": 27.32800000012503,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      7
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pyvista__pyvista-4315",
+    "isolates": 2,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 16,
+        "start": 12,
+        "text": "grid"
+      },
+      {
+        "end": 130,
+        "start": 126,
+        "text": "grid"
+      }
+    ],
+    "num_edges": 390,
+    "num_files": 104,
+    "query_sha256": "78f783a4723d553591943dd5e8790ce1fddff838e900e15d9aeedc249b2ff163",
+    "repo": "pyvista/pyvista",
+    "rewiring": [
+      {
+        "attempts": 5042,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.36923076923076925,
+        "seed": 2026,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 4971,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.35384615384615387,
+        "seed": 2027,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 5169,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.4,
+        "seed": 2028,
+        "successful_swaps": 1950
+      }
+    ],
+    "snapshot_ms": 90240.17704200014,
+    "source": {
+      "commit": "db6ee8dd4a747b8864caae36c5d05883976a3ae5",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 104,
+      "repo": "pyvista/pyvista",
+      "skipped": [
+        {
+          "path": "pyvista/plotting/plotting.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "3514cdc2cfeae80544d92bca250d2151ff67b1f5e3a46817924999f365f9f971",
+      "tree_sha256": "588d729c81cc2923596eab10875e9983aa4cdaf565650a0f459e7fbe241a0be8"
+    }
+  },
+  {
+    "ast_build_ms": 144.6995419992163,
+    "base_commit": "f909c76e31f759246cec3708dadd173c5d6e84b1",
+    "bm25_build_ms": 4.803916001037578,
+    "control_build_ms": 12.184000001070672,
+    "gold_in_degree": [
+      10
+    ],
+    "gold_out_degree": [
+      11
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pydicom__pydicom-1413",
+    "isolates": 8,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 196,
+    "num_files": 71,
+    "query_sha256": "6222b907afefbc2d0e22570b5795068882ed9371984b912a9455c245ee76c8e1",
+    "repo": "pydicom/pydicom",
+    "rewiring": [
+      {
+        "attempts": 1961,
+        "requested_swaps": 980,
+        "retained_edge_fraction": 0.3010204081632653,
+        "seed": 2026,
+        "successful_swaps": 980
+      },
+      {
+        "attempts": 1942,
+        "requested_swaps": 980,
+        "retained_edge_fraction": 0.29591836734693877,
+        "seed": 2027,
+        "successful_swaps": 980
+      },
+      {
+        "attempts": 2006,
+        "requested_swaps": 980,
+        "retained_edge_fraction": 0.30612244897959184,
+        "seed": 2028,
+        "successful_swaps": 980
+      }
+    ],
+    "snapshot_ms": 1465.7062080004835,
+    "source": {
+      "commit": "f909c76e31f759246cec3708dadd173c5d6e84b1",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 71,
+      "repo": "pydicom/pydicom",
+      "skipped": [
+        {
+          "path": "pydicom/_dicom_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/_private_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_cid_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_concepts_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_snomed_dict.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "b9b13e329f4704debc308b740667f3be44a12fa179c7e2f90bf8336a1c4d4e19",
+      "tree_sha256": "c01f03437f9da6f608a08142530101e41ac74e3564375ae977115ffa9215894b"
+    }
+  },
+  {
+    "ast_build_ms": 144.01129199904972,
+    "base_commit": "d2a5b3c7b1e203fec3c7ca73c30eb1785d3d4d0a",
+    "bm25_build_ms": 3.5306250010762597,
+    "control_build_ms": 28.54950000073586,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      2
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__astroid-1333",
+    "isolates": 4,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 364,
+    "num_files": 90,
+    "query_sha256": "d7b811a30fa119a2afd26a2afac56d5bba45e6f4c99d2c9f2ed00c4eb073c7d3",
+    "repo": "pylint-dev/astroid",
+    "rewiring": [
+      {
+        "attempts": 5794,
+        "requested_swaps": 1820,
+        "retained_edge_fraction": 0.43131868131868134,
+        "seed": 2026,
+        "successful_swaps": 1820
+      },
+      {
+        "attempts": 5408,
+        "requested_swaps": 1820,
+        "retained_edge_fraction": 0.40934065934065933,
+        "seed": 2027,
+        "successful_swaps": 1820
+      },
+      {
+        "attempts": 5508,
+        "requested_swaps": 1820,
+        "retained_edge_fraction": 0.4368131868131868,
+        "seed": 2028,
+        "successful_swaps": 1820
+      }
+    ],
+    "snapshot_ms": 1280.5302090000623,
+    "source": {
+      "commit": "d2a5b3c7b1e203fec3c7ca73c30eb1785d3d4d0a",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 90,
+      "repo": "pylint-dev/astroid",
+      "skipped": [],
+      "source_sha256": "f57c3d89ab9b7efe8f3ea62335e152d1084692cd43cd5b7b56b5aeff60d20ce9",
+      "tree_sha256": "c5129339ad3aeefed446a70f0802ca56cb29e830d5abbc7a77fcd8655e603d85"
+    }
+  },
+  {
+    "ast_build_ms": 144.0611669986538,
+    "base_commit": "39c2a9805970ca57093d32bbaf0e6a63e05041d8",
+    "bm25_build_ms": 11.116666999441804,
+    "control_build_ms": 30.928707999919425,
+    "gold_in_degree": [
+      25
+    ],
+    "gold_out_degree": [
+      11
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__astroid-1196",
+    "isolates": 5,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1442,
+        "start": 1413,
+        "text": "astroid/nodes/node_classes.py"
+      }
+    ],
+    "num_edges": 402,
+    "num_files": 95,
+    "query_sha256": "376282b578b02c1b6c4b3f9205c4129d0f4ab421969a9e21717a9fa3b7f15d9a",
+    "repo": "pylint-dev/astroid",
+    "rewiring": [
+      {
+        "attempts": 6099,
+        "requested_swaps": 2010,
+        "retained_edge_fraction": 0.4079601990049751,
+        "seed": 2026,
+        "successful_swaps": 2010
+      },
+      {
+        "attempts": 6032,
+        "requested_swaps": 2010,
+        "retained_edge_fraction": 0.39800995024875624,
+        "seed": 2027,
+        "successful_swaps": 2010
+      },
+      {
+        "attempts": 6017,
+        "requested_swaps": 2010,
+        "retained_edge_fraction": 0.4129353233830846,
+        "seed": 2028,
+        "successful_swaps": 2010
+      }
+    ],
+    "snapshot_ms": 1017.0774160014844,
+    "source": {
+      "commit": "39c2a9805970ca57093d32bbaf0e6a63e05041d8",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 95,
+      "repo": "pylint-dev/astroid",
+      "skipped": [],
+      "source_sha256": "7eefa3c056039f60311b2246cf6858d62e8dcb3e991ac68b450711e9d44e6bce",
+      "tree_sha256": "02a21ca6305285cd4f19aeeb6e1f6ac863fa80e38fc0e4d21816b2d5d5291754"
+    }
+  },
+  {
+    "ast_build_ms": 156.409082999744,
+    "base_commit": "6cf238d089cf4b6753c94cfc089b4a47487711e5",
+    "bm25_build_ms": 3.828542001429014,
+    "control_build_ms": 33.72891700018954,
+    "gold_in_degree": [
+      0
+    ],
+    "gold_out_degree": [
+      11
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__astroid-1866",
+    "isolates": 5,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1563,
+        "start": 1523,
+        "text": "astroid/brain/brain_builtin_inference.py"
+      }
+    ],
+    "num_edges": 445,
+    "num_files": 99,
+    "query_sha256": "91cfff4d6fbde273acb46b4053a8a86fc0a2db88fe41e08c923f6dda01948b3a",
+    "repo": "pylint-dev/astroid",
+    "rewiring": [
+      {
+        "attempts": 6453,
+        "requested_swaps": 2225,
+        "retained_edge_fraction": 0.39775280898876403,
+        "seed": 2026,
+        "successful_swaps": 2225
+      },
+      {
+        "attempts": 6507,
+        "requested_swaps": 2225,
+        "retained_edge_fraction": 0.4157303370786517,
+        "seed": 2027,
+        "successful_swaps": 2225
+      },
+      {
+        "attempts": 6728,
+        "requested_swaps": 2225,
+        "retained_edge_fraction": 0.4202247191011236,
+        "seed": 2028,
+        "successful_swaps": 2225
+      }
+    ],
+    "snapshot_ms": 2233.278583000356,
+    "source": {
+      "commit": "6cf238d089cf4b6753c94cfc089b4a47487711e5",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 99,
+      "repo": "pylint-dev/astroid",
+      "skipped": [],
+      "source_sha256": "3210300fba08868ead7930b44f457d4785c499bc43fedae1309327d106d9393f",
+      "tree_sha256": "60e2f051f70f36a443f8105a52e87f7e3ed87e5585ff159c0028d4141f2a11f2"
+    }
+  },
+  {
+    "ast_build_ms": 134.84637499823293,
+    "base_commit": "ce5cbce5ba11cdc2f8139ade66feea1e181a7944",
+    "bm25_build_ms": 3.473499999017804,
+    "control_build_ms": 29.348583000682993,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      1
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__astroid-1268",
+    "isolates": 4,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 126,
+        "start": 117,
+        "text": "as_string"
+      },
+      {
+        "end": 336,
+        "start": 327,
+        "text": "as_string"
+      },
+      {
+        "end": 482,
+        "start": 456,
+        "text": "astroid/nodes/as_string.py"
+      }
+    ],
+    "num_edges": 360,
+    "num_files": 88,
+    "query_sha256": "52bda856f00f4690c0f882dc679471313c1e5751ff959afcf7087fc781c3bcc2",
+    "repo": "pylint-dev/astroid",
+    "rewiring": [
+      {
+        "attempts": 5743,
+        "requested_swaps": 1800,
+        "retained_edge_fraction": 0.4638888888888889,
+        "seed": 2026,
+        "successful_swaps": 1800
+      },
+      {
+        "attempts": 5652,
+        "requested_swaps": 1800,
+        "retained_edge_fraction": 0.4361111111111111,
+        "seed": 2027,
+        "successful_swaps": 1800
+      },
+      {
+        "attempts": 5740,
+        "requested_swaps": 1800,
+        "retained_edge_fraction": 0.45,
+        "seed": 2028,
+        "successful_swaps": 1800
+      }
+    ],
+    "snapshot_ms": 1096.4429169998766,
+    "source": {
+      "commit": "ce5cbce5ba11cdc2f8139ade66feea1e181a7944",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 88,
+      "repo": "pylint-dev/astroid",
+      "skipped": [],
+      "source_sha256": "387e429b5040b59e9746ceac4b100987f1eaf39a28635295d0823cdf78bbb2b3",
+      "tree_sha256": "e5879beb63d17cbede4c59a71a323c7c75448e380a41c9e1b046b909e3095143"
+    }
+  },
+  {
+    "ast_build_ms": 93.82029100015643,
+    "base_commit": "b9fb05c177b685bf683f7f57b2d57374eb7d882d",
+    "bm25_build_ms": 3.5786669996014098,
+    "control_build_ms": 7.972458999574883,
+    "gold_in_degree": [
+      8
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pydicom__pydicom-1139",
+    "isolates": 13,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 136,
+    "num_files": 57,
+    "query_sha256": "7a03fec42e4a82536972a09ee3aad281a83f0f1c6353f33bfca3a42d63d7f326",
+    "repo": "pydicom/pydicom",
+    "rewiring": [
+      {
+        "attempts": 1423,
+        "requested_swaps": 680,
+        "retained_edge_fraction": 0.3235294117647059,
+        "seed": 2026,
+        "successful_swaps": 680
+      },
+      {
+        "attempts": 1327,
+        "requested_swaps": 680,
+        "retained_edge_fraction": 0.2867647058823529,
+        "seed": 2027,
+        "successful_swaps": 680
+      },
+      {
+        "attempts": 1416,
+        "requested_swaps": 680,
+        "retained_edge_fraction": 0.3161764705882353,
+        "seed": 2028,
+        "successful_swaps": 680
+      }
+    ],
+    "snapshot_ms": 3533.4380000003875,
+    "source": {
+      "commit": "b9fb05c177b685bf683f7f57b2d57374eb7d882d",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 57,
+      "repo": "pydicom/pydicom",
+      "skipped": [
+        {
+          "path": "pydicom/_dicom_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/_private_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_cid_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_concepts_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_snomed_dict.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "d649b178d220908068da90ad46cce8776f177479a97d064a3bd52e7922775688",
+      "tree_sha256": "c7a9406cb25ebf22b810a6f367b67d822a763567d61e3c6807b312c3004b6f55"
+    }
+  },
+  {
+    "ast_build_ms": 235.71558399999049,
+    "base_commit": "f1dba0e1dd764ae72d67c3d5e1471cf14d3db030",
+    "bm25_build_ms": 7.02850000016042,
+    "control_build_ms": 25.080125000386033,
+    "gold_in_degree": [
+      0
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sqlfluff__sqlfluff-2419",
+    "isolates": 7,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 9,
+        "start": 5,
+        "text": "L060"
+      },
+      {
+        "end": 69,
+        "start": 65,
+        "text": "L060"
+      },
+      {
+        "end": 127,
+        "start": 123,
+        "text": "L060"
+      },
+      {
+        "end": 391,
+        "start": 387,
+        "text": "L060"
+      },
+      {
+        "end": 476,
+        "start": 472,
+        "text": "L060"
+      }
+    ],
+    "num_edges": 489,
+    "num_files": 171,
+    "query_sha256": "37e869fbc7be71825d3ca41798a18436ff338bfbc2026d98c43412f00619d7d0",
+    "repo": "sqlfluff/sqlfluff",
+    "rewiring": [
+      {
+        "attempts": 3704,
+        "requested_swaps": 2445,
+        "retained_edge_fraction": 0.1901840490797546,
+        "seed": 2026,
+        "successful_swaps": 2445
+      },
+      {
+        "attempts": 3719,
+        "requested_swaps": 2445,
+        "retained_edge_fraction": 0.18404907975460122,
+        "seed": 2027,
+        "successful_swaps": 2445
+      },
+      {
+        "attempts": 3631,
+        "requested_swaps": 2445,
+        "retained_edge_fraction": 0.19631901840490798,
+        "seed": 2028,
+        "successful_swaps": 2445
+      }
+    ],
+    "snapshot_ms": 1307.7082500003598,
+    "source": {
+      "commit": "f1dba0e1dd764ae72d67c3d5e1471cf14d3db030",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 171,
+      "repo": "sqlfluff/sqlfluff",
+      "skipped": [],
+      "source_sha256": "a66dd76e73dab8f37fbcd7a352ac14a066556e7b22aaf2d245b703ca1989b3cc",
+      "tree_sha256": "983736a685644086a7f668f74807638d5c45eab10a8c2133b9b4496b8733fe76"
+    }
+  },
+  {
+    "ast_build_ms": 200.0454160006484,
+    "base_commit": "a1579a16b1d8913d9d7c7d12add374a290bcc78c",
+    "bm25_build_ms": 7.075084000462084,
+    "control_build_ms": 66.82116699994367,
+    "gold_in_degree": [
+      0
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sqlfluff__sqlfluff-1733",
+    "isolates": 6,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 390,
+    "num_files": 145,
+    "query_sha256": "5612e58a98bd04bb9d588e5076636d4d319699d93fc61c4e0c7c07d8ec870732",
+    "repo": "sqlfluff/sqlfluff",
+    "rewiring": [
+      {
+        "attempts": 2985,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.1717948717948718,
+        "seed": 2026,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 2929,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.19743589743589743,
+        "seed": 2027,
+        "successful_swaps": 1950
+      },
+      {
+        "attempts": 2892,
+        "requested_swaps": 1950,
+        "retained_edge_fraction": 0.17692307692307693,
+        "seed": 2028,
+        "successful_swaps": 1950
+      }
+    ],
+    "snapshot_ms": 3446.640292000666,
+    "source": {
+      "commit": "a1579a16b1d8913d9d7c7d12add374a290bcc78c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 145,
+      "repo": "sqlfluff/sqlfluff",
+      "skipped": [],
+      "source_sha256": "e1f95ac09f69ba996a40674644bab5271da97bc827eb260d4b566eb8f959629a",
+      "tree_sha256": "608dec1edf4201cdfe0f969f4913386e8688cd93b52aba1ca4e03da98ca552f5"
+    }
+  },
+  {
+    "ast_build_ms": 160.71137499966426,
+    "base_commit": "0c9ab0fe56703fa83c73e514a1020d398d23fa7f",
+    "bm25_build_ms": 3.9127499985625036,
+    "control_build_ms": 36.216625001543434,
+    "gold_in_degree": [
+      4
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__astroid-1978",
+    "isolates": 5,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 293,
+        "start": 270,
+        "text": "astroid/raw_building.py"
+      },
+      {
+        "end": 567,
+        "start": 544,
+        "text": "astroid/raw_building.py"
+      }
+    ],
+    "num_edges": 468,
+    "num_files": 101,
+    "query_sha256": "51ad593217e29a0c7ff27d7440ba5f33770f11dc1faa2d52cca73f137694bcc3",
+    "repo": "pylint-dev/astroid",
+    "rewiring": [
+      {
+        "attempts": 7042,
+        "requested_swaps": 2340,
+        "retained_edge_fraction": 0.42094017094017094,
+        "seed": 2026,
+        "successful_swaps": 2340
+      },
+      {
+        "attempts": 7199,
+        "requested_swaps": 2340,
+        "retained_edge_fraction": 0.405982905982906,
+        "seed": 2027,
+        "successful_swaps": 2340
+      },
+      {
+        "attempts": 7140,
+        "requested_swaps": 2340,
+        "retained_edge_fraction": 0.43162393162393164,
+        "seed": 2028,
+        "successful_swaps": 2340
+      }
+    ],
+    "snapshot_ms": 1120.2495420002379,
+    "source": {
+      "commit": "0c9ab0fe56703fa83c73e514a1020d398d23fa7f",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 101,
+      "repo": "pylint-dev/astroid",
+      "skipped": [],
+      "source_sha256": "518f0d3164b9d8efa123fb904fc2ba82c71ab38fee8e4ce85b8e67ee6257dfc6",
+      "tree_sha256": "d0714f7a9b376b5b1cdc2efe6e516a668826c69923b413f3a51ba52ac1521334"
+    }
+  },
+  {
+    "ast_build_ms": 149.3236659989634,
+    "base_commit": "f8cf45b6c121e5a4bf4a43f71aba3bc64af3db9c",
+    "bm25_build_ms": 5.113082999741891,
+    "control_build_ms": 12.908749999041902,
+    "gold_in_degree": [
+      22
+    ],
+    "gold_out_degree": [
+      18
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pydicom__pydicom-1694",
+    "isolates": 7,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 7,
+        "start": 0,
+        "text": "Dataset"
+      },
+      {
+        "end": 123,
+        "start": 116,
+        "text": "Dataset"
+      },
+      {
+        "end": 744,
+        "start": 726,
+        "text": "pydicom/dataset.py"
+      },
+      {
+        "end": 862,
+        "start": 844,
+        "text": "pydicom/dataset.py"
+      }
+    ],
+    "num_edges": 211,
+    "num_files": 71,
+    "query_sha256": "b63abfe426784a568ec3663aabfa80e30e3c1b4bed3de69686e1150875cb79c2",
+    "repo": "pydicom/pydicom",
+    "rewiring": [
+      {
+        "attempts": 2354,
+        "requested_swaps": 1055,
+        "retained_edge_fraction": 0.33649289099526064,
+        "seed": 2026,
+        "successful_swaps": 1055
+      },
+      {
+        "attempts": 2294,
+        "requested_swaps": 1055,
+        "retained_edge_fraction": 0.3412322274881517,
+        "seed": 2027,
+        "successful_swaps": 1055
+      },
+      {
+        "attempts": 2378,
+        "requested_swaps": 1055,
+        "retained_edge_fraction": 0.3222748815165877,
+        "seed": 2028,
+        "successful_swaps": 1055
+      }
+    ],
+    "snapshot_ms": 2003.0971670003055,
+    "source": {
+      "commit": "f8cf45b6c121e5a4bf4a43f71aba3bc64af3db9c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 71,
+      "repo": "pydicom/pydicom",
+      "skipped": [
+        {
+          "path": "pydicom/_dicom_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/_private_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_cid_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_concepts_dict.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "pydicom/sr/_snomed_dict.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "f7e71dbc43567807cbf8ec27d956dd2a98b508fed03db56a2cf941ba4b968ada",
+      "tree_sha256": "5ab9d1dc6564d61fb014f3fef781d42548741994e911955e0521c58bcc49e58a"
+    }
+  },
+  {
+    "ast_build_ms": 134.6281660007662,
+    "base_commit": "0b8f24c265d76320067a5ee908a57d475cd1bb24",
+    "bm25_build_ms": 6.8950419990869705,
+    "control_build_ms": 7.217124999442603,
+    "gold_in_degree": [
+      6
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pvlib__pvlib-python-1154",
+    "isolates": 2,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 16,
+        "start": 0,
+        "text": "pvlib.irradiance"
+      },
+      {
+        "end": 362,
+        "start": 346,
+        "text": "pvlib.irradiance"
+      }
+    ],
+    "num_edges": 87,
+    "num_files": 43,
+    "query_sha256": "dabe9adb51bf2a73c31aa4dde5e90d787e01fb98a25d397b02862e4970f7c879",
+    "repo": "pvlib/pvlib-python",
+    "rewiring": [
+      {
+        "attempts": 1194,
+        "requested_swaps": 435,
+        "retained_edge_fraction": 0.41379310344827586,
+        "seed": 2026,
+        "successful_swaps": 435
+      },
+      {
+        "attempts": 1250,
+        "requested_swaps": 435,
+        "retained_edge_fraction": 0.4482758620689655,
+        "seed": 2027,
+        "successful_swaps": 435
+      },
+      {
+        "attempts": 1232,
+        "requested_swaps": 435,
+        "retained_edge_fraction": 0.3793103448275862,
+        "seed": 2028,
+        "successful_swaps": 435
+      }
+    ],
+    "snapshot_ms": 20665.320166999663,
+    "source": {
+      "commit": "0b8f24c265d76320067a5ee908a57d475cd1bb24",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 43,
+      "repo": "pvlib/pvlib-python",
+      "skipped": [],
+      "source_sha256": "165034fe19dc5d761c02ed723dc1847be1087aa3f28b6b929ce5d8e0977a9f09",
+      "tree_sha256": "dfa862474e36079ee546fe65ba9a1a5330a14fe01e5b61d2e4c41871d58cc366"
+    }
+  }
+]

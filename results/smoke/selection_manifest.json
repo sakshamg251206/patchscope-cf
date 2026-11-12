@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-11-12T14:11:43.980576+00:00",
+  "instances": [
+    {
+      "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+      "instance_id": "scikit-learn__scikit-learn-12471",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "66ba515e671638971bd11a34cff12c107a437e0b",
+      "instance_id": "matplotlib__matplotlib-25332",
+      "repo": "matplotlib/matplotlib"
+    },
+    {
+      "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+      "instance_id": "django__django-12453",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+      "instance_id": "sympy__sympy-12419",
+      "repo": "sympy/sympy"
+    }
+  ],
+  "requested": 5,
+  "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
+  "seed": 2026,
+  "selection": "sorted IDs then Python Random(seed).shuffle; first N; no replacements",
+  "split": "test"
+}

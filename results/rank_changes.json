@@ -1,0 +1,2382 @@
+[
+  {
+    "base_commit": "bceadd2788dc2dad53eba0caae172bd8522fd483",
+    "bm25_rank": 7,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/migrations/questioner.py",
+      "django/db/migrations/autodetector.py",
+      "django/utils/autoreload.py",
+      "django/db/models/fields/related.py",
+      "django/core/files/storage.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/options.py",
+      "django/contrib/admin/utils.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-10924",
+    "real_rank": 2,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/query.py",
+      "django/utils/module_loading.py",
+      "django/apps/config.py",
+      "django/db/migrations/questioner.py",
+      "django/db/transaction.py",
+      "django/utils/autoreload.py",
+      "django/db/models/query_utils.py",
+      "django/utils/functional.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "60dc957a825232fdda9138e2f8878b2ca407a7c9",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/utils/autoreload.py",
+      "django/core/management/base.py",
+      "django/core/management/__init__.py",
+      "django/db/models/sql/query.py",
+      "django/template/base.py",
+      "django/utils/translation/trans_real.py",
+      "django/core/management/commands/makemessages.py",
+      "django/db/models/query.py",
+      "django/template/defaultfilters.py",
+      "django/middleware/cache.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/utils/autoreload.py"
+    ],
+    "instance_id": "django__django-11583",
+    "real_rank": 2,
+    "real_top10": [
+      "django/core/management/base.py",
+      "django/utils/autoreload.py",
+      "django/core/management/__init__.py",
+      "django/conf/__init__.py",
+      "django/core/exceptions.py",
+      "django/db/models/sql/query.py",
+      "django/template/base.py",
+      "django/utils/functional.py",
+      "django/db/models/query_utils.py",
+      "django/utils/encoding.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "65e86948b80262574058a94ccaae3a9b59c3faea",
+    "bm25_rank": 53,
+    "bm25_top10": [
+      "django/db/migrations/recorder.py",
+      "django/db/backends/base/introspection.py",
+      "django/apps/registry.py",
+      "django/db/models/options.py",
+      "django/db/models/sql/query.py",
+      "django/db/backends/base/schema.py",
+      "django/db/models/base.py",
+      "django/db/migrations/state.py",
+      "django/db/models/sql/compiler.py",
+      "django/core/exceptions.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/core/checks/model_checks.py"
+    ],
+    "instance_id": "django__django-11630",
+    "real_rank": 48,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/apps/registry.py",
+      "django/db/transaction.py",
+      "django/db/migrations/recorder.py",
+      "django/db/models/fields/related.py",
+      "django/db/backends/base/introspection.py",
+      "django/db/models/options.py",
+      "django/apps/config.py",
+      "django/db/backends/base/schema.py",
+      "django/db/models/sql/query.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "c5e373d48cbdd923575956fed477b63d66d9603f",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "django/forms/models.py",
+      "django/template/defaultfilters.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/filters.py",
+      "django/template/base.py",
+      "django/template/defaulttags.py",
+      "django/contrib/admin/options.py",
+      "django/db/models/fields/reverse_related.py",
+      "django/db/models/base.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-12284",
+    "real_rank": 1,
+    "real_top10": [
+      "django/db/models/fields/__init__.py",
+      "django/forms/models.py",
+      "django/template/defaultfilters.py",
+      "django/contrib/admin/options.py",
+      "django/template/base.py",
+      "django/utils/functional.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/filters.py",
+      "django/db/models/query.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/__init__.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/core/serializers/base.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py",
+      "django/core/management/base.py",
+      "django/db/backends/oracle/creation.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/backends/base/creation.py"
+    ],
+    "instance_id": "django__django-12453",
+    "real_rank": 9,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/core/exceptions.py",
+      "django/core/serializers/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/base.py",
+      "django/db/models/fields/related.py",
+      "django/db/models/base.py",
+      "django/db/transaction.py",
+      "django/db/backends/base/creation.py",
+      "django/db/backends/base/base.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "a59de6e89e8dc1f3e71c9a5a5bbceb373ea5247e",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/expressions.py",
+      "django/db/models/fields/related.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/deletion.py",
+      "django/db/models/base.py",
+      "django/db/migrations/autodetector.py",
+      "django/contrib/contenttypes/fields.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "instance_id": "django__django-13033",
+    "real_rank": 6,
+    "real_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query_utils.py",
+      "django/core/exceptions.py",
+      "django/db/models/expressions.py",
+      "django/db/models/query.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/deletion.py",
+      "django/db/models/fields/related.py",
+      "django/utils/functional.py",
+      "django/contrib/admin/utils.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "453967477e3ddae704cd739eac2449c0e13d464c",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query.py",
+      "django/db/models/query_utils.py",
+      "django/db/models/base.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/options.py",
+      "django/utils/cache.py",
+      "django/db/models/fields/reverse_related.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-13401",
+    "real_rank": 5,
+    "real_top10": [
+      "django/db/models/query_utils.py",
+      "django/core/exceptions.py",
+      "django/utils/functional.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/query.py",
+      "django/db/models/base.py",
+      "django/utils/tree.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/options.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "3f140dde51c0fe6c350acb7727bbe489a99f0632",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/db/models/fields/json.py",
+      "django/db/models/functions/comparison.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/query_utils.py",
+      "django/db/models/deletion.py",
+      "django/db/models/query.py",
+      "django/contrib/admin/options.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/sql/where.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/fields/json.py"
+    ],
+    "instance_id": "django__django-13757",
+    "real_rank": 2,
+    "real_top10": [
+      "django/db/models/query_utils.py",
+      "django/db/models/fields/json.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/functions/comparison.py",
+      "django/db/models/expressions.py",
+      "django/db/models/deletion.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/options.py",
+      "django/utils/tree.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "1710cdbe79c90665046034fe1700933d038d90ad",
+    "bm25_rank": 18,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/deletion.py",
+      "django/db/transaction.py",
+      "django/utils/datastructures.py",
+      "django/db/models/base.py",
+      "django/http/request.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/utils.py",
+      "django/contrib/auth/hashers.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/models/query_utils.py"
+    ],
+    "instance_id": "django__django-14016",
+    "real_rank": 6,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/conf/__init__.py",
+      "django/db/transaction.py",
+      "django/db/models/deletion.py",
+      "django/utils/datastructures.py",
+      "django/db/models/query_utils.py",
+      "django/utils/functional.py",
+      "django/db/models/sql/query.py",
+      "django/utils/encoding.py",
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "7c4f3965098baad2396e24501e09237425a7bd6f",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/contrib/messages/storage/cookie.py",
+      "django/contrib/messages/storage/base.py",
+      "django/core/management/base.py",
+      "django/contrib/messages/api.py",
+      "django/contrib/auth/hashers.py",
+      "django/template/base.py",
+      "django/utils/http.py",
+      "django/conf/__init__.py",
+      "django/contrib/sessions/backends/base.py",
+      "django/core/mail/message.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/contrib/messages/storage/cookie.py"
+    ],
+    "instance_id": "django__django-15347",
+    "real_rank": 2,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/contrib/messages/storage/cookie.py",
+      "django/contrib/messages/storage/base.py",
+      "django/core/exceptions.py",
+      "django/utils/functional.py",
+      "django/utils/encoding.py",
+      "django/core/management/base.py",
+      "django/utils/regex_helper.py",
+      "django/utils/http.py",
+      "django/core/signing.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "6f73eb9d90cfec684529aab48d517e3d6449ba8c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/schema.py",
+      "django/db/migrations/operations/models.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/fields/related.py",
+      "django/db/migrations/loader.py",
+      "django/db/migrations/executor.py",
+      "django/template/defaulttags.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/migrations/autodetector.py"
+    ],
+    "instance_id": "django__django-15738",
+    "real_rank": 2,
+    "real_top10": [
+      "django/db/migrations/state.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/schema.py",
+      "django/db/migrations/operations/models.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/fields/related.py",
+      "django/db/models/options.py",
+      "django/db/migrations/loader.py",
+      "django/apps/registry.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "6df9398cce063874ae4d59db126d4adacb0fa8d3",
+    "bm25_rank": 15,
+    "bm25_top10": [
+      "django/contrib/admin/options.py",
+      "django/template/loader_tags.py",
+      "django/forms/models.py",
+      "django/views/generic/list.py",
+      "django/template/base.py",
+      "django/forms/boundfield.py",
+      "django/contrib/admin/sites.py",
+      "django/forms/widgets.py",
+      "django/contrib/contenttypes/fields.py",
+      "django/contrib/contenttypes/forms.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/forms/formsets.py"
+    ],
+    "instance_id": "django__django-16041",
+    "real_rank": 13,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/forms/models.py",
+      "django/forms/widgets.py",
+      "django/template/base.py",
+      "django/contrib/admin/options.py",
+      "django/views/generic/base.py",
+      "django/template/loader_tags.py",
+      "django/views/generic/list.py",
+      "django/forms/fields.py",
+      "django/forms/boundfield.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "f9fe062de5fc0896d6bbbf3f260b5c44473b3c77",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/db/migrations/optimizer.py",
+      "django/db/migrations/operations/fields.py",
+      "django/db/migrations/operations/base.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/options.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/sql/query.py",
+      "django/db/backends/base/schema.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/migrations/operations/fields.py"
+    ],
+    "instance_id": "django__django-16595",
+    "real_rank": 7,
+    "real_top10": [
+      "django/utils/functional.py",
+      "django/db/migrations/operations/base.py",
+      "django/core/exceptions.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/migrations/optimizer.py",
+      "django/db/migrations/utils.py",
+      "django/db/migrations/operations/fields.py",
+      "django/db/models/options.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "29a86636a9c45ab5ac4d80ac76eaee497f460dce",
+    "bm25_rank": 11,
+    "bm25_top10": [
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/cbook/__init__.py",
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/figure.py",
+      "tutorials/intermediate/artists.py",
+      "tutorials/toolkits/axisartist.py",
+      "lib/matplotlib/dates.py",
+      "lib/matplotlib/collections.py",
+      "lib/matplotlib/tri/triinterpolate.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "lib/mpl_toolkits/mplot3d/art3d.py"
+    ],
+    "instance_id": "matplotlib__matplotlib-23562",
+    "real_rank": 15,
+    "real_top10": [
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/cbook/__init__.py",
+      "lib/matplotlib/_api/__init__.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/colors.py",
+      "lib/matplotlib/lines.py",
+      "lib/matplotlib/artist.py",
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/figure.py",
+      "lib/matplotlib/collections.py"
+    ],
+    "repo": "matplotlib/matplotlib"
+  },
+  {
+    "base_commit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/_api/deprecation.py",
+      "lib/matplotlib/axis.py",
+      "lib/matplotlib/axes/_base.py",
+      "lib/matplotlib/artist.py",
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/cbook.py",
+      "lib/matplotlib/dates.py",
+      "lib/matplotlib/figure.py",
+      "lib/matplotlib/ticker.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "lib/matplotlib/axis.py"
+    ],
+    "instance_id": "matplotlib__matplotlib-26011",
+    "real_rank": 12,
+    "real_top10": [
+      "lib/matplotlib/_api/__init__.py",
+      "lib/matplotlib/cbook.py",
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/_api/deprecation.py",
+      "lib/matplotlib/artist.py",
+      "lib/matplotlib/transforms.py",
+      "lib/matplotlib/colors.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/ticker.py",
+      "lib/matplotlib/backend_bases.py"
+    ],
+    "repo": "matplotlib/matplotlib"
+  },
+  {
+    "base_commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "requests/packages/urllib3/response.py",
+      "requests/models.py",
+      "requests/packages/urllib3/util/timeout.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/packages/urllib3/util/retry.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/exceptions.py",
+      "requests/packages/urllib3/connection.py",
+      "requests/cookies.py",
+      "requests/exceptions.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "requests/models.py"
+    ],
+    "instance_id": "psf__requests-2148",
+    "real_rank": 4,
+    "real_top10": [
+      "requests/packages/urllib3/exceptions.py",
+      "requests/packages/urllib3/packages/six.py",
+      "requests/packages/urllib3/response.py",
+      "requests/models.py",
+      "requests/packages/urllib3/connection.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/util/timeout.py",
+      "requests/packages/urllib3/util/retry.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/exceptions.py"
+    ],
+    "repo": "psf/requests"
+  },
+  {
+    "base_commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "requests/cookies.py",
+      "requests/models.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/packages/oauthlib/oauth1/rfc5849/__init__.py",
+      "requests/utils.py",
+      "requests/sessions.py",
+      "requests/packages/urllib3/request.py",
+      "requests/packages/oauthlib/common.py",
+      "requests/packages/urllib3/response.py",
+      "requests/packages/urllib3/poolmanager.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "requests/models.py"
+    ],
+    "instance_id": "psf__requests-863",
+    "real_rank": 4,
+    "real_top10": [
+      "requests/cookies.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/models.py",
+      "requests/sessions.py",
+      "requests/compat.py",
+      "requests/packages/urllib3/request.py",
+      "requests/packages/urllib3/packages/six.py",
+      "requests/packages/oauthlib/oauth1/rfc5849/__init__.py",
+      "requests/packages/urllib3/filepost.py"
+    ],
+    "repo": "psf/requests"
+  },
+  {
+    "base_commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+    "bm25_rank": 35,
+    "bm25_top10": [
+      "pylint/epylint.py",
+      "pylint/checkers/variables.py",
+      "pylint/lint/pylinter.py",
+      "pylint/extensions/code_style.py",
+      "pylint/checkers/similar.py",
+      "pylint/checkers/unicode.py",
+      "pylint/checkers/utils.py",
+      "pylint/checkers/typecheck.py",
+      "pylint/checkers/imports.py",
+      "pylint/checkers/refactoring/refactoring_checker.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pylint/lint/expand_modules.py"
+    ],
+    "instance_id": "pylint-dev__pylint-7114",
+    "real_rank": 37,
+    "real_top10": [
+      "pylint/checkers/__init__.py",
+      "pylint/checkers/utils.py",
+      "pylint/interfaces.py",
+      "pylint/lint/__init__.py",
+      "pylint/epylint.py",
+      "pylint/lint/pylinter.py",
+      "pylint/typing.py",
+      "pylint/checkers/variables.py",
+      "pylint/checkers/similar.py",
+      "pylint/checkers/base_checker.py"
+    ],
+    "repo": "pylint-dev/pylint"
+  },
+  {
+    "base_commit": "c753b77ac49e72ebc0fe5e3c2369fe628f975017",
+    "bm25_rank": 10,
+    "bm25_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py",
+      "sklearn/base.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/naive_bayes.py",
+      "sklearn/preprocessing/label.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/preprocessing/label.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10508",
+    "real_rank": 14,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/__init__.py",
+      "sklearn/externals/joblib/__init__.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/exceptions.py",
+      "sklearn/utils/testing.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/extmath.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/datasets/base.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/data.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/preprocessing/_encoders.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "real_rank": 4,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/preprocessing/data.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/svm/classes.py",
+      "sklearn/linear_model/omp.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/linear_model/sag.py",
+      "sklearn/svm/base.py",
+      "sklearn/linear_model/stochastic_gradient.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/linear_model/logistic.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "real_rank": 9,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/linear_model/base.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/base.py",
+      "sklearn/linear_model/stochastic_gradient.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "df7dd8391148a873d157328a4f0328528a0c4ed9",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "sklearn/decomposition/nmf.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/manifold/t_sne.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/neighbors/nca.py",
+      "sklearn/decomposition/online_lda.py",
+      "sklearn/model_selection/_validation.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/neighbors/nca.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14092",
+    "real_rank": 14,
+    "real_top10": [
+      "sklearn/base.py",
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/decomposition/nmf.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/manifold/t_sne.py",
+      "sklearn/utils/multiclass.py",
+      "sklearn/linear_model/ridge.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/_testing.py",
+      "sklearn/metrics/cluster/_supervised.py",
+      "sklearn/utils/__init__.py",
+      "sklearn/feature_selection/_mutual_info.py",
+      "sklearn/utils/validation.py",
+      "sklearn/base.py",
+      "sklearn/feature_selection/_univariate_selection.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/metrics/_scorer.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/metrics/cluster/_supervised.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-15535",
+    "real_rank": 8,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/base.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/utils/_testing.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/metrics/cluster/_supervised.py",
+      "sklearn/metrics/pairwise.py",
+      "sklearn/feature_selection/_mutual_info.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "752d3285d250bbaf673cff25e83f03f247502021",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sphinx/ext/autosummary/generate.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/application.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/apidoc.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/napoleon/iterators.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/ext/autosummary/generate.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7686",
+    "real_rank": 3,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/autosummary/generate.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/builders/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/domains/python.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "c087d717f6ed183dd422359bf91210dc59689d63",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/addnodes.py",
+      "sphinx/domains/python.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/apidoc.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/ext/napoleon/docstring.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7738",
+    "real_rank": 6,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/domains/python.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/builders/__init__.py",
+      "sphinx/ext/napoleon/iterators.py",
+      "sphinx/util/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "4ec6cbe341fd84468c448e20082c778043bbea4b",
+    "bm25_rank": 84,
+    "bm25_top10": [
+      "sphinx/domains/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/builders/_epub_base.py",
+      "sphinx/addnodes.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/search/__init__.py",
+      "sphinx/util/__init__.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/environment/adapters/indexentries.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7975",
+    "real_rank": 88,
+    "real_top10": [
+      "sphinx/addnodes.py",
+      "sphinx/application.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/util/nodes.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/util/__init__.py",
+      "sphinx/builders/_epub_base.py",
+      "sphinx/directives/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "2c2335bbb8af99fa132e1573bbf45dc91584d5a2",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/util/nodes.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/util/smartypants.py",
+      "sphinx/pycode/parser.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8282",
+    "real_rank": 8,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/util/docutils.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/addnodes.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/config.py",
+      "sphinx/domains/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "b19bce971e82f2497d67fdacdeca8db08ae0ba56",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/application.py",
+      "sphinx/addnodes.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/errors.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/search/__init__.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8595",
+    "real_rank": 6,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/util/inspect.py",
+      "sphinx/errors.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/ext/napoleon/docstring.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "332d80ba8433aea41c3709fa52737ede4405072b",
+    "bm25_rank": 70,
+    "bm25_top10": [
+      "sphinx/application.py",
+      "sphinx/ext/intersphinx.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/doctest.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/environment/__init__.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sphinx/util/typing.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8627",
+    "real_rank": 31,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/ext/intersphinx.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/util/docutils.py",
+      "sphinx/util/inspect.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autosummary/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+    "bm25_rank": 89,
+    "bm25_top10": [
+      "sympy/assumptions/ask.py",
+      "sympy/matrices/matrices.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/basic.py",
+      "sympy/crypto/crypto.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/tensor/indexed.py",
+      "sympy/utilities/iterables.py",
+      "sympy/utilities/enumerative.py",
+      "sympy/core/operations.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "instance_id": "sympy__sympy-12419",
+    "real_rank": 83,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/sympify.py",
+      "sympy/assumptions/ask.py",
+      "sympy/core/basic.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/function.py",
+      "sympy/utilities/enumerative.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "4da0b64558e9551a11a99bccc63557ba34f50c58",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sympy/simplify/fu.py",
+      "sympy/solvers/solvers.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/matrices/densesolve.py",
+      "sympy/calculus/finite_diff.py",
+      "sympy/polys/polytools.py",
+      "sympy/ntheory/factor_.py",
+      "sympy/combinatorics/polyhedron.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/core/numbers.py"
+    ],
+    "instance_id": "sympy__sympy-13895",
+    "real_rank": 1,
+    "real_top10": [
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/simplify/fu.py",
+      "sympy/core/function.py",
+      "sympy/polys/polytools.py",
+      "sympy/ntheory/factor_.py",
+      "sympy/solvers/solvers.py",
+      "sympy/core/power.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/core/expr.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "5c1644ff85e15752f9f8721bc142bfbf975e7805",
+    "bm25_rank": 51,
+    "bm25_top10": [
+      "sympy/core/basic.py",
+      "sympy/integrals/integrals.py",
+      "sympy/ntheory/factor_.py",
+      "isympy.py",
+      "sympy/physics/wigner.py",
+      "sympy/solvers/solvers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/utilities/runtests.py",
+      "sympy/core/function.py",
+      "sympy/printing/ccode.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/core/mul.py"
+    ],
+    "instance_id": "sympy__sympy-13915",
+    "real_rank": 34,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/basic.py",
+      "sympy/core/numbers.py",
+      "sympy/core/function.py",
+      "sympy/integrals/integrals.py",
+      "sympy/simplify/simplify.py",
+      "sympy/ntheory/factor_.py",
+      "isympy.py",
+      "sympy/solvers/solvers.py",
+      "sympy/utilities/iterables.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sympy/printing/latex.py",
+      "sympy/utilities/iterables.py",
+      "sympy/series/sequences.py",
+      "sympy/physics/quantum/state.py",
+      "sympy/core/symbol.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/matrices/matrices.py",
+      "sympy/core/numbers.py",
+      "isympy.py",
+      "sympy/crypto/crypto.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/printing/latex.py"
+    ],
+    "instance_id": "sympy__sympy-13971",
+    "real_rank": 2,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/printing/latex.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/symbol.py",
+      "sympy/series/sequences.py",
+      "sympy/core/numbers.py",
+      "sympy/matrices/matrices.py",
+      "sympy/interactive/session.py",
+      "sympy/core/expr.py",
+      "sympy/physics/quantum/state.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "c5cef2499d6eed024b0db5c792d6ec7c53baa470",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "sympy/utilities/lambdify.py",
+      "sympy/utilities/autowrap.py",
+      "sympy/codegen/ast.py",
+      "sympy/utilities/decorator.py",
+      "sympy/matrices/sparse.py",
+      "sympy/tensor/array/ndim_array.py",
+      "sympy/core/sympify.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/codegen.py",
+      "sympy/tensor/functions.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/tensor/array/ndim_array.py"
+    ],
+    "instance_id": "sympy__sympy-23117",
+    "real_rank": 11,
+    "real_top10": [
+      "sympy/utilities/iterables.py",
+      "sympy/core/sympify.py",
+      "sympy/utilities/decorator.py",
+      "sympy/utilities/lambdify.py",
+      "sympy/utilities/exceptions.py",
+      "sympy/utilities/autowrap.py",
+      "sympy/matrices/sparse.py",
+      "sympy/matrices/matrices.py",
+      "sympy/codegen/ast.py",
+      "sympy/utilities/misc.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "bceadd2788dc2dad53eba0caae172bd8522fd483",
+    "bm25_rank": 7,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/migrations/questioner.py",
+      "django/db/migrations/autodetector.py",
+      "django/utils/autoreload.py",
+      "django/db/models/fields/related.py",
+      "django/core/files/storage.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/options.py",
+      "django/contrib/admin/utils.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-10924",
+    "real_rank": 2,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/query.py",
+      "django/utils/module_loading.py",
+      "django/apps/config.py",
+      "django/db/migrations/questioner.py",
+      "django/db/transaction.py",
+      "django/utils/autoreload.py",
+      "django/db/models/query_utils.py",
+      "django/utils/functional.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "60dc957a825232fdda9138e2f8878b2ca407a7c9",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/utils/autoreload.py",
+      "django/core/management/base.py",
+      "django/core/management/__init__.py",
+      "django/db/models/sql/query.py",
+      "django/template/base.py",
+      "django/utils/translation/trans_real.py",
+      "django/core/management/commands/makemessages.py",
+      "django/db/models/query.py",
+      "django/template/defaultfilters.py",
+      "django/middleware/cache.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/utils/autoreload.py"
+    ],
+    "instance_id": "django__django-11583",
+    "real_rank": 2,
+    "real_top10": [
+      "django/core/management/base.py",
+      "django/utils/autoreload.py",
+      "django/core/management/__init__.py",
+      "django/conf/__init__.py",
+      "django/core/exceptions.py",
+      "django/db/models/sql/query.py",
+      "django/utils/translation/__init__.py",
+      "django/utils/functional.py",
+      "django/template/base.py",
+      "django/db/models/query_utils.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "65e86948b80262574058a94ccaae3a9b59c3faea",
+    "bm25_rank": 53,
+    "bm25_top10": [
+      "django/db/migrations/recorder.py",
+      "django/db/backends/base/introspection.py",
+      "django/apps/registry.py",
+      "django/db/models/options.py",
+      "django/db/models/sql/query.py",
+      "django/db/backends/base/schema.py",
+      "django/db/models/base.py",
+      "django/db/migrations/state.py",
+      "django/db/models/sql/compiler.py",
+      "django/core/exceptions.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/core/checks/model_checks.py"
+    ],
+    "instance_id": "django__django-11630",
+    "real_rank": 48,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/apps/registry.py",
+      "django/db/transaction.py",
+      "django/db/migrations/recorder.py",
+      "django/db/models/fields/related.py",
+      "django/db/backends/base/introspection.py",
+      "django/db/models/options.py",
+      "django/apps/config.py",
+      "django/db/backends/base/schema.py",
+      "django/db/models/sql/query.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "c5e373d48cbdd923575956fed477b63d66d9603f",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "django/forms/models.py",
+      "django/template/defaultfilters.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/filters.py",
+      "django/template/base.py",
+      "django/template/defaulttags.py",
+      "django/contrib/admin/options.py",
+      "django/db/models/fields/reverse_related.py",
+      "django/db/models/base.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-12284",
+    "real_rank": 1,
+    "real_top10": [
+      "django/db/models/fields/__init__.py",
+      "django/forms/models.py",
+      "django/template/defaultfilters.py",
+      "django/contrib/admin/options.py",
+      "django/template/base.py",
+      "django/utils/functional.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/filters.py",
+      "django/db/models/query.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/__init__.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/core/serializers/base.py",
+      "django/db/backends/oracle/creation.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py",
+      "django/core/management/base.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/backends/base/creation.py"
+    ],
+    "instance_id": "django__django-12453",
+    "real_rank": 8,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/conf/__init__.py",
+      "django/core/serializers/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/base.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/db/transaction.py",
+      "django/utils/functional.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "a59de6e89e8dc1f3e71c9a5a5bbceb373ea5247e",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/expressions.py",
+      "django/db/models/fields/related.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/deletion.py",
+      "django/db/models/base.py",
+      "django/db/migrations/autodetector.py",
+      "django/contrib/contenttypes/fields.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/sql/compiler.py"
+    ],
+    "instance_id": "django__django-13033",
+    "real_rank": 6,
+    "real_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query_utils.py",
+      "django/core/exceptions.py",
+      "django/db/models/expressions.py",
+      "django/db/models/query.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/deletion.py",
+      "django/db/models/fields/related.py",
+      "django/utils/functional.py",
+      "django/contrib/admin/utils.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "453967477e3ddae704cd739eac2449c0e13d464c",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/query.py",
+      "django/db/models/query_utils.py",
+      "django/db/models/base.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/options.py",
+      "django/utils/cache.py",
+      "django/db/models/fields/reverse_related.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/fields/__init__.py"
+    ],
+    "instance_id": "django__django-13401",
+    "real_rank": 5,
+    "real_top10": [
+      "django/db/models/query_utils.py",
+      "django/core/exceptions.py",
+      "django/utils/functional.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/query.py",
+      "django/db/models/base.py",
+      "django/utils/tree.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/options.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "3f140dde51c0fe6c350acb7727bbe489a99f0632",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/db/models/fields/json.py",
+      "django/db/models/functions/comparison.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/query_utils.py",
+      "django/db/models/deletion.py",
+      "django/db/models/query.py",
+      "django/contrib/admin/options.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/sql/where.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/fields/json.py"
+    ],
+    "instance_id": "django__django-13757",
+    "real_rank": 2,
+    "real_top10": [
+      "django/db/models/query_utils.py",
+      "django/db/models/fields/json.py",
+      "django/db/models/sql/query.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/functions/comparison.py",
+      "django/db/models/expressions.py",
+      "django/db/models/deletion.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/options.py",
+      "django/utils/tree.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "1710cdbe79c90665046034fe1700933d038d90ad",
+    "bm25_rank": 18,
+    "bm25_top10": [
+      "django/db/models/sql/query.py",
+      "django/db/models/deletion.py",
+      "django/db/transaction.py",
+      "django/utils/datastructures.py",
+      "django/db/models/base.py",
+      "django/http/request.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/fields/__init__.py",
+      "django/contrib/admin/utils.py",
+      "django/contrib/auth/hashers.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/models/query_utils.py"
+    ],
+    "instance_id": "django__django-14016",
+    "real_rank": 6,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/conf/__init__.py",
+      "django/db/transaction.py",
+      "django/db/models/deletion.py",
+      "django/utils/datastructures.py",
+      "django/db/models/query_utils.py",
+      "django/utils/functional.py",
+      "django/db/models/sql/query.py",
+      "django/utils/encoding.py",
+      "django/db/models/fields/__init__.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "7c4f3965098baad2396e24501e09237425a7bd6f",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/contrib/messages/storage/cookie.py",
+      "django/contrib/messages/storage/base.py",
+      "django/core/management/base.py",
+      "django/contrib/messages/api.py",
+      "django/contrib/auth/hashers.py",
+      "django/contrib/sessions/backends/base.py",
+      "django/template/base.py",
+      "django/utils/http.py",
+      "django/contrib/messages/storage/session.py",
+      "django/conf/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/contrib/messages/storage/cookie.py"
+    ],
+    "instance_id": "django__django-15347",
+    "real_rank": 2,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/contrib/messages/storage/cookie.py",
+      "django/contrib/messages/storage/base.py",
+      "django/core/exceptions.py",
+      "django/utils/functional.py",
+      "django/core/signing.py",
+      "django/core/management/base.py",
+      "django/utils/encoding.py",
+      "django/utils/regex_helper.py",
+      "django/utils/http.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "6f73eb9d90cfec684529aab48d517e3d6449ba8c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/schema.py",
+      "django/db/migrations/operations/models.py",
+      "django/db/models/sql/query.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/fields/related.py",
+      "django/db/migrations/loader.py",
+      "django/db/migrations/executor.py",
+      "django/template/defaulttags.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/migrations/autodetector.py"
+    ],
+    "instance_id": "django__django-15738",
+    "real_rank": 2,
+    "real_top10": [
+      "django/db/migrations/state.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/schema.py",
+      "django/db/migrations/operations/models.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/fields/related.py",
+      "django/db/models/options.py",
+      "django/db/migrations/loader.py",
+      "django/apps/registry.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "6df9398cce063874ae4d59db126d4adacb0fa8d3",
+    "bm25_rank": 15,
+    "bm25_top10": [
+      "django/contrib/admin/options.py",
+      "django/template/loader_tags.py",
+      "django/forms/models.py",
+      "django/views/generic/list.py",
+      "django/template/base.py",
+      "django/forms/boundfield.py",
+      "django/contrib/admin/sites.py",
+      "django/forms/widgets.py",
+      "django/contrib/contenttypes/fields.py",
+      "django/contrib/contenttypes/forms.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/forms/formsets.py"
+    ],
+    "instance_id": "django__django-16041",
+    "real_rank": 13,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/forms/models.py",
+      "django/forms/widgets.py",
+      "django/template/base.py",
+      "django/contrib/admin/options.py",
+      "django/views/generic/base.py",
+      "django/template/loader_tags.py",
+      "django/views/generic/list.py",
+      "django/forms/fields.py",
+      "django/forms/boundfield.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "f9fe062de5fc0896d6bbbf3f260b5c44473b3c77",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/db/migrations/optimizer.py",
+      "django/db/migrations/operations/fields.py",
+      "django/db/migrations/operations/base.py",
+      "django/contrib/admin/utils.py",
+      "django/db/models/options.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/models/sql/compiler.py",
+      "django/db/models/sql/query.py",
+      "django/db/backends/base/schema.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/migrations/operations/fields.py"
+    ],
+    "instance_id": "django__django-16595",
+    "real_rank": 7,
+    "real_top10": [
+      "django/utils/functional.py",
+      "django/db/migrations/operations/base.py",
+      "django/core/exceptions.py",
+      "django/db/migrations/autodetector.py",
+      "django/db/migrations/optimizer.py",
+      "django/db/migrations/utils.py",
+      "django/db/migrations/operations/fields.py",
+      "django/db/models/options.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "29a86636a9c45ab5ac4d80ac76eaee497f460dce",
+    "bm25_rank": 7,
+    "bm25_top10": [
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/cbook/__init__.py",
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/figure.py",
+      "tutorials/intermediate/artists.py",
+      "lib/mpl_toolkits/mplot3d/art3d.py",
+      "tutorials/toolkits/axisartist.py",
+      "lib/matplotlib/dates.py",
+      "lib/matplotlib/collections.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "lib/mpl_toolkits/mplot3d/art3d.py"
+    ],
+    "instance_id": "matplotlib__matplotlib-23562",
+    "real_rank": 12,
+    "real_top10": [
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/cbook/__init__.py",
+      "lib/matplotlib/_api/__init__.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/colors.py",
+      "lib/matplotlib/lines.py",
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/artist.py",
+      "lib/matplotlib/figure.py",
+      "lib/matplotlib/collections.py"
+    ],
+    "repo": "matplotlib/matplotlib"
+  },
+  {
+    "base_commit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/_api/deprecation.py",
+      "lib/matplotlib/axis.py",
+      "lib/matplotlib/axes/_base.py",
+      "lib/mpl_toolkits/mplot3d/axes3d.py",
+      "lib/matplotlib/artist.py",
+      "lib/matplotlib/ticker.py",
+      "lib/matplotlib/cbook.py",
+      "lib/matplotlib/figure.py",
+      "lib/matplotlib/dates.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "lib/matplotlib/axis.py"
+    ],
+    "instance_id": "matplotlib__matplotlib-26011",
+    "real_rank": 11,
+    "real_top10": [
+      "lib/matplotlib/_api/__init__.py",
+      "lib/matplotlib/cbook.py",
+      "lib/matplotlib/__init__.py",
+      "lib/matplotlib/_api/deprecation.py",
+      "lib/matplotlib/artist.py",
+      "lib/matplotlib/transforms.py",
+      "lib/matplotlib/colors.py",
+      "lib/matplotlib/ticker.py",
+      "lib/matplotlib/pyplot.py",
+      "lib/matplotlib/backend_bases.py"
+    ],
+    "repo": "matplotlib/matplotlib"
+  },
+  {
+    "base_commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "requests/packages/urllib3/response.py",
+      "requests/models.py",
+      "requests/packages/urllib3/util/timeout.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/packages/urllib3/util/retry.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/exceptions.py",
+      "requests/packages/urllib3/connection.py",
+      "requests/cookies.py",
+      "requests/exceptions.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "requests/models.py"
+    ],
+    "instance_id": "psf__requests-2148",
+    "real_rank": 3,
+    "real_top10": [
+      "requests/packages/urllib3/exceptions.py",
+      "requests/packages/urllib3/packages/six.py",
+      "requests/models.py",
+      "requests/packages/urllib3/response.py",
+      "requests/packages/urllib3/connection.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/util/timeout.py",
+      "requests/packages/urllib3/util/retry.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/exceptions.py"
+    ],
+    "repo": "psf/requests"
+  },
+  {
+    "base_commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "requests/cookies.py",
+      "requests/models.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/packages/oauthlib/oauth1/rfc5849/__init__.py",
+      "requests/utils.py",
+      "requests/sessions.py",
+      "requests/packages/urllib3/request.py",
+      "requests/packages/oauthlib/common.py",
+      "requests/packages/urllib3/response.py",
+      "requests/packages/urllib3/poolmanager.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "requests/models.py"
+    ],
+    "instance_id": "psf__requests-863",
+    "real_rank": 4,
+    "real_top10": [
+      "requests/cookies.py",
+      "requests/utils.py",
+      "requests/packages/urllib3/connectionpool.py",
+      "requests/models.py",
+      "requests/sessions.py",
+      "requests/compat.py",
+      "requests/packages/urllib3/request.py",
+      "requests/packages/urllib3/packages/six.py",
+      "requests/packages/oauthlib/oauth1/rfc5849/__init__.py",
+      "requests/packages/urllib3/filepost.py"
+    ],
+    "repo": "psf/requests"
+  },
+  {
+    "base_commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+    "bm25_rank": 35,
+    "bm25_top10": [
+      "pylint/epylint.py",
+      "pylint/checkers/variables.py",
+      "pylint/lint/pylinter.py",
+      "pylint/extensions/code_style.py",
+      "pylint/checkers/similar.py",
+      "pylint/checkers/unicode.py",
+      "pylint/checkers/utils.py",
+      "pylint/checkers/typecheck.py",
+      "pylint/checkers/imports.py",
+      "pylint/checkers/refactoring/refactoring_checker.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pylint/lint/expand_modules.py"
+    ],
+    "instance_id": "pylint-dev__pylint-7114",
+    "real_rank": 37,
+    "real_top10": [
+      "pylint/checkers/__init__.py",
+      "pylint/checkers/utils.py",
+      "pylint/interfaces.py",
+      "pylint/lint/__init__.py",
+      "pylint/epylint.py",
+      "pylint/lint/pylinter.py",
+      "pylint/typing.py",
+      "pylint/checkers/variables.py",
+      "pylint/checkers/similar.py",
+      "pylint/checkers/base_checker.py"
+    ],
+    "repo": "pylint-dev/pylint"
+  },
+  {
+    "base_commit": "c753b77ac49e72ebc0fe5e3c2369fe628f975017",
+    "bm25_rank": 10,
+    "bm25_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py",
+      "sklearn/base.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/naive_bayes.py",
+      "sklearn/preprocessing/label.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/preprocessing/label.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10508",
+    "real_rank": 14,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/__init__.py",
+      "sklearn/externals/joblib/__init__.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/exceptions.py",
+      "sklearn/utils/testing.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/extmath.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/datasets/base.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/data.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/preprocessing/_encoders.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "real_rank": 4,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/preprocessing/data.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/svm/classes.py",
+      "sklearn/linear_model/omp.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/linear_model/sag.py",
+      "sklearn/svm/base.py",
+      "sklearn/linear_model/stochastic_gradient.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/linear_model/logistic.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "real_rank": 9,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/linear_model/base.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/base.py",
+      "sklearn/linear_model/stochastic_gradient.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "df7dd8391148a873d157328a4f0328528a0c4ed9",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "sklearn/decomposition/nmf.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/manifold/t_sne.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/neighbors/nca.py",
+      "sklearn/decomposition/online_lda.py",
+      "sklearn/model_selection/_validation.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/neighbors/nca.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14092",
+    "real_rank": 14,
+    "real_top10": [
+      "sklearn/base.py",
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/decomposition/nmf.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/manifold/t_sne.py",
+      "sklearn/utils/multiclass.py",
+      "sklearn/linear_model/ridge.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/_testing.py",
+      "sklearn/metrics/cluster/_supervised.py",
+      "sklearn/utils/__init__.py",
+      "sklearn/feature_selection/_mutual_info.py",
+      "sklearn/utils/validation.py",
+      "sklearn/base.py",
+      "sklearn/feature_selection/_univariate_selection.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/metrics/_scorer.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/metrics/cluster/_supervised.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-15535",
+    "real_rank": 8,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/base.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/utils/_testing.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/metrics/cluster/_supervised.py",
+      "sklearn/metrics/pairwise.py",
+      "sklearn/feature_selection/_mutual_info.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "752d3285d250bbaf673cff25e83f03f247502021",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sphinx/ext/autosummary/generate.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/application.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/apidoc.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/napoleon/iterators.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/ext/autosummary/generate.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7686",
+    "real_rank": 3,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/autosummary/generate.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/builders/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/domains/python.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "c087d717f6ed183dd422359bf91210dc59689d63",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/addnodes.py",
+      "sphinx/domains/python.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/apidoc.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/ext/napoleon/docstring.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7738",
+    "real_rank": 6,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/domains/python.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/builders/__init__.py",
+      "sphinx/ext/napoleon/iterators.py",
+      "sphinx/util/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "4ec6cbe341fd84468c448e20082c778043bbea4b",
+    "bm25_rank": 84,
+    "bm25_top10": [
+      "sphinx/domains/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/builders/_epub_base.py",
+      "sphinx/addnodes.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/search/__init__.py",
+      "sphinx/util/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/environment/adapters/indexentries.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7975",
+    "real_rank": 88,
+    "real_top10": [
+      "sphinx/addnodes.py",
+      "sphinx/application.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/util/nodes.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/util/__init__.py",
+      "sphinx/builders/_epub_base.py",
+      "sphinx/directives/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "2c2335bbb8af99fa132e1573bbf45dc91584d5a2",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/application.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/util/nodes.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/util/smartypants.py",
+      "sphinx/ext/autosummary/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8282",
+    "real_rank": 6,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/util/docutils.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/config.py",
+      "sphinx/domains/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "b19bce971e82f2497d67fdacdeca8db08ae0ba56",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/application.py",
+      "sphinx/addnodes.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/directives/__init__.py",
+      "sphinx/errors.py",
+      "sphinx/locale/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/ext/autodoc/__init__.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8595",
+    "real_rank": 4,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/util/inspect.py",
+      "sphinx/ext/napoleon/docstring.py",
+      "sphinx/errors.py",
+      "sphinx/environment/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "332d80ba8433aea41c3709fa52737ede4405072b",
+    "bm25_rank": 70,
+    "bm25_top10": [
+      "sphinx/application.py",
+      "sphinx/ext/intersphinx.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/ext/inheritance_diagram.py",
+      "sphinx/ext/autosummary/__init__.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/util/stemmer/porter.py",
+      "sphinx/ext/doctest.py",
+      "sphinx/ext/autodoc/__init__.py",
+      "sphinx/environment/__init__.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sphinx/util/typing.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8627",
+    "real_rank": 31,
+    "real_top10": [
+      "sphinx/application.py",
+      "sphinx/locale/__init__.py",
+      "sphinx/environment/__init__.py",
+      "sphinx/addnodes.py",
+      "sphinx/ext/intersphinx.py",
+      "sphinx/domains/__init__.py",
+      "sphinx/util/docutils.py",
+      "sphinx/util/inspect.py",
+      "sphinx/ext/napoleon/__init__.py",
+      "sphinx/ext/autosummary/__init__.py"
+    ],
+    "repo": "sphinx-doc/sphinx"
+  },
+  {
+    "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+    "bm25_rank": 89,
+    "bm25_top10": [
+      "sympy/assumptions/ask.py",
+      "sympy/matrices/matrices.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/basic.py",
+      "sympy/crypto/crypto.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/tensor/indexed.py",
+      "sympy/utilities/iterables.py",
+      "sympy/utilities/enumerative.py",
+      "sympy/core/operations.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "instance_id": "sympy__sympy-12419",
+    "real_rank": 83,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/sympify.py",
+      "sympy/assumptions/ask.py",
+      "sympy/core/basic.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/function.py",
+      "sympy/utilities/enumerative.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "4da0b64558e9551a11a99bccc63557ba34f50c58",
+    "bm25_rank": 3,
+    "bm25_top10": [
+      "sympy/simplify/fu.py",
+      "sympy/solvers/solvers.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/matrices/densesolve.py",
+      "sympy/calculus/finite_diff.py",
+      "sympy/polys/polytools.py",
+      "sympy/ntheory/factor_.py",
+      "sympy/combinatorics/polyhedron.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/core/numbers.py"
+    ],
+    "instance_id": "sympy__sympy-13895",
+    "real_rank": 1,
+    "real_top10": [
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/simplify/fu.py",
+      "sympy/core/function.py",
+      "sympy/polys/polytools.py",
+      "sympy/ntheory/factor_.py",
+      "sympy/solvers/solvers.py",
+      "sympy/core/power.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/core/expr.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "5c1644ff85e15752f9f8721bc142bfbf975e7805",
+    "bm25_rank": 51,
+    "bm25_top10": [
+      "sympy/core/basic.py",
+      "sympy/integrals/integrals.py",
+      "sympy/ntheory/factor_.py",
+      "isympy.py",
+      "sympy/physics/wigner.py",
+      "sympy/solvers/solvers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/utilities/runtests.py",
+      "sympy/core/function.py",
+      "sympy/printing/ccode.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/core/mul.py"
+    ],
+    "instance_id": "sympy__sympy-13915",
+    "real_rank": 34,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/basic.py",
+      "sympy/core/numbers.py",
+      "sympy/core/function.py",
+      "sympy/integrals/integrals.py",
+      "sympy/simplify/simplify.py",
+      "sympy/ntheory/factor_.py",
+      "isympy.py",
+      "sympy/solvers/solvers.py",
+      "sympy/utilities/iterables.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sympy/printing/latex.py",
+      "sympy/utilities/iterables.py",
+      "sympy/series/sequences.py",
+      "sympy/physics/quantum/state.py",
+      "sympy/core/symbol.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/matrices/matrices.py",
+      "sympy/core/numbers.py",
+      "isympy.py",
+      "sympy/crypto/crypto.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/printing/latex.py"
+    ],
+    "instance_id": "sympy__sympy-13971",
+    "real_rank": 2,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/printing/latex.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/symbol.py",
+      "sympy/series/sequences.py",
+      "sympy/core/numbers.py",
+      "sympy/matrices/matrices.py",
+      "sympy/interactive/session.py",
+      "sympy/core/expr.py",
+      "sympy/physics/quantum/state.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "c5cef2499d6eed024b0db5c792d6ec7c53baa470",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "sympy/utilities/lambdify.py",
+      "sympy/utilities/autowrap.py",
+      "sympy/codegen/ast.py",
+      "sympy/utilities/decorator.py",
+      "sympy/matrices/sparse.py",
+      "sympy/tensor/array/ndim_array.py",
+      "sympy/core/sympify.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/codegen.py",
+      "sympy/tensor/functions.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/tensor/array/ndim_array.py"
+    ],
+    "instance_id": "sympy__sympy-23117",
+    "real_rank": 11,
+    "real_top10": [
+      "sympy/utilities/iterables.py",
+      "sympy/core/sympify.py",
+      "sympy/utilities/decorator.py",
+      "sympy/utilities/lambdify.py",
+      "sympy/utilities/exceptions.py",
+      "sympy/utilities/autowrap.py",
+      "sympy/matrices/sparse.py",
+      "sympy/matrices/matrices.py",
+      "sympy/codegen/ast.py",
+      "sympy/utilities/misc.py"
+    ],
+    "repo": "sympy/sympy"
+  }
+]

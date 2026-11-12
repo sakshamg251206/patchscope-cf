@@ -1,0 +1,1402 @@
+[
+  {
+    "base_commit": "b40a0f4e33823e6d0f341f7e8684e359a99060d1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "src/marshmallow/fields.py",
+      "src/marshmallow/schema.py",
+      "src/marshmallow/utils.py",
+      "src/marshmallow/validate.py",
+      "src/marshmallow/decorators.py",
+      "src/marshmallow/class_registry.py",
+      "src/marshmallow/exceptions.py",
+      "src/marshmallow/base.py",
+      "performance/benchmark.py",
+      "src/marshmallow/error_store.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "src/marshmallow/fields.py"
+    ],
+    "instance_id": "marshmallow-code__marshmallow-1359",
+    "real_rank": 2,
+    "real_top10": [
+      "src/marshmallow/exceptions.py",
+      "src/marshmallow/fields.py",
+      "src/marshmallow/schema.py",
+      "src/marshmallow/utils.py",
+      "src/marshmallow/validate.py",
+      "src/marshmallow/class_registry.py",
+      "src/marshmallow/decorators.py",
+      "src/marshmallow/base.py",
+      "src/marshmallow/error_store.py",
+      "performance/benchmark.py"
+    ],
+    "repo": "marshmallow-code/marshmallow"
+  },
+  {
+    "base_commit": "04a523fafbd61bc2e49420963b84ed8e2bd1b3cf",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "pvlib/solarposition.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/clearsky.py",
+      "pvlib/temperature.py",
+      "pvlib/iotools/epw.py",
+      "pvlib/spa.py",
+      "pvlib/forecast.py",
+      "pvlib/iotools/ecmwf_macc.py",
+      "pvlib/_deprecation.py",
+      "pvlib/modelchain.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pvlib/temperature.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1072",
+    "real_rank": 7,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/atmosphere.py",
+      "pvlib/solarposition.py",
+      "pvlib/irradiance.py",
+      "pvlib/clearsky.py",
+      "pvlib/spa.py",
+      "pvlib/temperature.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/_deprecation.py",
+      "pvlib/pvsystem.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "0b8f24c265d76320067a5ee908a57d475cd1bb24",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/irradiance.py",
+      "pvlib/singlediode.py",
+      "pvlib/clearsky.py",
+      "pvlib/iam.py",
+      "pvlib/pvsystem.py",
+      "pvlib/ivtools/sdm.py",
+      "pvlib/modelchain.py",
+      "pvlib/ivtools/sde.py",
+      "pvlib/atmosphere.py",
+      "pvlib/solarposition.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pvlib/irradiance.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1154",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/atmosphere.py",
+      "pvlib/irradiance.py",
+      "pvlib/singlediode.py",
+      "pvlib/ivtools/utils.py",
+      "pvlib/pvsystem.py",
+      "pvlib/clearsky.py",
+      "pvlib/solarposition.py",
+      "pvlib/iam.py",
+      "pvlib/ivtools/sde.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "c78b50f4337ecbe536a961336ca91a1176efc0e8",
+    "bm25_rank": 19,
+    "bm25_top10": [
+      "pvlib/modelchain.py",
+      "pvlib/pvsystem.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/temperature.py",
+      "pvlib/ivtools/sdm.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/solarposition.py",
+      "pvlib/clearsky.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/atmosphere.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pvlib/tools.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1606",
+    "real_rank": 1,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/_deprecation.py",
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/atmosphere.py",
+      "pvlib/temperature.py",
+      "pvlib/ivtools/utils.py",
+      "pvlib/solarposition.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/clearsky.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "40e9e978c170bdde4eeee1547729417665dbc34c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/iam.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/_deprecation.py",
+      "pvlib/modelchain.py",
+      "pvlib/clearsky.py",
+      "pvlib/solarposition.py",
+      "pvlib/spectrum/mismatch.py",
+      "pvlib/atmosphere.py",
+      "pvlib/temperature.py",
+      "pvlib/bifacial/infinite_sheds.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pvlib/iam.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1707",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/_deprecation.py",
+      "pvlib/tools.py",
+      "pvlib/iam.py",
+      "pvlib/atmosphere.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/modelchain.py",
+      "pvlib/solarposition.py",
+      "pvlib/clearsky.py",
+      "pvlib/__init__.py",
+      "pvlib/irradiance.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "27a3a07ebc84b11014d3753e4923902adf9a38c0",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/irradiance.py",
+      "pvlib/solarposition.py",
+      "pvlib/temperature.py",
+      "pvlib/location.py",
+      "pvlib/iam.py",
+      "pvlib/tools.py",
+      "pvlib/iotools/epw.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pvlib/pvsystem.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1854",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/_deprecation.py",
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/irradiance.py",
+      "pvlib/solarposition.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/atmosphere.py",
+      "pvlib/temperature.py",
+      "pvlib/iam.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "b9fb05c177b685bf683f7f57b2d57374eb7d882d",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "pydicom/dataset.py",
+      "pydicom/filereader.py",
+      "pydicom/filewriter.py",
+      "pydicom/valuerep.py",
+      "pydicom/dataelem.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/util/codify.py",
+      "pydicom/__init__.py",
+      "source/generate_dict/generate_dicom_dict.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pydicom/valuerep.py"
+    ],
+    "instance_id": "pydicom__pydicom-1139",
+    "real_rank": 1,
+    "real_top10": [
+      "pydicom/valuerep.py",
+      "pydicom/dataset.py",
+      "pydicom/config.py",
+      "pydicom/__init__.py",
+      "pydicom/datadict.py",
+      "pydicom/uid.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/dataelem.py",
+      "pydicom/filereader.py",
+      "pydicom/multival.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "49a3da4a3d9c24d7e8427a25048a1c7d5c4f7724",
+    "bm25_rank": 9,
+    "bm25_top10": [
+      "pydicom/dataelem.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/dataset.py",
+      "pydicom/pixel_data_handlers/numpy_handler.py",
+      "pydicom/encaps.py",
+      "pydicom/filereader.py",
+      "pydicom/config.py",
+      "pydicom/jsonrep.py",
+      "pydicom/filewriter.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pydicom/jsonrep.py"
+    ],
+    "instance_id": "pydicom__pydicom-1256",
+    "real_rank": 11,
+    "real_top10": [
+      "pydicom/dataset.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/dataelem.py",
+      "pydicom/config.py",
+      "pydicom/uid.py",
+      "pydicom/encaps.py",
+      "pydicom/pixel_data_handlers/numpy_handler.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/tag.py",
+      "pydicom/filereader.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "f909c76e31f759246cec3708dadd173c5d6e84b1",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "pydicom/filewriter.py",
+      "pydicom/dataset.py",
+      "pydicom/fileset.py",
+      "pydicom/filereader.py",
+      "pydicom/dataelem.py",
+      "pydicom/encoders/base.py",
+      "pydicom/encaps.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/util/codify.py",
+      "pydicom/valuerep.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pydicom/dataelem.py"
+    ],
+    "instance_id": "pydicom__pydicom-1413",
+    "real_rank": 3,
+    "real_top10": [
+      "pydicom/dataset.py",
+      "pydicom/tag.py",
+      "pydicom/dataelem.py",
+      "pydicom/uid.py",
+      "pydicom/config.py",
+      "pydicom/encaps.py",
+      "pydicom/filewriter.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/valuerep.py",
+      "pydicom/filereader.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "f8cf45b6c121e5a4bf4a43f71aba3bc64af3db9c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pydicom/dataset.py",
+      "pydicom/filereader.py",
+      "pydicom/dataelem.py",
+      "pydicom/charset.py",
+      "pydicom/filewriter.py",
+      "pydicom/config.py",
+      "pydicom/fileset.py",
+      "pydicom/jsonrep.py",
+      "pydicom/values.py",
+      "pydicom/valuerep.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pydicom/dataset.py"
+    ],
+    "instance_id": "pydicom__pydicom-1694",
+    "real_rank": 3,
+    "real_top10": [
+      "pydicom/config.py",
+      "pydicom/valuerep.py",
+      "pydicom/dataset.py",
+      "pydicom/dataelem.py",
+      "pydicom/charset.py",
+      "pydicom/filereader.py",
+      "pydicom/tag.py",
+      "pydicom/values.py",
+      "pydicom/datadict.py",
+      "pydicom/uid.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "39c2a9805970ca57093d32bbaf0e6a63e05041d8",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/inference.py",
+      "astroid/builder.py",
+      "astroid/protocols.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/exceptions.py",
+      "astroid/modutils.py",
+      "astroid/brain/brain_builtin_inference.py",
+      "astroid/arguments.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "astroid/nodes/node_classes.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1196",
+    "real_rank": 2,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/util.py",
+      "astroid/nodes/__init__.py",
+      "astroid/bases.py",
+      "astroid/context.py",
+      "astroid/manager.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/builder.py",
+      "astroid/inference.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "ce5cbce5ba11cdc2f8139ade66feea1e181a7944",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes.py",
+      "astroid/builder.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/nodes/as_string.py",
+      "astroid/modutils.py",
+      "astroid/manager.py",
+      "astroid/brain/brain_type.py",
+      "astroid/inference.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "astroid/nodes/as_string.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1268",
+    "real_rank": 12,
+    "real_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/exceptions.py",
+      "astroid/nodes/__init__.py",
+      "astroid/manager.py",
+      "astroid/builder.py",
+      "astroid/nodes/scoped_nodes.py",
+      "astroid/util.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/bases.py",
+      "astroid/interpreter/objectmodel.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "d2a5b3c7b1e203fec3c7ca73c30eb1785d3d4d0a",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/modutils.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/exceptions.py",
+      "astroid/builder.py",
+      "astroid/inference.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/__init__.py",
+      "astroid/brain/brain_type.py",
+      "astroid/manager.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "astroid/modutils.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1333",
+    "real_rank": 5,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/manager.py",
+      "astroid/util.py",
+      "astroid/modutils.py",
+      "astroid/builder.py",
+      "astroid/nodes/__init__.py",
+      "astroid/__init__.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/interpreter/_import/spec.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "6cf238d089cf4b6753c94cfc089b4a47487711e5",
+    "bm25_rank": 13,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/__init__.py",
+      "astroid/builder.py",
+      "astroid/exceptions.py",
+      "astroid/modutils.py",
+      "astroid/bases.py",
+      "astroid/objects.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "astroid/brain/brain_builtin_inference.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1866",
+    "real_rank": 20,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/bases.py",
+      "astroid/context.py",
+      "astroid/nodes/__init__.py",
+      "astroid/util.py",
+      "astroid/manager.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/objects.py",
+      "astroid/__init__.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "0c9ab0fe56703fa83c73e514a1020d398d23fa7f",
+    "bm25_rank": 17,
+    "bm25_top10": [
+      "astroid/modutils.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/brain/brain_numpy_utils.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/arguments.py",
+      "astroid/__init__.py",
+      "astroid/builder.py",
+      "astroid/exceptions.py",
+      "astroid/decorators.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "astroid/raw_building.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1978",
+    "real_rank": 18,
+    "real_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/exceptions.py",
+      "astroid/modutils.py",
+      "astroid/util.py",
+      "astroid/builder.py",
+      "astroid/manager.py",
+      "astroid/bases.py",
+      "astroid/context.py",
+      "astroid/nodes/__init__.py",
+      "astroid/decorators.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "db6ee8dd4a747b8864caae36c5d05883976a3ae5",
+    "bm25_rank": 10,
+    "bm25_top10": [
+      "pyvista/utilities/errors.py",
+      "pyvista/plotting/charts.py",
+      "pyvista/core/pointset.py",
+      "pyvista/utilities/helpers.py",
+      "pyvista/core/texture.py",
+      "pyvista/core/filters/poly_data.py",
+      "pyvista/core/datasetattributes.py",
+      "pyvista/core/dataobject.py",
+      "pyvista/core/filters/data_set.py",
+      "pyvista/core/grid.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "pyvista/core/grid.py"
+    ],
+    "instance_id": "pyvista__pyvista-4315",
+    "real_rank": 17,
+    "real_top10": [
+      "pyvista/_vtk.py",
+      "pyvista/utilities/errors.py",
+      "pyvista/utilities/helpers.py",
+      "pyvista/__init__.py",
+      "pyvista/plotting/charts.py",
+      "pyvista/plotting/colors.py",
+      "pyvista/core/pointset.py",
+      "pyvista/utilities/misc.py",
+      "pyvista/core/datasetattributes.py",
+      "pyvista/core/filters/data_set.py"
+    ],
+    "repo": "pyvista/pyvista"
+  },
+  {
+    "base_commit": "304a197829f98e7425a46d872ada73176137e5ae",
+    "bm25_rank": 24,
+    "bm25_top10": [
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/linter/linter.py",
+      "src/sqlfluff/core/templaters/dbt.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/templaters/jinja.py",
+      "src/sqlfluff/core/parser/grammar/sequence.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "src/sqlfluff/core/parser/helpers.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1517",
+    "real_rank": 14,
+    "real_top10": [
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/__init__.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/linter/linter.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/templaters/jinja.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "14e1a23a3166b9a645a16de96f694c77a5d4abb7",
+    "bm25_rank": 7,
+    "bm25_top10": [
+      "src/sqlfluff/rules/L044.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/rules/L020.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/rules/L031.py",
+      "src/sqlfluff/core/parser/helpers.py",
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/rules/L026.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "src/sqlfluff/rules/L031.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1625",
+    "real_rank": 11,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/rules/doc_decorators.py",
+      "src/sqlfluff/rules/L044.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/core/dialects/__init__.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/rules/L020.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/core/dialects/base.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "a10057635e5b2559293a676486f0b730981f037a",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/rules/L003.py",
+      "src/sqlfluff/core/linter/linted_file.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/core/templaters/base.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "src/sqlfluff/core/linter/linted_file.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1763",
+    "real_rank": 11,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/dialects/__init__.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/core/parser/markers.py",
+      "src/sqlfluff/rules/L003.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "f1dba0e1dd764ae72d67c3d5e1471cf14d3db030",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "src/sqlfluff/rules/L060.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/meta.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/parser/grammar/base.py",
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/parser/grammar/sequence.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "src/sqlfluff/rules/L060.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-2419",
+    "real_rank": 3,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/rules/L060.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/parser/segments/raw.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/parser/segments/meta.py",
+      "src/sqlfluff/core/parser/grammar/base.py",
+      "src/sqlfluff/core/parser/context.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "b40a0f4e33823e6d0f341f7e8684e359a99060d1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "src/marshmallow/fields.py",
+      "src/marshmallow/schema.py",
+      "src/marshmallow/utils.py",
+      "src/marshmallow/validate.py",
+      "src/marshmallow/decorators.py",
+      "src/marshmallow/class_registry.py",
+      "src/marshmallow/exceptions.py",
+      "src/marshmallow/base.py",
+      "performance/benchmark.py",
+      "src/marshmallow/error_store.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "src/marshmallow/fields.py"
+    ],
+    "instance_id": "marshmallow-code__marshmallow-1359",
+    "real_rank": 2,
+    "real_top10": [
+      "src/marshmallow/exceptions.py",
+      "src/marshmallow/fields.py",
+      "src/marshmallow/schema.py",
+      "src/marshmallow/utils.py",
+      "src/marshmallow/validate.py",
+      "src/marshmallow/class_registry.py",
+      "src/marshmallow/decorators.py",
+      "src/marshmallow/base.py",
+      "src/marshmallow/error_store.py",
+      "performance/benchmark.py"
+    ],
+    "repo": "marshmallow-code/marshmallow"
+  },
+  {
+    "base_commit": "04a523fafbd61bc2e49420963b84ed8e2bd1b3cf",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "pvlib/solarposition.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/clearsky.py",
+      "pvlib/temperature.py",
+      "pvlib/iotools/epw.py",
+      "pvlib/spa.py",
+      "pvlib/forecast.py",
+      "pvlib/iotools/ecmwf_macc.py",
+      "pvlib/modelchain.py",
+      "pvlib/_deprecation.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pvlib/temperature.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1072",
+    "real_rank": 7,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/atmosphere.py",
+      "pvlib/solarposition.py",
+      "pvlib/irradiance.py",
+      "pvlib/clearsky.py",
+      "pvlib/spa.py",
+      "pvlib/temperature.py",
+      "pvlib/pvsystem.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/_deprecation.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "0b8f24c265d76320067a5ee908a57d475cd1bb24",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/irradiance.py",
+      "pvlib/singlediode.py",
+      "pvlib/clearsky.py",
+      "pvlib/iam.py",
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/ivtools/sdm.py",
+      "pvlib/atmosphere.py",
+      "pvlib/ivtools/sde.py",
+      "pvlib/solarposition.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pvlib/irradiance.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1154",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/atmosphere.py",
+      "pvlib/irradiance.py",
+      "pvlib/pvsystem.py",
+      "pvlib/singlediode.py",
+      "pvlib/ivtools/utils.py",
+      "pvlib/clearsky.py",
+      "pvlib/iam.py",
+      "pvlib/solarposition.py",
+      "pvlib/ivtools/sde.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "c78b50f4337ecbe536a961336ca91a1176efc0e8",
+    "bm25_rank": 18,
+    "bm25_top10": [
+      "pvlib/modelchain.py",
+      "pvlib/pvsystem.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/temperature.py",
+      "pvlib/ivtools/sdm.py",
+      "pvlib/iotools/tmy.py",
+      "pvlib/solarposition.py",
+      "pvlib/clearsky.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/atmosphere.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pvlib/tools.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1606",
+    "real_rank": 1,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/_deprecation.py",
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/atmosphere.py",
+      "pvlib/temperature.py",
+      "pvlib/solarposition.py",
+      "pvlib/ivtools/utils.py",
+      "pvlib/clearsky.py",
+      "pvlib/iotools/psm3.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "40e9e978c170bdde4eeee1547729417665dbc34c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/iam.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/_deprecation.py",
+      "pvlib/modelchain.py",
+      "pvlib/clearsky.py",
+      "pvlib/solarposition.py",
+      "pvlib/spectrum/mismatch.py",
+      "pvlib/atmosphere.py",
+      "pvlib/temperature.py",
+      "pvlib/bifacial/infinite_sheds.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pvlib/iam.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1707",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/_deprecation.py",
+      "pvlib/tools.py",
+      "pvlib/iam.py",
+      "pvlib/atmosphere.py",
+      "pvlib/iotools/psm3.py",
+      "pvlib/modelchain.py",
+      "pvlib/solarposition.py",
+      "pvlib/clearsky.py",
+      "pvlib/__init__.py",
+      "pvlib/irradiance.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "27a3a07ebc84b11014d3753e4923902adf9a38c0",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/irradiance.py",
+      "pvlib/solarposition.py",
+      "pvlib/location.py",
+      "pvlib/temperature.py",
+      "pvlib/iam.py",
+      "pvlib/bifacial/infinite_sheds.py",
+      "pvlib/tools.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pvlib/pvsystem.py"
+    ],
+    "instance_id": "pvlib__pvlib-python-1854",
+    "real_rank": 3,
+    "real_top10": [
+      "pvlib/tools.py",
+      "pvlib/_deprecation.py",
+      "pvlib/pvsystem.py",
+      "pvlib/modelchain.py",
+      "pvlib/irradiance.py",
+      "pvlib/solarposition.py",
+      "pvlib/iotools/pvgis.py",
+      "pvlib/temperature.py",
+      "pvlib/atmosphere.py",
+      "pvlib/iam.py"
+    ],
+    "repo": "pvlib/pvlib-python"
+  },
+  {
+    "base_commit": "b9fb05c177b685bf683f7f57b2d57374eb7d882d",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "pydicom/dataset.py",
+      "pydicom/filereader.py",
+      "pydicom/filewriter.py",
+      "pydicom/valuerep.py",
+      "pydicom/dataelem.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/util/codify.py",
+      "pydicom/__init__.py",
+      "source/generate_dict/generate_dicom_dict.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pydicom/valuerep.py"
+    ],
+    "instance_id": "pydicom__pydicom-1139",
+    "real_rank": 1,
+    "real_top10": [
+      "pydicom/valuerep.py",
+      "pydicom/dataset.py",
+      "pydicom/config.py",
+      "pydicom/__init__.py",
+      "pydicom/datadict.py",
+      "pydicom/uid.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/dataelem.py",
+      "pydicom/filereader.py",
+      "pydicom/multival.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "49a3da4a3d9c24d7e8427a25048a1c7d5c4f7724",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "pydicom/dataelem.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/dataset.py",
+      "pydicom/pixel_data_handlers/numpy_handler.py",
+      "pydicom/jsonrep.py",
+      "pydicom/encaps.py",
+      "pydicom/filereader.py",
+      "pydicom/config.py",
+      "pydicom/filewriter.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pydicom/jsonrep.py"
+    ],
+    "instance_id": "pydicom__pydicom-1256",
+    "real_rank": 10,
+    "real_top10": [
+      "pydicom/dataset.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/dataelem.py",
+      "pydicom/config.py",
+      "pydicom/uid.py",
+      "pydicom/encaps.py",
+      "pydicom/pixel_data_handlers/numpy_handler.py",
+      "pydicom/pixel_data_handlers/rle_handler.py",
+      "pydicom/tag.py",
+      "pydicom/jsonrep.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "f909c76e31f759246cec3708dadd173c5d6e84b1",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "pydicom/filewriter.py",
+      "pydicom/dataset.py",
+      "pydicom/fileset.py",
+      "pydicom/filereader.py",
+      "pydicom/dataelem.py",
+      "pydicom/encoders/base.py",
+      "pydicom/encaps.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/util/codify.py",
+      "pydicom/valuerep.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pydicom/dataelem.py"
+    ],
+    "instance_id": "pydicom__pydicom-1413",
+    "real_rank": 3,
+    "real_top10": [
+      "pydicom/dataset.py",
+      "pydicom/tag.py",
+      "pydicom/dataelem.py",
+      "pydicom/uid.py",
+      "pydicom/config.py",
+      "pydicom/encaps.py",
+      "pydicom/filewriter.py",
+      "pydicom/pixel_data_handlers/util.py",
+      "pydicom/valuerep.py",
+      "pydicom/filereader.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "f8cf45b6c121e5a4bf4a43f71aba3bc64af3db9c",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "pydicom/dataset.py",
+      "pydicom/filereader.py",
+      "pydicom/dataelem.py",
+      "pydicom/charset.py",
+      "pydicom/filewriter.py",
+      "pydicom/fileset.py",
+      "pydicom/config.py",
+      "pydicom/jsonrep.py",
+      "pydicom/values.py",
+      "pydicom/valuerep.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pydicom/dataset.py"
+    ],
+    "instance_id": "pydicom__pydicom-1694",
+    "real_rank": 2,
+    "real_top10": [
+      "pydicom/config.py",
+      "pydicom/dataset.py",
+      "pydicom/valuerep.py",
+      "pydicom/dataelem.py",
+      "pydicom/charset.py",
+      "pydicom/filereader.py",
+      "pydicom/tag.py",
+      "pydicom/values.py",
+      "pydicom/datadict.py",
+      "pydicom/uid.py"
+    ],
+    "repo": "pydicom/pydicom"
+  },
+  {
+    "base_commit": "39c2a9805970ca57093d32bbaf0e6a63e05041d8",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/inference.py",
+      "astroid/builder.py",
+      "astroid/protocols.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/exceptions.py",
+      "astroid/brain/brain_builtin_inference.py",
+      "astroid/modutils.py",
+      "astroid/interpreter/objectmodel.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "astroid/nodes/node_classes.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1196",
+    "real_rank": 2,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/__init__.py",
+      "astroid/util.py",
+      "astroid/bases.py",
+      "astroid/manager.py",
+      "astroid/context.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/builder.py",
+      "astroid/inference.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "ce5cbce5ba11cdc2f8139ade66feea1e181a7944",
+    "bm25_rank": 6,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes.py",
+      "astroid/builder.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/nodes/as_string.py",
+      "astroid/modutils.py",
+      "astroid/manager.py",
+      "astroid/brain/brain_type.py",
+      "astroid/inference.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "astroid/nodes/as_string.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1268",
+    "real_rank": 12,
+    "real_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/exceptions.py",
+      "astroid/nodes/__init__.py",
+      "astroid/manager.py",
+      "astroid/builder.py",
+      "astroid/nodes/scoped_nodes.py",
+      "astroid/util.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/bases.py",
+      "astroid/interpreter/objectmodel.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "d2a5b3c7b1e203fec3c7ca73c30eb1785d3d4d0a",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/modutils.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/exceptions.py",
+      "astroid/builder.py",
+      "astroid/inference.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/__init__.py",
+      "astroid/brain/brain_type.py",
+      "astroid/manager.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "astroid/modutils.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1333",
+    "real_rank": 5,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/manager.py",
+      "astroid/util.py",
+      "astroid/modutils.py",
+      "astroid/builder.py",
+      "astroid/nodes/__init__.py",
+      "astroid/__init__.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/interpreter/_import/spec.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "6cf238d089cf4b6753c94cfc089b4a47487711e5",
+    "bm25_rank": 11,
+    "bm25_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/__init__.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/builder.py",
+      "astroid/modutils.py",
+      "astroid/exceptions.py",
+      "astroid/bases.py",
+      "astroid/objects.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "astroid/brain/brain_builtin_inference.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1866",
+    "real_rank": 18,
+    "real_top10": [
+      "astroid/exceptions.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/bases.py",
+      "astroid/nodes/__init__.py",
+      "astroid/context.py",
+      "astroid/manager.py",
+      "astroid/__init__.py",
+      "astroid/nodes/node_ng.py",
+      "astroid/objects.py",
+      "astroid/util.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "0c9ab0fe56703fa83c73e514a1020d398d23fa7f",
+    "bm25_rank": 7,
+    "bm25_top10": [
+      "astroid/modutils.py",
+      "astroid/nodes/node_classes.py",
+      "astroid/brain/brain_numpy_utils.py",
+      "astroid/__init__.py",
+      "astroid/nodes/scoped_nodes/scoped_nodes.py",
+      "astroid/builder.py",
+      "astroid/raw_building.py",
+      "astroid/interpreter/objectmodel.py",
+      "astroid/arguments.py",
+      "astroid/brain/brain_gi.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "astroid/raw_building.py"
+    ],
+    "instance_id": "pylint-dev__astroid-1978",
+    "real_rank": 9,
+    "real_top10": [
+      "astroid/nodes/node_classes.py",
+      "astroid/exceptions.py",
+      "astroid/modutils.py",
+      "astroid/manager.py",
+      "astroid/builder.py",
+      "astroid/util.py",
+      "astroid/bases.py",
+      "astroid/context.py",
+      "astroid/raw_building.py",
+      "astroid/nodes/__init__.py"
+    ],
+    "repo": "pylint-dev/astroid"
+  },
+  {
+    "base_commit": "db6ee8dd4a747b8864caae36c5d05883976a3ae5",
+    "bm25_rank": 10,
+    "bm25_top10": [
+      "pyvista/utilities/errors.py",
+      "pyvista/plotting/charts.py",
+      "pyvista/core/pointset.py",
+      "pyvista/utilities/helpers.py",
+      "pyvista/core/texture.py",
+      "pyvista/core/filters/poly_data.py",
+      "pyvista/core/datasetattributes.py",
+      "pyvista/core/dataobject.py",
+      "pyvista/core/filters/data_set.py",
+      "pyvista/core/grid.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "pyvista/core/grid.py"
+    ],
+    "instance_id": "pyvista__pyvista-4315",
+    "real_rank": 17,
+    "real_top10": [
+      "pyvista/_vtk.py",
+      "pyvista/utilities/errors.py",
+      "pyvista/utilities/helpers.py",
+      "pyvista/__init__.py",
+      "pyvista/plotting/charts.py",
+      "pyvista/plotting/colors.py",
+      "pyvista/core/pointset.py",
+      "pyvista/utilities/misc.py",
+      "pyvista/core/datasetattributes.py",
+      "pyvista/core/filters/data_set.py"
+    ],
+    "repo": "pyvista/pyvista"
+  },
+  {
+    "base_commit": "304a197829f98e7425a46d872ada73176137e5ae",
+    "bm25_rank": 19,
+    "bm25_top10": [
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/linter/linter.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/dbt.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/parser/grammar/sequence.py",
+      "src/sqlfluff/core/templaters/jinja.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "src/sqlfluff/core/parser/helpers.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1517",
+    "real_rank": 11,
+    "real_top10": [
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/__init__.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/cli/helpers.py",
+      "src/sqlfluff/core/linter/linter.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/parser/grammar/base.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "14e1a23a3166b9a645a16de96f694c77a5d4abb7",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "src/sqlfluff/rules/L044.py",
+      "src/sqlfluff/rules/L031.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/rules/L020.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/rules/L026.py",
+      "src/sqlfluff/rules/L047.py",
+      "src/sqlfluff/core/parser/helpers.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "src/sqlfluff/rules/L031.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1625",
+    "real_rank": 4,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/rules/doc_decorators.py",
+      "src/sqlfluff/rules/L044.py",
+      "src/sqlfluff/rules/L031.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/core/dialects/__init__.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/rules/L020.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/dialects/dialect_tsql.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "a10057635e5b2559293a676486f0b730981f037a",
+    "bm25_rank": 4,
+    "bm25_top10": [
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/rules/L003.py",
+      "src/sqlfluff/core/linter/linted_file.py",
+      "src/sqlfluff/dialects/dialect_teradata.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/rules/L043.py",
+      "src/sqlfluff/core/templaters/base.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "src/sqlfluff/core/linter/linted_file.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-1763",
+    "real_rank": 11,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/dialects/dialect_ansi.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/dialects/__init__.py",
+      "src/sqlfluff/dialects/dialect_tsql.py",
+      "src/sqlfluff/core/parser/markers.py",
+      "src/sqlfluff/rules/L003.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  },
+  {
+    "base_commit": "f1dba0e1dd764ae72d67c3d5e1471cf14d3db030",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "src/sqlfluff/rules/L060.py",
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/parser/segments/meta.py",
+      "src/sqlfluff/core/templaters/python.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/parser/grammar/base.py",
+      "src/sqlfluff/cli/commands.py",
+      "src/sqlfluff/core/parser/grammar/sequence.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "src/sqlfluff/rules/L060.py"
+    ],
+    "instance_id": "sqlfluff__sqlfluff-2419",
+    "real_rank": 2,
+    "real_top10": [
+      "src/sqlfluff/core/rules/base.py",
+      "src/sqlfluff/rules/L060.py",
+      "src/sqlfluff/core/errors.py",
+      "src/sqlfluff/core/config.py",
+      "src/sqlfluff/core/parser/segments/raw.py",
+      "src/sqlfluff/core/parser/segments/base.py",
+      "src/sqlfluff/core/templaters/base.py",
+      "src/sqlfluff/core/parser/segments/meta.py",
+      "src/sqlfluff/core/parser/grammar/base.py",
+      "src/sqlfluff/core/parser/context.py"
+    ],
+    "repo": "sqlfluff/sqlfluff"
+  }
+]

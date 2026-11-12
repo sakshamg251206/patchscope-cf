@@ -1,0 +1,412 @@
+{
+  "frozen_at_utc": "2026-11-12T14:10:05.147233+00:00",
+  "instances": [
+    {
+      "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+      "instance_id": "scikit-learn__scikit-learn-12471",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "66ba515e671638971bd11a34cff12c107a437e0b",
+      "instance_id": "matplotlib__matplotlib-25332",
+      "repo": "matplotlib/matplotlib"
+    },
+    {
+      "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+      "instance_id": "django__django-12453",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+      "instance_id": "sympy__sympy-12419",
+      "repo": "sympy/sympy"
+    },
+    {
+      "base_commit": "b55ebe32417e0884b6b8b3e1bc0379033aa221af",
+      "instance_id": "django__django-15320",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "c753b77ac49e72ebc0fe5e3c2369fe628f975017",
+      "instance_id": "scikit-learn__scikit-learn-10508",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+      "instance_id": "scikit-learn__scikit-learn-15535",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+      "instance_id": "psf__requests-863",
+      "repo": "psf/requests"
+    },
+    {
+      "base_commit": "5c1644ff85e15752f9f8721bc142bfbf975e7805",
+      "instance_id": "sympy__sympy-13915",
+      "repo": "sympy/sympy"
+    },
+    {
+      "base_commit": "6f73eb9d90cfec684529aab48d517e3d6449ba8c",
+      "instance_id": "django__django-15738",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "f9fe062de5fc0896d6bbbf3f260b5c44473b3c77",
+      "instance_id": "django__django-16595",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+      "instance_id": "pylint-dev__pylint-7114",
+      "repo": "pylint-dev/pylint"
+    },
+    {
+      "base_commit": "2c2335bbb8af99fa132e1573bbf45dc91584d5a2",
+      "instance_id": "sphinx-doc__sphinx-8282",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "7c4f3965098baad2396e24501e09237425a7bd6f",
+      "instance_id": "django__django-15347",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "8d160f154f0240a423e83ffe0690e472f837373c",
+      "instance_id": "django__django-15781",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "a59de6e89e8dc1f3e71c9a5a5bbceb373ea5247e",
+      "instance_id": "django__django-13033",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "df7dd8391148a873d157328a4f0328528a0c4ed9",
+      "instance_id": "scikit-learn__scikit-learn-14092",
+      "repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "base_commit": "6df9398cce063874ae4d59db126d4adacb0fa8d3",
+      "instance_id": "django__django-16041",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "19fc6376ce67d01ca37a91ef2f55ef769f50513a",
+      "instance_id": "django__django-11179",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "29a86636a9c45ab5ac4d80ac76eaee497f460dce",
+      "instance_id": "matplotlib__matplotlib-23562",
+      "repo": "matplotlib/matplotlib"
+    },
+    {
+      "base_commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+      "instance_id": "psf__requests-2148",
+      "repo": "psf/requests"
+    },
+    {
+      "base_commit": "bceadd2788dc2dad53eba0caae172bd8522fd483",
+      "instance_id": "django__django-10924",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+      "instance_id": "matplotlib__matplotlib-26011",
+      "repo": "matplotlib/matplotlib"
+    },
+    {
+      "base_commit": "c5e373d48cbdd923575956fed477b63d66d9603f",
+      "instance_id": "django__django-12284",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "4ec6cbe341fd84468c448e20082c778043bbea4b",
+      "instance_id": "sphinx-doc__sphinx-7975",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "c087d717f6ed183dd422359bf91210dc59689d63",
+      "instance_id": "sphinx-doc__sphinx-7738",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "332d80ba8433aea41c3709fa52737ede4405072b",
+      "instance_id": "sphinx-doc__sphinx-8627",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "9da013ad0ddc3cd96fe505f2e47c63e372040916",
+      "instance_id": "sympy__sympy-18087",
+      "repo": "sympy/sympy"
+    },
+    {
+      "base_commit": "3f140dde51c0fe6c350acb7727bbe489a99f0632",
+      "instance_id": "django__django-13757",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "b19bce971e82f2497d67fdacdeca8db08ae0ba56",
+      "instance_id": "sphinx-doc__sphinx-8595",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "84633905273fc916e3d17883810d9969c03f73c2",
+      "instance_id": "django__django-11999",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "4da0b64558e9551a11a99bccc63557ba34f50c58",
+      "instance_id": "sympy__sympy-13895",
+      "repo": "sympy/sympy"
+    },
+    {
+      "base_commit": "1710cdbe79c90665046034fe1700933d038d90ad",
+      "instance_id": "django__django-14016",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "65e86948b80262574058a94ccaae3a9b59c3faea",
+      "instance_id": "django__django-11630",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "453967477e3ddae704cd739eac2449c0e13d464c",
+      "instance_id": "django__django-13401",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "c5cef2499d6eed024b0db5c792d6ec7c53baa470",
+      "instance_id": "sympy__sympy-23117",
+      "repo": "sympy/sympy"
+    },
+    {
+      "base_commit": "60dc957a825232fdda9138e2f8878b2ca407a7c9",
+      "instance_id": "django__django-11583",
+      "repo": "django/django"
+    },
+    {
+      "base_commit": "752d3285d250bbaf673cff25e83f03f247502021",
+      "instance_id": "sphinx-doc__sphinx-7686",
+      "repo": "sphinx-doc/sphinx"
+    },
+    {
+      "base_commit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+      "instance_id": "sympy__sympy-13971",
+      "repo": "sympy/sympy"
+    }
+  ],
+  "outcomes": [
+    {
+      "instance_id": "scikit-learn__scikit-learn-12471",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25332",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12453",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12419",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15320",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-10508",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-15535",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-863",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13915",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15738",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16595",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-7114",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8282",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15347",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15781",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13033",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14092",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16041",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11179",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23562",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-2148",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-10924",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-26011",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12284",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7975",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7738",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8627",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18087",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13757",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8595",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11999",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13895",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14016",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11630",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13401",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-23117",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11583",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7686",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13971",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    }
+  ],
+  "requested": 40,
+  "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
+  "seed": 2026,
+  "selection": "sorted IDs then Python Random(seed).shuffle; first N; no replacements",
+  "split": "test"
+}

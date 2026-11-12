@@ -1,0 +1,2879 @@
+[
+  {
+    "ast_build_ms": 650.390790999154,
+    "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+    "bm25_build_ms": 29.046707999441423,
+    "control_build_ms": 61.33004200091818,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      8
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "isolates": 5,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 1027,
+    "num_files": 249,
+    "query_sha256": "20df1c9b7a5d2546ea810066ddfde4ff94e69d23084cd0ac43d95be23752053c",
+    "repo": "scikit-learn/scikit-learn",
+    "rewiring": [
+      {
+        "attempts": 8875,
+        "requested_swaps": 5135,
+        "retained_edge_fraction": 0.25121713729308665,
+        "seed": 2026,
+        "successful_swaps": 5135
+      },
+      {
+        "attempts": 9106,
+        "requested_swaps": 5135,
+        "retained_edge_fraction": 0.25024342745861733,
+        "seed": 2027,
+        "successful_swaps": 5135
+      },
+      {
+        "attempts": 9028,
+        "requested_swaps": 5135,
+        "retained_edge_fraction": 0.24148003894839337,
+        "seed": 2028,
+        "successful_swaps": 5135
+      }
+    ],
+    "snapshot_ms": 22.894333000294864,
+    "source": {
+      "commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 249,
+      "repo": "scikit-learn/scikit-learn",
+      "skipped": [],
+      "source_sha256": "b8d53638e0bf3ac6473c6bccb791afd3e0695d61ced9c824a4cf76eaa76dec1d",
+      "tree_sha256": "8fa22845f535c7eab9a6e6235d1ddf9d16d29c72c5a555eb186f55a98ec2910b"
+    }
+  },
+  {
+    "ast_build_ms": 925.5129999983183,
+    "base_commit": "66ba515e671638971bd11a34cff12c107a437e0b",
+    "bm25_build_ms": 29.50737500032119,
+    "control_build_ms": 59.49254199913412,
+    "gold_in_degree": [
+      64
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "matplotlib__matplotlib-25332",
+    "isolates": 19,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 960,
+    "num_files": 243,
+    "query_sha256": "86c03c9b73bf970095097ed7e90516f96639aaf8b1a81a8ba3ddd8f620e0eee4",
+    "repo": "matplotlib/matplotlib",
+    "rewiring": [
+      {
+        "attempts": 9421,
+        "requested_swaps": 4800,
+        "retained_edge_fraction": 0.284375,
+        "seed": 2026,
+        "successful_swaps": 4800
+      },
+      {
+        "attempts": 9585,
+        "requested_swaps": 4800,
+        "retained_edge_fraction": 0.2708333333333333,
+        "seed": 2027,
+        "successful_swaps": 4800
+      },
+      {
+        "attempts": 9519,
+        "requested_swaps": 4800,
+        "retained_edge_fraction": 0.315625,
+        "seed": 2028,
+        "successful_swaps": 4800
+      }
+    ],
+    "snapshot_ms": 27.855457999976352,
+    "source": {
+      "commit": "66ba515e671638971bd11a34cff12c107a437e0b",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 243,
+      "repo": "matplotlib/matplotlib",
+      "skipped": [
+        {
+          "path": "lib/matplotlib/axes/_axes.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "1f9677d93f6e35fdc23712deb8ed04f0ec825b6780c5ba1c9a8dc4051dcd7aab",
+      "tree_sha256": "af97d4f7bc78afeb46c322d67b63dddb276b057ec7c85b12f1a843c84b615710"
+    }
+  },
+  {
+    "ast_build_ms": 843.2271249985206,
+    "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+    "bm25_build_ms": 30.30183299961209,
+    "control_build_ms": 135.63749999957508,
+    "gold_in_degree": [
+      5
+    ],
+    "gold_out_degree": [
+      6
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-12453",
+    "isolates": 201,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1426,
+        "start": 1391,
+        "text": "django/db/backends/base/creation.py"
+      },
+      {
+        "end": 1464,
+        "start": 1429,
+        "text": "django/db/backends/base/creation.py"
+      },
+      {
+        "end": 1536,
+        "start": 1501,
+        "text": "django/db/backends/base/creation.py"
+      },
+      {
+        "end": 1578,
+        "start": 1543,
+        "text": "django/db/backends/base/creation.py"
+      }
+    ],
+    "num_edges": 2616,
+    "num_files": 823,
+    "query_sha256": "3398a139b609305f0982aed672d2ca96b64a1670ec8990a9db0d09f3192c1633",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16255,
+        "requested_swaps": 13080,
+        "retained_edge_fraction": 0.10894495412844037,
+        "seed": 2026,
+        "successful_swaps": 13080
+      },
+      {
+        "attempts": 16315,
+        "requested_swaps": 13080,
+        "retained_edge_fraction": 0.10512232415902141,
+        "seed": 2027,
+        "successful_swaps": 13080
+      },
+      {
+        "attempts": 16294,
+        "requested_swaps": 13080,
+        "retained_edge_fraction": 0.10894495412844037,
+        "seed": 2028,
+        "successful_swaps": 13080
+      }
+    ],
+    "snapshot_ms": 23.97933299835131,
+    "source": {
+      "commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 823,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "15a4a57762cdb57579890e273339a0709e5baa5742a1410551e629c9231722d9",
+      "tree_sha256": "69110967157080ce2c145a0b31d0f850b268e2031c790c7af2758cdd7fac0f34"
+    }
+  },
+  {
+    "ast_build_ms": 581.4176670010056,
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "bm25_build_ms": 37.27937500116241,
+    "control_build_ms": 59.03283299994655,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      14
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "isolates": 10,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1063,
+        "start": 1031,
+        "text": "sklearn/linear_model/logistic.py"
+      },
+      {
+        "end": 1469,
+        "start": 1437,
+        "text": "sklearn/linear_model/logistic.py"
+      }
+    ],
+    "num_edges": 887,
+    "num_files": 209,
+    "query_sha256": "0d731842a870c18ba49de0ee6ce5c623522f0a0af328adc9415addcc07f5aae1",
+    "repo": "scikit-learn/scikit-learn",
+    "rewiring": [
+      {
+        "attempts": 9695,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.32919954904171367,
+        "seed": 2026,
+        "successful_swaps": 4435
+      },
+      {
+        "attempts": 9696,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.322435174746336,
+        "seed": 2027,
+        "successful_swaps": 4435
+      },
+      {
+        "attempts": 9843,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.34047350620067646,
+        "seed": 2028,
+        "successful_swaps": 4435
+      }
+    ],
+    "snapshot_ms": 22.32187499976135,
+    "source": {
+      "commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 209,
+      "repo": "scikit-learn/scikit-learn",
+      "skipped": [],
+      "source_sha256": "962fdd9373085e51f075c222a10ca9dd8a191884f7f2588597e1dfc23df080a5",
+      "tree_sha256": "0d9918c65476ce22e46aaed0954696d824d1e3cf47d32a73914d30acc56b9093"
+    }
+  },
+  {
+    "ast_build_ms": 1916.6569170010916,
+    "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+    "bm25_build_ms": 58.91266699836706,
+    "control_build_ms": 192.57883400132414,
+    "gold_in_degree": [
+      20
+    ],
+    "gold_out_degree": [
+      16
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-12419",
+    "isolates": 17,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 3732,
+    "num_files": 558,
+    "query_sha256": "48b311ac971aa2fe020b8dd89cd7d2aac3278d4b668921c6b07a29cb914ed4a5",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 28148,
+        "requested_swaps": 18660,
+        "retained_edge_fraction": 0.18301178992497322,
+        "seed": 2026,
+        "successful_swaps": 18660
+      },
+      {
+        "attempts": 27696,
+        "requested_swaps": 18660,
+        "retained_edge_fraction": 0.17738478027867097,
+        "seed": 2027,
+        "successful_swaps": 18660
+      },
+      {
+        "attempts": 27937,
+        "requested_swaps": 18660,
+        "retained_edge_fraction": 0.1760450160771704,
+        "seed": 2028,
+        "successful_swaps": 18660
+      }
+    ],
+    "snapshot_ms": 51.523542000722955,
+    "source": {
+      "commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 558,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/solvers/ode.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "0d8cf04ad8f433734680ef74c90b0267e40f9c3ab7f4b45d54a800bbdf1e3204",
+      "tree_sha256": "ee22656a1596b8dde8254d3b9f02d04a2f67a011d77f9a5433d3e59bc6260f72"
+    }
+  },
+  {
+    "ast_build_ms": 834.1999590011255,
+    "base_commit": "b55ebe32417e0884b6b8b3e1bc0379033aa221af",
+    "bm25_build_ms": 29.73237500009418,
+    "control_build_ms": 132.06775000071502,
+    "gold_in_degree": [
+      23
+    ],
+    "gold_out_degree": [
+      8
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-15320",
+    "isolates": 220,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2747,
+    "num_files": 854,
+    "query_sha256": "948d22a93bf8aae45b467e2ff9cad803de3bf97664cd80be8daa00ce5ccb7f63",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17102,
+        "requested_swaps": 13735,
+        "retained_edge_fraction": 0.10338551146705496,
+        "seed": 2026,
+        "successful_swaps": 13735
+      },
+      {
+        "attempts": 17064,
+        "requested_swaps": 13735,
+        "retained_edge_fraction": 0.10010921004732436,
+        "seed": 2027,
+        "successful_swaps": 13735
+      },
+      {
+        "attempts": 17055,
+        "requested_swaps": 13735,
+        "retained_edge_fraction": 0.10047324353840553,
+        "seed": 2028,
+        "successful_swaps": 13735
+      }
+    ],
+    "snapshot_ms": 27.896625000721542,
+    "source": {
+      "commit": "b55ebe32417e0884b6b8b3e1bc0379033aa221af",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 854,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "93069be988b428278169a8fe46beb112ea7f337bfd094fc0da0aed814338fc98",
+      "tree_sha256": "6d328a1b21503808cee95ed9476366a4816ce440f7e3ed2dffe4698806458d3c"
+    }
+  },
+  {
+    "ast_build_ms": 557.3549170003389,
+    "base_commit": "c753b77ac49e72ebc0fe5e3c2369fe628f975017",
+    "bm25_build_ms": 36.26337499918009,
+    "control_build_ms": 57.1579159986868,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      6
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "scikit-learn__scikit-learn-10508",
+    "isolates": 4,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1010,
+        "start": 980,
+        "text": "sklearn\\preprocessing\\label.py"
+      }
+    ],
+    "num_edges": 970,
+    "num_files": 211,
+    "query_sha256": "78a56f2b40bed531f50fce13f4a877943b003df526983ca62afcfae8cfe3e94f",
+    "repo": "scikit-learn/scikit-learn",
+    "rewiring": [
+      {
+        "attempts": 9552,
+        "requested_swaps": 4850,
+        "retained_edge_fraction": 0.3030927835051546,
+        "seed": 2026,
+        "successful_swaps": 4850
+      },
+      {
+        "attempts": 9439,
+        "requested_swaps": 4850,
+        "retained_edge_fraction": 0.28865979381443296,
+        "seed": 2027,
+        "successful_swaps": 4850
+      },
+      {
+        "attempts": 9700,
+        "requested_swaps": 4850,
+        "retained_edge_fraction": 0.3082474226804124,
+        "seed": 2028,
+        "successful_swaps": 4850
+      }
+    ],
+    "snapshot_ms": 21.093375000418746,
+    "source": {
+      "commit": "c753b77ac49e72ebc0fe5e3c2369fe628f975017",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 211,
+      "repo": "scikit-learn/scikit-learn",
+      "skipped": [],
+      "source_sha256": "6fbea50a86e8e1cb0734ebc217f8dba9a36cb8d78f7a020b1dcdbac236621d40",
+      "tree_sha256": "0918574a3f89f823f5457a6211ff530c0db85a2b3da24286156647c38e608ff4"
+    }
+  },
+  {
+    "ast_build_ms": 597.1399170011864,
+    "base_commit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+    "bm25_build_ms": 37.24141699967731,
+    "control_build_ms": 57.34666699936497,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      2
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "scikit-learn__scikit-learn-15535",
+    "isolates": 13,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 907,
+    "num_files": 217,
+    "query_sha256": "3f7421a2781fd3175d4f3c277508cd01dd8e4cacf2c298f6c61d17fee68ca160",
+    "repo": "scikit-learn/scikit-learn",
+    "rewiring": [
+      {
+        "attempts": 10276,
+        "requested_swaps": 4535,
+        "retained_edge_fraction": 0.34509371554575524,
+        "seed": 2026,
+        "successful_swaps": 4535
+      },
+      {
+        "attempts": 9880,
+        "requested_swaps": 4535,
+        "retained_edge_fraction": 0.34509371554575524,
+        "seed": 2027,
+        "successful_swaps": 4535
+      },
+      {
+        "attempts": 9894,
+        "requested_swaps": 4535,
+        "retained_edge_fraction": 0.3241455347298787,
+        "seed": 2028,
+        "successful_swaps": 4535
+      }
+    ],
+    "snapshot_ms": 21.712542000386748,
+    "source": {
+      "commit": "70b0ddea992c01df1a41588fa9e2d130fb6b13f8",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 217,
+      "repo": "scikit-learn/scikit-learn",
+      "skipped": [],
+      "source_sha256": "480448f7f2459810f487544e41105284bac7f42658856b962cd82db1e05bd332",
+      "tree_sha256": "f5d78cd6aecb3e95dce60e855bf7448924b7172b8d8651293f05b57965f4635a"
+    }
+  },
+  {
+    "ast_build_ms": 323.34629199976916,
+    "base_commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+    "bm25_build_ms": 2.859750000425265,
+    "control_build_ms": 8.306125000672182,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      13
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [
+        "requests/packages/chardet/chardistribution.py",
+        "requests/packages/chardet/charsetgroupprober.py",
+        "requests/packages/chardet/constants.py",
+        "requests/packages/chardet/escprober.py",
+        "requests/packages/chardet/jpcntx.py",
+        "requests/packages/chardet/langbulgarianmodel.py",
+        "requests/packages/chardet/langcyrillicmodel.py",
+        "requests/packages/chardet/langgreekmodel.py",
+        "requests/packages/chardet/langhebrewmodel.py",
+        "requests/packages/chardet/langhungarianmodel.py",
+        "requests/packages/chardet/langthaimodel.py",
+        "requests/packages/chardet/sbcharsetprober.py",
+        "requests/packages/chardet/sbcsgroupprober.py",
+        "requests/packages/chardet/universaldetector.py",
+        "requests/packages/urllib3/contrib/ntlmpool.py"
+      ],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "psf__requests-863",
+    "isolates": 41,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 164,
+    "num_files": 116,
+    "query_sha256": "d1517326a73157f10f7baad2b292c0e826124f5383d9793813ba76fc8f0a7fba",
+    "repo": "psf/requests",
+    "rewiring": [
+      {
+        "attempts": 1131,
+        "requested_swaps": 820,
+        "retained_edge_fraction": 0.1402439024390244,
+        "seed": 2026,
+        "successful_swaps": 820
+      },
+      {
+        "attempts": 1148,
+        "requested_swaps": 820,
+        "retained_edge_fraction": 0.13414634146341464,
+        "seed": 2027,
+        "successful_swaps": 820
+      },
+      {
+        "attempts": 1194,
+        "requested_swaps": 820,
+        "retained_edge_fraction": 0.16463414634146342,
+        "seed": 2028,
+        "successful_swaps": 820
+      }
+    ],
+    "snapshot_ms": 5.863999998837244,
+    "source": {
+      "commit": "a0df2cbb10419037d11d04352b3175405ab52941",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 116,
+      "repo": "psf/requests",
+      "skipped": [],
+      "source_sha256": "ed7048735a964e9fcd4c72cc820d7da6c62d93111a3cf03fbd98f2e20627eacd",
+      "tree_sha256": "fd34fdf4418db72e8b8ae6fbd4a7884a395632fb70cf23ff28df0b7dd7556298"
+    }
+  },
+  {
+    "ast_build_ms": 2337.7900830000726,
+    "base_commit": "5c1644ff85e15752f9f8721bc142bfbf975e7805",
+    "bm25_build_ms": 62.348834000658826,
+    "control_build_ms": 206.3023750015418,
+    "gold_in_degree": [
+      39
+    ],
+    "gold_out_degree": [
+      21
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-13915",
+    "isolates": 22,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 4038,
+    "num_files": 593,
+    "query_sha256": "fe2222f8d5593cb3bd7518641bd3fbd1e62c54ed4bd0f0a352d179c6ad98d887",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 30143,
+        "requested_swaps": 20190,
+        "retained_edge_fraction": 0.17904903417533433,
+        "seed": 2026,
+        "successful_swaps": 20190
+      },
+      {
+        "attempts": 30123,
+        "requested_swaps": 20190,
+        "retained_edge_fraction": 0.17409608717186725,
+        "seed": 2027,
+        "successful_swaps": 20190
+      },
+      {
+        "attempts": 30078,
+        "requested_swaps": 20190,
+        "retained_edge_fraction": 0.1775631500742942,
+        "seed": 2028,
+        "successful_swaps": 20190
+      }
+    ],
+    "snapshot_ms": 53.03733400069177,
+    "source": {
+      "commit": "5c1644ff85e15752f9f8721bc142bfbf975e7805",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 593,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/integrals/rubi/rules/binomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_algebraic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/quadratic_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/secant.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/sine.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/tangent.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/trinomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/utility_function.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/solvers/ode.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "d6aa4db56a47df25fa8435c0cd0390b367cd9605c2b93a379e13b9600d012598",
+      "tree_sha256": "8ca750a311419d0bb546f1d2fee78c315b03f7660fb6545b43e950d9e2b778b0"
+    }
+  },
+  {
+    "ast_build_ms": 892.6508749991626,
+    "base_commit": "6f73eb9d90cfec684529aab48d517e3d6449ba8c",
+    "bm25_build_ms": 21.661166998455883,
+    "control_build_ms": 136.6004999999859,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      9
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-15738",
+    "isolates": 220,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2791,
+    "num_files": 855,
+    "query_sha256": "3af3252f268bc14a34889167558358c05ce5d36c4a36c447013e9c9aeb1e7716",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17440,
+        "requested_swaps": 13955,
+        "retained_edge_fraction": 0.10462199928341097,
+        "seed": 2026,
+        "successful_swaps": 13955
+      },
+      {
+        "attempts": 17494,
+        "requested_swaps": 13955,
+        "retained_edge_fraction": 0.10748835542816194,
+        "seed": 2027,
+        "successful_swaps": 13955
+      },
+      {
+        "attempts": 17445,
+        "requested_swaps": 13955,
+        "retained_edge_fraction": 0.11572912934432103,
+        "seed": 2028,
+        "successful_swaps": 13955
+      }
+    ],
+    "snapshot_ms": 28.315125000517583,
+    "source": {
+      "commit": "6f73eb9d90cfec684529aab48d517e3d6449ba8c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 855,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "06f20cd755f66ac0781de92abbfc1bb612d77e37121494637a975137b661681b",
+      "tree_sha256": "bd0ebed2b2f23a4d4860ccc7cc8508ccf94099e51ee95d8f16e86d1518e8b0cb"
+    }
+  },
+  {
+    "ast_build_ms": 862.0964580004511,
+    "base_commit": "f9fe062de5fc0896d6bbbf3f260b5c44473b3c77",
+    "bm25_build_ms": 21.358500000133063,
+    "control_build_ms": 134.86966700111225,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-16595",
+    "isolates": 222,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2818,
+    "num_files": 859,
+    "query_sha256": "9634961aa789b58bc0e66fae12245de8b9f826e5f69b752226458f5888fe2116",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17553,
+        "requested_swaps": 14090,
+        "retained_edge_fraction": 0.10716820440028389,
+        "seed": 2026,
+        "successful_swaps": 14090
+      },
+      {
+        "attempts": 17539,
+        "requested_swaps": 14090,
+        "retained_edge_fraction": 0.11036195883605394,
+        "seed": 2027,
+        "successful_swaps": 14090
+      },
+      {
+        "attempts": 17611,
+        "requested_swaps": 14090,
+        "retained_edge_fraction": 0.10858765081618169,
+        "seed": 2028,
+        "successful_swaps": 14090
+      }
+    ],
+    "snapshot_ms": 29.681583000638057,
+    "source": {
+      "commit": "f9fe062de5fc0896d6bbbf3f260b5c44473b3c77",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 859,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "934b9e6ae632fd564238eafed4818e443ad0e63e32de45e4389197708bd162cd",
+      "tree_sha256": "208f5e5a86f201dc8c0f70dc51651a54925b76b09b172068be50b0b4c90e5e41"
+    }
+  },
+  {
+    "ast_build_ms": 275.04508399943006,
+    "base_commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+    "bm25_build_ms": 5.88900000002468,
+    "control_build_ms": 31.986334000976058,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      1
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "pylint-dev__pylint-7114",
+    "isolates": 7,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 580,
+    "num_files": 180,
+    "query_sha256": "342901085ab1d60b45a820d689e8f1bc107a622fe3f7c89ab03492b77ff769d8",
+    "repo": "pylint-dev/pylint",
+    "rewiring": [
+      {
+        "attempts": 4851,
+        "requested_swaps": 2900,
+        "retained_edge_fraction": 0.2293103448275862,
+        "seed": 2026,
+        "successful_swaps": 2900
+      },
+      {
+        "attempts": 4822,
+        "requested_swaps": 2900,
+        "retained_edge_fraction": 0.2396551724137931,
+        "seed": 2027,
+        "successful_swaps": 2900
+      },
+      {
+        "attempts": 4958,
+        "requested_swaps": 2900,
+        "retained_edge_fraction": 0.19655172413793104,
+        "seed": 2028,
+        "successful_swaps": 2900
+      }
+    ],
+    "snapshot_ms": 9.628750000047148,
+    "source": {
+      "commit": "397c1703e8ae6349d33f7b99f45b2ccaf581e666",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 180,
+      "repo": "pylint-dev/pylint",
+      "skipped": [],
+      "source_sha256": "4f95d8d640d0574028fbe0d3d35da2a0165738d4f830b419c712a93c41316094",
+      "tree_sha256": "5356874e71cd761787929da203dc78e1c20d54677dc27e8d911002ec8ba347b1"
+    }
+  },
+  {
+    "ast_build_ms": 422.5214580001193,
+    "base_commit": "2c2335bbb8af99fa132e1573bbf45dc91584d5a2",
+    "bm25_build_ms": 7.610042001033435,
+    "control_build_ms": 77.09579199945438,
+    "gold_in_degree": [
+      5
+    ],
+    "gold_out_degree": [
+      14
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-8282",
+    "isolates": 8,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 767,
+        "start": 749,
+        "text": "sphinx.ext.autodoc"
+      }
+    ],
+    "num_edges": 1009,
+    "num_files": 180,
+    "query_sha256": "f28cd01e578358941b1d9bc5539c0bad941b354b4a2a4fe0f23991cddad85849",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13262,
+        "requested_swaps": 5045,
+        "retained_edge_fraction": 0.3607532210109019,
+        "seed": 2026,
+        "successful_swaps": 5045
+      },
+      {
+        "attempts": 13158,
+        "requested_swaps": 5045,
+        "retained_edge_fraction": 0.3726461843409316,
+        "seed": 2027,
+        "successful_swaps": 5045
+      },
+      {
+        "attempts": 13191,
+        "requested_swaps": 5045,
+        "retained_edge_fraction": 0.3785926660059465,
+        "seed": 2028,
+        "successful_swaps": 5045
+      }
+    ],
+    "snapshot_ms": 11.9454579999001,
+    "source": {
+      "commit": "2c2335bbb8af99fa132e1573bbf45dc91584d5a2",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 180,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "8ca360a59b27675905788c530288dd88ac7cfdbb42f0e7267c048e3e05baf916",
+      "tree_sha256": "bccf0d49c49b875b04f78dd0ad941fbc01bffa75d4ee7cd1d6f3fddb70271131"
+    }
+  },
+  {
+    "ast_build_ms": 822.5259169994388,
+    "base_commit": "7c4f3965098baad2396e24501e09237425a7bd6f",
+    "bm25_build_ms": 21.178791001148056,
+    "control_build_ms": 141.9928750001418,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-15347",
+    "isolates": 220,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 591,
+        "start": 553,
+        "text": "django.contrib.messages.storage.cookie"
+      }
+    ],
+    "num_edges": 2750,
+    "num_files": 854,
+    "query_sha256": "5370589f1c868ff26fda4d4e9a0b44eee3e4021db7065c5d26a35deeda54895e",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17111,
+        "requested_swaps": 13750,
+        "retained_edge_fraction": 0.10327272727272727,
+        "seed": 2026,
+        "successful_swaps": 13750
+      },
+      {
+        "attempts": 17057,
+        "requested_swaps": 13750,
+        "retained_edge_fraction": 0.10254545454545455,
+        "seed": 2027,
+        "successful_swaps": 13750
+      },
+      {
+        "attempts": 17063,
+        "requested_swaps": 13750,
+        "retained_edge_fraction": 0.11636363636363636,
+        "seed": 2028,
+        "successful_swaps": 13750
+      }
+    ],
+    "snapshot_ms": 24.613082998257596,
+    "source": {
+      "commit": "7c4f3965098baad2396e24501e09237425a7bd6f",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 854,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "f64b277a8ace59c1b6b59df7e1edc1ce52156ec1ca279a39835eea9a83efcda3",
+      "tree_sha256": "d511a41da8ff8ffb1aede655ac2e9c4b9d7d65b25cbcdc1564c259e57477f3f6"
+    }
+  },
+  {
+    "ast_build_ms": 879.8974580004142,
+    "base_commit": "8d160f154f0240a423e83ffe0690e472f837373c",
+    "bm25_build_ms": 22.336250000080327,
+    "control_build_ms": 146.75054200051818,
+    "gold_in_degree": [
+      33
+    ],
+    "gold_out_degree": [
+      8
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-15781",
+    "isolates": 220,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2796,
+    "num_files": 855,
+    "query_sha256": "0f0a276d3b06bdc954edfe66424c4ee3d621e378bbb0306f50520970e2646dc5",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17554,
+        "requested_swaps": 13980,
+        "retained_edge_fraction": 0.10908440629470673,
+        "seed": 2026,
+        "successful_swaps": 13980
+      },
+      {
+        "attempts": 17388,
+        "requested_swaps": 13980,
+        "retained_edge_fraction": 0.10121602288984263,
+        "seed": 2027,
+        "successful_swaps": 13980
+      },
+      {
+        "attempts": 17488,
+        "requested_swaps": 13980,
+        "retained_edge_fraction": 0.11194563662374821,
+        "seed": 2028,
+        "successful_swaps": 13980
+      }
+    ],
+    "snapshot_ms": 26.707625000199187,
+    "source": {
+      "commit": "8d160f154f0240a423e83ffe0690e472f837373c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 855,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "4d0c9661101f87f5918527cc11a06ba383f52c934717933a186797503225ff79",
+      "tree_sha256": "be8cb2135ea3b6deedf87c93d7065fd4f02131c12b0fca17d20df21189b79b11"
+    }
+  },
+  {
+    "ast_build_ms": 836.928541000816,
+    "base_commit": "a59de6e89e8dc1f3e71c9a5a5bbceb373ea5247e",
+    "bm25_build_ms": 31.676958000389277,
+    "control_build_ms": 131.95358399934776,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      12
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-13033",
+    "isolates": 213,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2642,
+    "num_files": 838,
+    "query_sha256": "9da64b2f9c703ec1bd14a565ff384b69d1932e062d68e8e911a9e951f85f5a90",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16441,
+        "requested_swaps": 13210,
+        "retained_edge_fraction": 0.10484481453444361,
+        "seed": 2026,
+        "successful_swaps": 13210
+      },
+      {
+        "attempts": 16418,
+        "requested_swaps": 13210,
+        "retained_edge_fraction": 0.11203633610900833,
+        "seed": 2027,
+        "successful_swaps": 13210
+      },
+      {
+        "attempts": 16347,
+        "requested_swaps": 13210,
+        "retained_edge_fraction": 0.10825132475397427,
+        "seed": 2028,
+        "successful_swaps": 13210
+      }
+    ],
+    "snapshot_ms": 23.86691700121446,
+    "source": {
+      "commit": "a59de6e89e8dc1f3e71c9a5a5bbceb373ea5247e",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 838,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "3e66f62eac7ad7bc4dacdc5d7eea9de027a56df227e126ed5ac44699904b8870",
+      "tree_sha256": "99615c939ec9f70a14d665c4de09e0da9008bb68ac51188b9dbd283b1d0c478e"
+    }
+  },
+  {
+    "ast_build_ms": 619.272624999212,
+    "base_commit": "df7dd8391148a873d157328a4f0328528a0c4ed9",
+    "bm25_build_ms": 37.74462500041409,
+    "control_build_ms": 56.61241699999664,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      10
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "scikit-learn__scikit-learn-14092",
+    "isolates": 10,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 887,
+    "num_files": 209,
+    "query_sha256": "c231d8b6a125be310cc8b4679d9a58309550f51632196c423e75c6dae6d1b611",
+    "repo": "scikit-learn/scikit-learn",
+    "rewiring": [
+      {
+        "attempts": 9695,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.32919954904171367,
+        "seed": 2026,
+        "successful_swaps": 4435
+      },
+      {
+        "attempts": 9696,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.322435174746336,
+        "seed": 2027,
+        "successful_swaps": 4435
+      },
+      {
+        "attempts": 9843,
+        "requested_swaps": 4435,
+        "retained_edge_fraction": 0.34047350620067646,
+        "seed": 2028,
+        "successful_swaps": 4435
+      }
+    ],
+    "snapshot_ms": 23.183999999673688,
+    "source": {
+      "commit": "df7dd8391148a873d157328a4f0328528a0c4ed9",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 209,
+      "repo": "scikit-learn/scikit-learn",
+      "skipped": [],
+      "source_sha256": "9960222bdef1270824b9f7d71d5e16cca76a6936751ac58c55495103040842eb",
+      "tree_sha256": "cd4886a742882c627ac98558ebe51f9d5886e32491a623c2c5e554496b571494"
+    }
+  },
+  {
+    "ast_build_ms": 881.1003749997326,
+    "base_commit": "6df9398cce063874ae4d59db126d4adacb0fa8d3",
+    "bm25_build_ms": 30.702500000188593,
+    "control_build_ms": 135.4822499997681,
+    "gold_in_degree": [
+      4
+    ],
+    "gold_out_degree": [
+      8
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-16041",
+    "isolates": 222,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2804,
+    "num_files": 857,
+    "query_sha256": "b978b40baeda7843f5e01540928e4c1a2b195f4f3268163e03dac937c4954235",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 17585,
+        "requested_swaps": 14020,
+        "retained_edge_fraction": 0.10520684736091299,
+        "seed": 2026,
+        "successful_swaps": 14020
+      },
+      {
+        "attempts": 17506,
+        "requested_swaps": 14020,
+        "retained_edge_fraction": 0.10021398002853067,
+        "seed": 2027,
+        "successful_swaps": 14020
+      },
+      {
+        "attempts": 17459,
+        "requested_swaps": 14020,
+        "retained_edge_fraction": 0.10485021398002853,
+        "seed": 2028,
+        "successful_swaps": 14020
+      }
+    ],
+    "snapshot_ms": 27.10766699965461,
+    "source": {
+      "commit": "6df9398cce063874ae4d59db126d4adacb0fa8d3",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 857,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "834a8acec8342b525db911c51dc769aa582b94dbfda1661e7b403f2c088b0a7e",
+      "tree_sha256": "77f83ff119e6e2253effddb0d3c335b2562ff0e2eb65a9419508ce8a00f628bc"
+    }
+  },
+  {
+    "ast_build_ms": 768.7772090012004,
+    "base_commit": "19fc6376ce67d01ca37a91ef2f55ef769f50513a",
+    "bm25_build_ms": 29.01491600096051,
+    "control_build_ms": 123.16370900043694,
+    "gold_in_degree": [
+      7
+    ],
+    "gold_out_degree": [
+      4
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-11179",
+    "isolates": 197,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 239,
+        "start": 214,
+        "text": "Django.db.models.deletion"
+      }
+    ],
+    "num_edges": 2557,
+    "num_files": 816,
+    "query_sha256": "9f6cb755dfdc0db5536cba40dae20c41d4750fd6a87acc18677c929ca896d136",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 15749,
+        "requested_swaps": 12785,
+        "retained_edge_fraction": 0.09816190848650763,
+        "seed": 2026,
+        "successful_swaps": 12785
+      },
+      {
+        "attempts": 15639,
+        "requested_swaps": 12785,
+        "retained_edge_fraction": 0.1020727414939382,
+        "seed": 2027,
+        "successful_swaps": 12785
+      },
+      {
+        "attempts": 15766,
+        "requested_swaps": 12785,
+        "retained_edge_fraction": 0.10246382479468126,
+        "seed": 2028,
+        "successful_swaps": 12785
+      }
+    ],
+    "snapshot_ms": 23.170291999122128,
+    "source": {
+      "commit": "19fc6376ce67d01ca37a91ef2f55ef769f50513a",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 816,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "2c3cf771b60004fb9bc633362b81e348ed240e17ab2ac7309fef31b0908c828f",
+      "tree_sha256": "1b4b3a4e892b461f6ec47232ba7025164d623423c8485554fc710a6101b454bb"
+    }
+  },
+  {
+    "ast_build_ms": 862.9209999999148,
+    "base_commit": "29a86636a9c45ab5ac4d80ac76eaee497f460dce",
+    "bm25_build_ms": 30.261500000051456,
+    "control_build_ms": 57.1284999987256,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      9
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "matplotlib__matplotlib-23562",
+    "isolates": 18,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 737,
+        "start": 732,
+        "text": "art3d"
+      }
+    ],
+    "num_edges": 959,
+    "num_files": 238,
+    "query_sha256": "68263cc1318505f1c918734a4f7a07788f0da1b83cb25123054b7e031ed08cab",
+    "repo": "matplotlib/matplotlib",
+    "rewiring": [
+      {
+        "attempts": 9485,
+        "requested_swaps": 4795,
+        "retained_edge_fraction": 0.30552659019812306,
+        "seed": 2026,
+        "successful_swaps": 4795
+      },
+      {
+        "attempts": 9736,
+        "requested_swaps": 4795,
+        "retained_edge_fraction": 0.29927007299270075,
+        "seed": 2027,
+        "successful_swaps": 4795
+      },
+      {
+        "attempts": 9551,
+        "requested_swaps": 4795,
+        "retained_edge_fraction": 0.28779979144942647,
+        "seed": 2028,
+        "successful_swaps": 4795
+      }
+    ],
+    "snapshot_ms": 25.646415999290184,
+    "source": {
+      "commit": "29a86636a9c45ab5ac4d80ac76eaee497f460dce",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 238,
+      "repo": "matplotlib/matplotlib",
+      "skipped": [
+        {
+          "path": "lib/matplotlib/axes/_axes.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "2a9564c9233f7d12d49f67775d4b6be496ef223f13d9635d90e200dfa8a62d2b",
+      "tree_sha256": "a3d448bccfc5506622ee8508b20bf45768fd65db86cc4f069f56b9f2fc57aa3f"
+    }
+  },
+  {
+    "ast_build_ms": 194.31529199937358,
+    "base_commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+    "bm25_build_ms": 2.689834000193514,
+    "control_build_ms": 9.862999999313615,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      12
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "psf__requests-2148",
+    "isolates": 3,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 500,
+        "start": 482,
+        "text": "requests/models.py"
+      },
+      {
+        "end": 660,
+        "start": 642,
+        "text": "requests/models.py"
+      },
+      {
+        "end": 881,
+        "start": 863,
+        "text": "requests/models.py"
+      }
+    ],
+    "num_edges": 205,
+    "num_files": 79,
+    "query_sha256": "68364fcb5e168c51619a74fe0026d874a7f62dda4c796e61c9f9a9c808c56a6d",
+    "repo": "psf/requests",
+    "rewiring": [
+      {
+        "attempts": 1424,
+        "requested_swaps": 1025,
+        "retained_edge_fraction": 0.12682926829268293,
+        "seed": 2026,
+        "successful_swaps": 1025
+      },
+      {
+        "attempts": 1417,
+        "requested_swaps": 1025,
+        "retained_edge_fraction": 0.15121951219512195,
+        "seed": 2027,
+        "successful_swaps": 1025
+      },
+      {
+        "attempts": 1390,
+        "requested_swaps": 1025,
+        "retained_edge_fraction": 0.14146341463414633,
+        "seed": 2028,
+        "successful_swaps": 1025
+      }
+    ],
+    "snapshot_ms": 4.109707999305101,
+    "source": {
+      "commit": "fe693c492242ae532211e0c173324f09ca8cf227",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 79,
+      "repo": "psf/requests",
+      "skipped": [],
+      "source_sha256": "58ce6d85b96cacc6f9c6a9ba880f6083cef5f2129e43e4ffbd02b88c49b22b77",
+      "tree_sha256": "efe060dfd235c9d21cc32c31e63e5f4b4e40191a2a2fbd989f953b071032ffec"
+    }
+  },
+  {
+    "ast_build_ms": 755.5674160012131,
+    "base_commit": "bceadd2788dc2dad53eba0caae172bd8522fd483",
+    "bm25_build_ms": 28.006167000057758,
+    "control_build_ms": 124.44320900067396,
+    "gold_in_degree": [
+      22
+    ],
+    "gold_out_degree": [
+      19
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-10924",
+    "isolates": 197,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2564,
+    "num_files": 816,
+    "query_sha256": "311f3ac50765782a0c786b04adbfc95cc87ac8c71c79c83d937de711aea8b3a9",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 15796,
+        "requested_swaps": 12820,
+        "retained_edge_fraction": 0.09243369734789392,
+        "seed": 2026,
+        "successful_swaps": 12820
+      },
+      {
+        "attempts": 15784,
+        "requested_swaps": 12820,
+        "retained_edge_fraction": 0.10101404056162247,
+        "seed": 2027,
+        "successful_swaps": 12820
+      },
+      {
+        "attempts": 15783,
+        "requested_swaps": 12820,
+        "retained_edge_fraction": 0.10725429017160687,
+        "seed": 2028,
+        "successful_swaps": 12820
+      }
+    ],
+    "snapshot_ms": 22.921625000890344,
+    "source": {
+      "commit": "bceadd2788dc2dad53eba0caae172bd8522fd483",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 816,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "09f3c8e7821ee61ad2afe52bff67cb7231bbf78120d15f3f3934acf6ab9488e1",
+      "tree_sha256": "25f9b475789f52221ec44b146eb57e6e8cb1941946bbebd4b89dbdb3b7dcd6f2"
+    }
+  },
+  {
+    "ast_build_ms": 880.8399169993208,
+    "base_commit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+    "bm25_build_ms": 32.442166999317124,
+    "control_build_ms": 58.042333999765106,
+    "gold_in_degree": [
+      7
+    ],
+    "gold_out_degree": [
+      11
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "matplotlib__matplotlib-26011",
+    "isolates": 18,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 39,
+        "start": 35,
+        "text": "axis"
+      },
+      {
+        "end": 267,
+        "start": 263,
+        "text": "axis"
+      },
+      {
+        "end": 394,
+        "start": 390,
+        "text": "axis"
+      },
+      {
+        "end": 455,
+        "start": 451,
+        "text": "axis"
+      },
+      {
+        "end": 1086,
+        "start": 1082,
+        "text": "axis"
+      },
+      {
+        "end": 1293,
+        "start": 1289,
+        "text": "axis"
+      }
+    ],
+    "num_edges": 971,
+    "num_files": 249,
+    "query_sha256": "3458a32b81335fb9fa0d8fb51443fa3f9276f8d67f8805ad5f16d1012f21efad",
+    "repo": "matplotlib/matplotlib",
+    "rewiring": [
+      {
+        "attempts": 9477,
+        "requested_swaps": 4855,
+        "retained_edge_fraction": 0.2708547888774459,
+        "seed": 2026,
+        "successful_swaps": 4855
+      },
+      {
+        "attempts": 9627,
+        "requested_swaps": 4855,
+        "retained_edge_fraction": 0.29145211122554066,
+        "seed": 2027,
+        "successful_swaps": 4855
+      },
+      {
+        "attempts": 9605,
+        "requested_swaps": 4855,
+        "retained_edge_fraction": 0.2842430484037075,
+        "seed": 2028,
+        "successful_swaps": 4855
+      }
+    ],
+    "snapshot_ms": 25.18758299993351,
+    "source": {
+      "commit": "00afcc0c6d4d2e4390338127f05b8f4fdb4e7087",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 249,
+      "repo": "matplotlib/matplotlib",
+      "skipped": [
+        {
+          "path": "lib/matplotlib/axes/_axes.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "002c4dd648f581a1ff17da5fd4b5b20d5f6701123902e85b5c7d7a8301e0c541",
+      "tree_sha256": "d47be14a89181b488079ad0ad49103470c795fd2511edd8d7ca4e0c2864c1c6f"
+    }
+  },
+  {
+    "ast_build_ms": 843.0976659983571,
+    "base_commit": "c5e373d48cbdd923575956fed477b63d66d9603f",
+    "bm25_build_ms": 30.911416999515495,
+    "control_build_ms": 128.88112499967974,
+    "gold_in_degree": [
+      22
+    ],
+    "gold_out_degree": [
+      19
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-12284",
+    "isolates": 201,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2631,
+    "num_files": 823,
+    "query_sha256": "a238ac8bff362a5121ffdbee1742ed469f421f08335fd419b592784d245b191a",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16219,
+        "requested_swaps": 13155,
+        "retained_edge_fraction": 0.10414291144051692,
+        "seed": 2026,
+        "successful_swaps": 13155
+      },
+      {
+        "attempts": 16132,
+        "requested_swaps": 13155,
+        "retained_edge_fraction": 0.10224249334853668,
+        "seed": 2027,
+        "successful_swaps": 13155
+      },
+      {
+        "attempts": 16091,
+        "requested_swaps": 13155,
+        "retained_edge_fraction": 0.0999619916381604,
+        "seed": 2028,
+        "successful_swaps": 13155
+      }
+    ],
+    "snapshot_ms": 24.145125000359258,
+    "source": {
+      "commit": "c5e373d48cbdd923575956fed477b63d66d9603f",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 823,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "ec92d00045d03636d7834fd55d276f2b4bdfbe39bebb5cc03453206511bbc3c5",
+      "tree_sha256": "478f1476b250c07c4ad9e2c9e423b80a3a604def9adf5363e9f020af20c36283"
+    }
+  },
+  {
+    "ast_build_ms": 434.46737499834853,
+    "base_commit": "4ec6cbe341fd84468c448e20082c778043bbea4b",
+    "bm25_build_ms": 7.791208001435734,
+    "control_build_ms": 72.2803330008901,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      7
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-7975",
+    "isolates": 8,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 1007,
+    "num_files": 180,
+    "query_sha256": "48d441d80889121bc2d717aec3f1ee17d3e5475d438329d7ff8bd29d9455b15d",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13382,
+        "requested_swaps": 5035,
+        "retained_edge_fraction": 0.37636544190665344,
+        "seed": 2026,
+        "successful_swaps": 5035
+      },
+      {
+        "attempts": 12843,
+        "requested_swaps": 5035,
+        "retained_edge_fraction": 0.3714001986097319,
+        "seed": 2027,
+        "successful_swaps": 5035
+      },
+      {
+        "attempts": 13095,
+        "requested_swaps": 5035,
+        "retained_edge_fraction": 0.3733862959285005,
+        "seed": 2028,
+        "successful_swaps": 5035
+      }
+    ],
+    "snapshot_ms": 11.94204200146487,
+    "source": {
+      "commit": "4ec6cbe341fd84468c448e20082c778043bbea4b",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 180,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "a3b096af5187b54b742712a79a0edac588572a2148a195fbc31703996772068e",
+      "tree_sha256": "d206838ae75684d9a043ffa373a1b043df65f75975a8b647fd92b5a2de0a0484"
+    }
+  },
+  {
+    "ast_build_ms": 437.1949169999425,
+    "base_commit": "c087d717f6ed183dd422359bf91210dc59689d63",
+    "bm25_build_ms": 8.52479199966183,
+    "control_build_ms": 79.07937500021944,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      5
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-7738",
+    "isolates": 8,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 998,
+    "num_files": 180,
+    "query_sha256": "3e286b02b779f75f99618aaf423d634468eb34864fb59670abc504ae9479bb23",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13102,
+        "requested_swaps": 4990,
+        "retained_edge_fraction": 0.37374749498997994,
+        "seed": 2026,
+        "successful_swaps": 4990
+      },
+      {
+        "attempts": 13047,
+        "requested_swaps": 4990,
+        "retained_edge_fraction": 0.36773547094188375,
+        "seed": 2027,
+        "successful_swaps": 4990
+      },
+      {
+        "attempts": 12969,
+        "requested_swaps": 4990,
+        "retained_edge_fraction": 0.3807615230460922,
+        "seed": 2028,
+        "successful_swaps": 4990
+      }
+    ],
+    "snapshot_ms": 12.166374999651453,
+    "source": {
+      "commit": "c087d717f6ed183dd422359bf91210dc59689d63",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 180,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "13bc1e875f6c1c983b3f91abdba0f060f06969ee050b375247dbacfd844f228b",
+      "tree_sha256": "825cea87ebe9493d7888d37137752d7c5f6a711daecf6e8069e0d6f7596faa78"
+    }
+  },
+  {
+    "ast_build_ms": 443.15075000122306,
+    "base_commit": "332d80ba8433aea41c3709fa52737ede4405072b",
+    "bm25_build_ms": 16.204042000026675,
+    "control_build_ms": 75.58025000071211,
+    "gold_in_degree": [
+      20
+    ],
+    "gold_out_degree": [
+      1
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-8627",
+    "isolates": 8,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 1019,
+    "num_files": 181,
+    "query_sha256": "d08f16dc5e84539eb5bc270ed17d993f17488b63fa2d388f9216a849758e2c71",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13290,
+        "requested_swaps": 5095,
+        "retained_edge_fraction": 0.3591756624141315,
+        "seed": 2026,
+        "successful_swaps": 5095
+      },
+      {
+        "attempts": 13157,
+        "requested_swaps": 5095,
+        "retained_edge_fraction": 0.3562315996074583,
+        "seed": 2027,
+        "successful_swaps": 5095
+      },
+      {
+        "attempts": 13293,
+        "requested_swaps": 5095,
+        "retained_edge_fraction": 0.35819430814524045,
+        "seed": 2028,
+        "successful_swaps": 5095
+      }
+    ],
+    "snapshot_ms": 13.502124998922227,
+    "source": {
+      "commit": "332d80ba8433aea41c3709fa52737ede4405072b",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 181,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "3045a41610ee5a37d0a7ce6f8b25e9e1d82fc574eb679b7ef1059a170392c684",
+      "tree_sha256": "b3d552807c55c3b145fb66408f368213e08bdfc26ccf169e1d8033392dcdfc3f"
+    }
+  },
+  {
+    "ast_build_ms": 3364.175624999916,
+    "base_commit": "9da013ad0ddc3cd96fe505f2e47c63e372040916",
+    "bm25_build_ms": 72.31875000070431,
+    "control_build_ms": 245.13029199988523,
+    "gold_in_degree": [
+      25
+    ],
+    "gold_out_degree": [
+      22
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-18087",
+    "isolates": 33,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 4744,
+    "num_files": 697,
+    "query_sha256": "ef91a6aa02a71ce2cc641835d084e581d6c0687636cc256d33cc91c14f8890be",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 34878,
+        "requested_swaps": 23720,
+        "retained_edge_fraction": 0.17516863406408095,
+        "seed": 2026,
+        "successful_swaps": 23720
+      },
+      {
+        "attempts": 35000,
+        "requested_swaps": 23720,
+        "retained_edge_fraction": 0.17095278246205733,
+        "seed": 2027,
+        "successful_swaps": 23720
+      },
+      {
+        "attempts": 35413,
+        "requested_swaps": 23720,
+        "retained_edge_fraction": 0.17327150084317033,
+        "seed": 2028,
+        "successful_swaps": 23720
+      }
+    ],
+    "snapshot_ms": 75.32070799970825,
+    "source": {
+      "commit": "9da013ad0ddc3cd96fe505f2e47c63e372040916",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 697,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/integrals/rubi/constraints.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/quadratic_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/secant.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/sine.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/tangent.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/utility_function.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/solvers/ode.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "399c06aedef189736ac5b6a95f721639c55a40ab8db05edbed9f86dbb8b0d4f5",
+      "tree_sha256": "2381c78c5d35ef79aa361ee313e624688f0d479ace45b44fba66bb7618cf0a69"
+    }
+  },
+  {
+    "ast_build_ms": 858.8334579999355,
+    "base_commit": "3f140dde51c0fe6c350acb7727bbe489a99f0632",
+    "bm25_build_ms": 21.10875000107626,
+    "control_build_ms": 130.43308300075296,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      8
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-13757",
+    "isolates": 220,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2684,
+    "num_files": 850,
+    "query_sha256": "1d857142c46abd6197a27eabaddf543aedff217c5c34746c2309b68394a56de9",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16696,
+        "requested_swaps": 13420,
+        "retained_edge_fraction": 0.11512667660208643,
+        "seed": 2026,
+        "successful_swaps": 13420
+      },
+      {
+        "attempts": 16587,
+        "requested_swaps": 13420,
+        "retained_edge_fraction": 0.10953800298062594,
+        "seed": 2027,
+        "successful_swaps": 13420
+      },
+      {
+        "attempts": 16535,
+        "requested_swaps": 13420,
+        "retained_edge_fraction": 0.10991058122205663,
+        "seed": 2028,
+        "successful_swaps": 13420
+      }
+    ],
+    "snapshot_ms": 23.856832998717437,
+    "source": {
+      "commit": "3f140dde51c0fe6c350acb7727bbe489a99f0632",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 850,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "5f052aff741116c8ee920e84727ccdefca6d8530133f6a531c6011a440208d41",
+      "tree_sha256": "041007ca57e4b448ae5def772a00420099f73f440ce2caaf0e4eaa8bb7b26809"
+    }
+  },
+  {
+    "ast_build_ms": 444.1900000001624,
+    "base_commit": "b19bce971e82f2497d67fdacdeca8db08ae0ba56",
+    "bm25_build_ms": 15.695666999818059,
+    "control_build_ms": 70.10766699931992,
+    "gold_in_degree": [
+      6
+    ],
+    "gold_out_degree": [
+      15
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-8595",
+    "isolates": 8,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 626,
+        "start": 608,
+        "text": "sphinx.ext.autodoc"
+      }
+    ],
+    "num_edges": 1017,
+    "num_files": 181,
+    "query_sha256": "f5549e64af66510e584758f04371935b8c6c3a5fec4fda812b8571a7bd733be4",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13286,
+        "requested_swaps": 5085,
+        "retained_edge_fraction": 0.3638151425762045,
+        "seed": 2026,
+        "successful_swaps": 5085
+      },
+      {
+        "attempts": 13023,
+        "requested_swaps": 5085,
+        "retained_edge_fraction": 0.3854473942969518,
+        "seed": 2027,
+        "successful_swaps": 5085
+      },
+      {
+        "attempts": 13374,
+        "requested_swaps": 5085,
+        "retained_edge_fraction": 0.3608652900688299,
+        "seed": 2028,
+        "successful_swaps": 5085
+      }
+    ],
+    "snapshot_ms": 13.094083000396495,
+    "source": {
+      "commit": "b19bce971e82f2497d67fdacdeca8db08ae0ba56",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 181,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "af3183e5beb14da3b8815d7591217c914fdc20a219cb0d4f4cb5268d22881784",
+      "tree_sha256": "71166796d884665b8793da1404ee64612141db6749ffcb63788459d2283d58b2"
+    }
+  },
+  {
+    "ast_build_ms": 771.2901669983694,
+    "base_commit": "84633905273fc916e3d17883810d9969c03f73c2",
+    "bm25_build_ms": 20.67420900129946,
+    "control_build_ms": 136.407166999561,
+    "gold_in_degree": [
+      22
+    ],
+    "gold_out_degree": [
+      19
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-11999",
+    "isolates": 197,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2630,
+    "num_files": 820,
+    "query_sha256": "5c317d46980d58d2ca75a9fb2c1af025e27357abd4dcd5ea37d4b2dcd8bcd63c",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16254,
+        "requested_swaps": 13150,
+        "retained_edge_fraction": 0.10608365019011406,
+        "seed": 2026,
+        "successful_swaps": 13150
+      },
+      {
+        "attempts": 16184,
+        "requested_swaps": 13150,
+        "retained_edge_fraction": 0.09771863117870723,
+        "seed": 2027,
+        "successful_swaps": 13150
+      },
+      {
+        "attempts": 16178,
+        "requested_swaps": 13150,
+        "retained_edge_fraction": 0.09961977186311786,
+        "seed": 2028,
+        "successful_swaps": 13150
+      }
+    ],
+    "snapshot_ms": 24.091375000352855,
+    "source": {
+      "commit": "84633905273fc916e3d17883810d9969c03f73c2",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 820,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "7eebdc5cd89263a4be90af1145a8e1b6c8e260678da3e4191a55df7fed0f03b1",
+      "tree_sha256": "dfea8da35042f55dbca81b549b6623d57751b3b3707398e95e217a554de7e7a4"
+    }
+  },
+  {
+    "ast_build_ms": 2265.5572080002457,
+    "base_commit": "4da0b64558e9551a11a99bccc63557ba34f50c58",
+    "bm25_build_ms": 51.3438749985653,
+    "control_build_ms": 207.26920900051482,
+    "gold_in_degree": [
+      78
+    ],
+    "gold_out_degree": [
+      23
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-13895",
+    "isolates": 22,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 4036,
+    "num_files": 593,
+    "query_sha256": "3fcc14a8c1b76702d094aed807ceca9af17cc90787a060c9f819702b91536d94",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 29809,
+        "requested_swaps": 20180,
+        "retained_edge_fraction": 0.17814667988107036,
+        "seed": 2026,
+        "successful_swaps": 20180
+      },
+      {
+        "attempts": 30222,
+        "requested_swaps": 20180,
+        "retained_edge_fraction": 0.17814667988107036,
+        "seed": 2027,
+        "successful_swaps": 20180
+      },
+      {
+        "attempts": 30127,
+        "requested_swaps": 20180,
+        "retained_edge_fraction": 0.17393458870168485,
+        "seed": 2028,
+        "successful_swaps": 20180
+      }
+    ],
+    "snapshot_ms": 51.63450000145531,
+    "source": {
+      "commit": "4da0b64558e9551a11a99bccc63557ba34f50c58",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 593,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/integrals/rubi/rules/binomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_algebraic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/quadratic_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/secant.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/sine.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/tangent.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/trinomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/utility_function.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/solvers/ode.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "60aec90bcadff77dbe1006304d94ac70f8835428e5742025d1d60bd9fd27b6bc",
+      "tree_sha256": "93ebaf68ef2a8969be9619340dfd8f293946a1f0d9629860168bb037970ba9b0"
+    }
+  },
+  {
+    "ast_build_ms": 833.5523340010695,
+    "base_commit": "1710cdbe79c90665046034fe1700933d038d90ad",
+    "bm25_build_ms": 20.99958299913851,
+    "control_build_ms": 129.45004199900723,
+    "gold_in_degree": [
+      18
+    ],
+    "gold_out_degree": [
+      4
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-14016",
+    "isolates": 218,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2674,
+    "num_files": 849,
+    "query_sha256": "21226ba4f63609002baa91691d3f8adf826911ab2752c27ffc2fa3d37c99d9a4",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16585,
+        "requested_swaps": 13370,
+        "retained_edge_fraction": 0.11219147344801796,
+        "seed": 2026,
+        "successful_swaps": 13370
+      },
+      {
+        "attempts": 16572,
+        "requested_swaps": 13370,
+        "retained_edge_fraction": 0.1005983545250561,
+        "seed": 2027,
+        "successful_swaps": 13370
+      },
+      {
+        "attempts": 16518,
+        "requested_swaps": 13370,
+        "retained_edge_fraction": 0.09985041136873597,
+        "seed": 2028,
+        "successful_swaps": 13370
+      }
+    ],
+    "snapshot_ms": 23.81420799974876,
+    "source": {
+      "commit": "1710cdbe79c90665046034fe1700933d038d90ad",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 849,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "37e96d9b53f32028b222d3a541234de35492bf45e7e05c98c38631b798a31c95",
+      "tree_sha256": "849c63317b7775be7004be58e639a057248602f5c87600ac51a2a2e09e2a997e"
+    }
+  },
+  {
+    "ast_build_ms": 775.0337500001478,
+    "base_commit": "65e86948b80262574058a94ccaae3a9b59c3faea",
+    "bm25_build_ms": 29.30249999917578,
+    "control_build_ms": 124.79933299982804,
+    "gold_in_degree": [
+      2
+    ],
+    "gold_out_degree": [
+      3
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-11630",
+    "isolates": 197,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2591,
+    "num_files": 820,
+    "query_sha256": "26449d9f96703d661798ab3badd108b2e010daa5fa2e2e5f49129899b52decd1",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 15884,
+        "requested_swaps": 12955,
+        "retained_edge_fraction": 0.10845233500578927,
+        "seed": 2026,
+        "successful_swaps": 12955
+      },
+      {
+        "attempts": 15943,
+        "requested_swaps": 12955,
+        "retained_edge_fraction": 0.10497877267464299,
+        "seed": 2027,
+        "successful_swaps": 12955
+      },
+      {
+        "attempts": 16036,
+        "requested_swaps": 12955,
+        "retained_edge_fraction": 0.1038209185642609,
+        "seed": 2028,
+        "successful_swaps": 12955
+      }
+    ],
+    "snapshot_ms": 22.585749999052496,
+    "source": {
+      "commit": "65e86948b80262574058a94ccaae3a9b59c3faea",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 820,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "07fa91a293714199bd5f6990ba536d1357033e7d541a8f3f2ffdc1eaf791cb48",
+      "tree_sha256": "886dab98b0202c014a2d5365809dc709a7d8ece5323664380163404430618e06"
+    }
+  },
+  {
+    "ast_build_ms": 798.267374999341,
+    "base_commit": "453967477e3ddae704cd739eac2449c0e13d464c",
+    "bm25_build_ms": 29.780917000607587,
+    "control_build_ms": 128.06162500055507,
+    "gold_in_degree": [
+      15
+    ],
+    "gold_out_degree": [
+      19
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-13401",
+    "isolates": 219,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 2662,
+    "num_files": 847,
+    "query_sha256": "07a5d3176edc3678b34a08f4f72789a0f7e0af6a29389b6109c5009e098762a3",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 16558,
+        "requested_swaps": 13310,
+        "retained_edge_fraction": 0.10443275732531931,
+        "seed": 2026,
+        "successful_swaps": 13310
+      },
+      {
+        "attempts": 16486,
+        "requested_swaps": 13310,
+        "retained_edge_fraction": 0.09729526671675431,
+        "seed": 2027,
+        "successful_swaps": 13310
+      },
+      {
+        "attempts": 16535,
+        "requested_swaps": 13310,
+        "retained_edge_fraction": 0.09767092411720511,
+        "seed": 2028,
+        "successful_swaps": 13310
+      }
+    ],
+    "snapshot_ms": 23.239665999426506,
+    "source": {
+      "commit": "453967477e3ddae704cd739eac2449c0e13d464c",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 847,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "34156aedad6f5312ac7327eaccde03ce5e576371afd0f6cd46205a50b3e50b61",
+      "tree_sha256": "b22e1659179767533198af70775b8f612c80c347c975e778aff5f6122e4ed252"
+    }
+  },
+  {
+    "ast_build_ms": 3801.526916999137,
+    "base_commit": "c5cef2499d6eed024b0db5c792d6ec7c53baa470",
+    "bm25_build_ms": 83.44787500027451,
+    "control_build_ms": 330.6234580013552,
+    "gold_in_degree": [
+      8
+    ],
+    "gold_out_degree": [
+      14
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-23117",
+    "isolates": 38,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 858,
+        "start": 826,
+        "text": "sympy/tensor/array/ndim_array.py"
+      },
+      {
+        "end": 1064,
+        "start": 1032,
+        "text": "sympy/tensor/array/ndim_array.py"
+      },
+      {
+        "end": 1225,
+        "start": 1193,
+        "text": "sympy/tensor/array/ndim_array.py"
+      }
+    ],
+    "num_edges": 6602,
+    "num_files": 801,
+    "query_sha256": "a206a744e832c09d34d98df2206f9e221de8d90f38956b98f053ddcc65f70463",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 47194,
+        "requested_swaps": 33010,
+        "retained_edge_fraction": 0.16328385337776433,
+        "seed": 2026,
+        "successful_swaps": 33010
+      },
+      {
+        "attempts": 47059,
+        "requested_swaps": 33010,
+        "retained_edge_fraction": 0.1638897303847319,
+        "seed": 2027,
+        "successful_swaps": 33010
+      },
+      {
+        "attempts": 47090,
+        "requested_swaps": 33010,
+        "retained_edge_fraction": 0.16843380793698878,
+        "seed": 2028,
+        "successful_swaps": 33010
+      }
+    ],
+    "snapshot_ms": 76.10791700062691,
+    "source": {
+      "commit": "c5cef2499d6eed024b0db5c792d6ec7c53baa470",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 801,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/integrals/rubi/constraints.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/quadratic_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/secant.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/sine.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/tangent.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/utility_function.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "aadf9eaf149ce8fb1a5c3dbb4ccc5c6a8e425c02b9a24c7dfadb28621765f181",
+      "tree_sha256": "14ec33e6d2556c3614714adba7906e4ca0b14f129632aa97f25f92d53f3e088d"
+    }
+  },
+  {
+    "ast_build_ms": 809.9173749997135,
+    "base_commit": "60dc957a825232fdda9138e2f8878b2ca407a7c9",
+    "bm25_build_ms": 20.624042001145426,
+    "control_build_ms": 124.65770800008613,
+    "gold_in_degree": [
+      3
+    ],
+    "gold_out_degree": [
+      7
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "django__django-11583",
+    "isolates": 197,
+    "mask_changed": true,
+    "mask_spans": [
+      {
+        "end": 1477,
+        "start": 1467,
+        "text": "autoreload"
+      },
+      {
+        "end": 1608,
+        "start": 1582,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 1779,
+        "start": 1753,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 1927,
+        "start": 1901,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2049,
+        "start": 2023,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2173,
+        "start": 2147,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2326,
+        "start": 2300,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2477,
+        "start": 2451,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2635,
+        "start": 2609,
+        "text": "django/utils/autoreload.py"
+      },
+      {
+        "end": 2830,
+        "start": 2804,
+        "text": "django/utils/autoreload.py"
+      }
+    ],
+    "num_edges": 2588,
+    "num_files": 820,
+    "query_sha256": "c33330eed3e3902994d58067e2c249bbd7ee72144321880470790e1ffaebd1e4",
+    "repo": "django/django",
+    "rewiring": [
+      {
+        "attempts": 15937,
+        "requested_swaps": 12940,
+        "retained_edge_fraction": 0.0946676970633694,
+        "seed": 2026,
+        "successful_swaps": 12940
+      },
+      {
+        "attempts": 15850,
+        "requested_swaps": 12940,
+        "retained_edge_fraction": 0.09814528593508501,
+        "seed": 2027,
+        "successful_swaps": 12940
+      },
+      {
+        "attempts": 15844,
+        "requested_swaps": 12940,
+        "retained_edge_fraction": 0.10046367851622875,
+        "seed": 2028,
+        "successful_swaps": 12940
+      }
+    ],
+    "snapshot_ms": 22.649540998827433,
+    "source": {
+      "commit": "60dc957a825232fdda9138e2f8878b2ca407a7c9",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 820,
+      "repo": "django/django",
+      "skipped": [],
+      "source_sha256": "8ddb6c369aa8722843986f5233e8a693b05ac9ad93d29de7fbccba7c7e975634",
+      "tree_sha256": "dbabcdcf33ffd13dec31843867513a65b4a3432993c1293782d11385ebe0f70a"
+    }
+  },
+  {
+    "ast_build_ms": 415.30554100063455,
+    "base_commit": "752d3285d250bbaf673cff25e83f03f247502021",
+    "bm25_build_ms": 7.563791001302889,
+    "control_build_ms": 76.7310829996859,
+    "gold_in_degree": [
+      1
+    ],
+    "gold_out_degree": [
+      16
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sphinx-doc__sphinx-7686",
+    "isolates": 8,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 997,
+    "num_files": 180,
+    "query_sha256": "8f4e0c10cbc4e3b45a474a4f07ba0545f9574f82f0789d57e59be474512bf307",
+    "repo": "sphinx-doc/sphinx",
+    "rewiring": [
+      {
+        "attempts": 13096,
+        "requested_swaps": 4985,
+        "retained_edge_fraction": 0.3691073219658977,
+        "seed": 2026,
+        "successful_swaps": 4985
+      },
+      {
+        "attempts": 12892,
+        "requested_swaps": 4985,
+        "retained_edge_fraction": 0.35807422266800404,
+        "seed": 2027,
+        "successful_swaps": 4985
+      },
+      {
+        "attempts": 12884,
+        "requested_swaps": 4985,
+        "retained_edge_fraction": 0.3650952858575727,
+        "seed": 2028,
+        "successful_swaps": 4985
+      }
+    ],
+    "snapshot_ms": 12.18574999984412,
+    "source": {
+      "commit": "752d3285d250bbaf673cff25e83f03f247502021",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 180,
+      "repo": "sphinx-doc/sphinx",
+      "skipped": [
+        {
+          "path": "sphinx/domains/cpp.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "7fc55cf80669f980a49a461da0fb5e3b4d1b8f96ee445734dcc3fcb4eeb28418",
+      "tree_sha256": "44027b9042cc98dac5e848934beae289fb1b4333771f40ee4de1f189a7896767"
+    }
+  },
+  {
+    "ast_build_ms": 2274.3978329999663,
+    "base_commit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+    "bm25_build_ms": 51.186708000386716,
+    "control_build_ms": 208.68045799943502,
+    "gold_in_degree": [
+      7
+    ],
+    "gold_out_degree": [
+      19
+    ],
+    "index": {
+      "construction": "path + module + AST names/imports/docstrings; no source snippets",
+      "parse_failures": [],
+      "text_cap": 24000,
+      "tokenizer": "camel/acronym/snake split; lowercase ASCII letters/digits; no stopwords"
+    },
+    "instance_id": "sympy__sympy-13971",
+    "isolates": 22,
+    "mask_changed": false,
+    "mask_spans": [],
+    "num_edges": 4046,
+    "num_files": 594,
+    "query_sha256": "01e4d1009db0c98dd67d36f71eb5fc7b9719671213b2e0ec4cac2653d7cb43c9",
+    "repo": "sympy/sympy",
+    "rewiring": [
+      {
+        "attempts": 30247,
+        "requested_swaps": 20230,
+        "retained_edge_fraction": 0.17474048442906576,
+        "seed": 2026,
+        "successful_swaps": 20230
+      },
+      {
+        "attempts": 30237,
+        "requested_swaps": 20230,
+        "retained_edge_fraction": 0.17375185368264953,
+        "seed": 2027,
+        "successful_swaps": 20230
+      },
+      {
+        "attempts": 30082,
+        "requested_swaps": 20230,
+        "retained_edge_fraction": 0.17449332674246168,
+        "seed": 2028,
+        "successful_swaps": 20230
+      }
+    ],
+    "snapshot_ms": 52.30687500079512,
+    "source": {
+      "commit": "84c125972ad535b2dfb245f8d311d347b45e5b8a",
+      "max_file_bytes": 250000,
+      "max_files": 20000,
+      "num_files": 594,
+      "repo": "sympy/sympy",
+      "skipped": [
+        {
+          "path": "sympy/integrals/rubi/rules/binomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_hyperbolic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/inverse_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_algebraic.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/miscellaneous_trig.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/quadratic_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/secant.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/sine.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/tangent.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/rules/trinomial_products.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/integrals/rubi/utility_function.py",
+          "reason": "symlink_or_oversize"
+        },
+        {
+          "path": "sympy/solvers/ode.py",
+          "reason": "symlink_or_oversize"
+        }
+      ],
+      "source_sha256": "deb60d0ea98bffc444c794ba0ef2aae4739e0a99c90e2b209737b1a0161fd6b9",
+      "tree_sha256": "d402c68cba28ae743866706555fe30b698a18fc1813b7e8f701f25846b341f55"
+    }
+  }
+]

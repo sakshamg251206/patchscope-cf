@@ -1,0 +1,54 @@
+{
+  "alpha": 0.5,
+  "bootstrap_replicates": 2000,
+  "candidate_budget": 100,
+  "completed": true,
+  "dependency_versions": {
+    "certifi": "2026.10.23",
+    "matplotlib": "3.10.3",
+    "networkx": "3.4.2",
+    "numpy": "2.2.6",
+    "pyarrow": "19.0.1"
+  },
+  "eligible": 23,
+  "excluded": 0,
+  "finished_at_utc": "2026-11-12T14:18:49.342149+00:00",
+  "index": "AST names/imports/docstrings + path/module; 24000 chars per file",
+  "machine": "arm64",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "protocol": "fixed a priori; no test tuning; pool-identical one-hop outgoing-import reranking",
+  "python": "3.12.4",
+  "query_repetitions": 3,
+  "repos": [
+    "marshmallow-code/marshmallow",
+    "pvlib/pvlib-python",
+    "pydicom/pydicom",
+    "pylint-dev/astroid",
+    "pyvista/pyvista",
+    "sqlfluff/sqlfluff"
+  ],
+  "requested": 23,
+  "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
+  "rewiring_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "seed": 2026,
+  "seed_budget": 20,
+  "source_code_sha256": {
+    "__init__.py": "edb0b0b4b028b9847a8d17ae7bc90931715ca01dad4f61a0f5d9b695846ab797",
+    "cli.py": "84a5cf84aa269895115b5ebca1a3bb5ac34b0aeccecf1cd76da448b4d8d77769",
+    "data.py": "45adc1bb6e7d90b22d1cf62a3fc8147060f387ca9842a0c20590cf030ccedf62",
+    "evaluate.py": "a1bf7d8682163304a07f132aa14618fcd62e95e86daec510c14753736d3667a1",
+    "graph.py": "d3e5fbb4abb1963295495bbc9c859562a7820c58202412d08896349c2201fcf2",
+    "index.py": "ddbed9f71818a2cbc88014b9fe58074c23ed996e6cfe03febc19b88a7c4f8e5b",
+    "labels.py": "02dda487dc1dc27cb40d25071690dafb00e655d9455a64fd20bd741acdc89d7c",
+    "masking.py": "025a29ffa8b2a497d1c1fea9e9ee4365407d30cd7554aabf5f209ec195785a29",
+    "report.py": "7fdd2f75f856deed8f5a59b204072fee31b1df043223cfc5389a3fe18c490db8",
+    "retrieve.py": "47387307304848f324274008ec86237c9868db8323d2f0505bdfdc0c998558ec"
+  },
+  "split": "dev",
+  "started_at_utc": "2026-11-12T14:18:44.908241+00:00",
+  "timing": "median of 3 warm lexical + median of 3 ranking times; graph prep excluded"
+}

@@ -1,0 +1,20 @@
+{
+  "alphas": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "candidate_budget": 100,
+  "note": "dev-only sensitivity; test configuration remains frozen at alpha=0.5, seeds=20",
+  "rewire_seed": 2026,
+  "seed_budgets": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "split": "dev"
+}

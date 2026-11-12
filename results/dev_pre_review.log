@@ -1,0 +1,66 @@
+[1/23] pvlib__pvlib-python-1606
+[2/23] pydicom__pydicom-901
+[3/23] pvlib__pvlib-python-1854
+<unknown>:843: SyntaxWarning: invalid escape sequence '\c'
+[4/23] pvlib__pvlib-python-1707
+[5/23] sqlfluff__sqlfluff-1763
+[6/23] sqlfluff__sqlfluff-1625
+[7/23] pvlib__pvlib-python-1072
+[8/23] pydicom__pydicom-1256
+[9/23] marshmallow-code__marshmallow-1359
+[10/23] marshmallow-code__marshmallow-1343
+[11/23] sqlfluff__sqlfluff-1517
+[12/23] pyvista__pyvista-4315
+[13/23] pydicom__pydicom-1413
+[14/23] pylint-dev__astroid-1333
+[15/23] pylint-dev__astroid-1196
+[16/23] pylint-dev__astroid-1866
+[17/23] pylint-dev__astroid-1268
+[18/23] pydicom__pydicom-1139
+[19/23] sqlfluff__sqlfluff-2419
+[20/23] sqlfluff__sqlfluff-1733
+[21/23] pylint-dev__astroid-1978
+[22/23] pydicom__pydicom-1694
+[23/23] pvlib__pvlib-python-1154
+{
+  "started_at_utc": "2026-11-12T14:14:04.993230+00:00",
+  "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
+  "split": "dev",
+  "requested": 23,
+  "seed": 2026,
+  "candidate_budget": 100,
+  "seed_budget": 20,
+  "alpha": 0.5,
+  "rewiring_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "bootstrap_replicates": 2000,
+  "query_repetitions": 3,
+  "python": "3.12.4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "protocol": "fixed a priori; no test tuning; pool-identical one-hop outgoing-import reranking",
+  "index": "AST names/imports/docstrings + path/module; 24000 chars per file",
+  "timing": "median of 3 warm lexical + median of 3 ranking times; graph prep excluded",
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "networkx": "3.4.2",
+    "matplotlib": "3.10.3",
+    "pyarrow": "19.0.1",
+    "certifi": "2026.10.23"
+  },
+  "finished_at_utc": "2026-11-12T14:17:16.548817+00:00",
+  "eligible": 23,
+  "excluded": 0,
+  "completed": true,
+  "repos": [
+    "marshmallow-code/marshmallow",
+    "pvlib/pvlib-python",
+    "pydicom/pydicom",
+    "pylint-dev/astroid",
+    "pyvista/pyvista",
+    "sqlfluff/sqlfluff"
+  ]
+}

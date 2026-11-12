@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-11-12T14:26:46.970429+00:00",
+  "tests_passed": 20,
+  "clean_archive_install_tests_demo_passed": true,
+  "test_issues": 40,
+  "test_repos": 7,
+  "test_exclusions": 0,
+  "dev_issues": 23,
+  "dev_repos": 6,
+  "dev_exclusions": 0,
+  "test_rows": 480,
+  "deterministic_reproduction": "480/480 rows identical excluding measured query_ms",
+  "paper_whitespace_words": 2161,
+  "publication_performed": false,
+  "kaggle_submission_performed": false
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patchscope-cf"
+version = "0.1.0"
+description = "Counterfactual, leakage-audited issue-to-file localization"
+requires-python = ">=3.11"
+license = {text = "MIT OR Apache-2.0"}
+dependencies = ["numpy==2.2.6", "networkx==3.4.2", "matplotlib==3.10.3", "pyarrow==19.0.1", "certifi==2026.10.23"]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[project.scripts]
+patchscope = "patchscope.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["patchscope*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

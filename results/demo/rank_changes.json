@@ -1,0 +1,282 @@
+[
+  {
+    "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/__init__.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/core/serializers/base.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py",
+      "django/core/management/base.py",
+      "django/db/backends/oracle/creation.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "django/db/backends/base/creation.py"
+    ],
+    "instance_id": "django__django-12453",
+    "real_rank": 9,
+    "real_top10": [
+      "django/conf/__init__.py",
+      "django/core/exceptions.py",
+      "django/core/serializers/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/base.py",
+      "django/db/models/fields/related.py",
+      "django/db/models/base.py",
+      "django/db/transaction.py",
+      "django/db/backends/base/creation.py",
+      "django/db/backends/base/base.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/datasets/base.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/data.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/preprocessing/_encoders.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "real_rank": 4,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/preprocessing/data.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/svm/classes.py",
+      "sklearn/linear_model/omp.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/linear_model/sag.py",
+      "sklearn/svm/base.py",
+      "sklearn/linear_model/stochastic_gradient.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sklearn/linear_model/logistic.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "real_rank": 9,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/linear_model/base.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/base.py",
+      "sklearn/linear_model/stochastic_gradient.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+    "bm25_rank": 89,
+    "bm25_top10": [
+      "sympy/assumptions/ask.py",
+      "sympy/matrices/matrices.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/basic.py",
+      "sympy/crypto/crypto.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/tensor/indexed.py",
+      "sympy/utilities/iterables.py",
+      "sympy/utilities/enumerative.py",
+      "sympy/core/operations.py"
+    ],
+    "condition": "masked",
+    "gold_paths": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "instance_id": "sympy__sympy-12419",
+    "real_rank": 83,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/sympify.py",
+      "sympy/assumptions/ask.py",
+      "sympy/core/basic.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/function.py",
+      "sympy/utilities/enumerative.py"
+    ],
+    "repo": "sympy/sympy"
+  },
+  {
+    "base_commit": "b330b918e979ea39a21d47b61172d112caf432c3",
+    "bm25_rank": 5,
+    "bm25_top10": [
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/__init__.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/core/serializers/base.py",
+      "django/db/backends/oracle/creation.py",
+      "django/db/models/fields/__init__.py",
+      "django/db/transaction.py",
+      "django/core/management/base.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "django/db/backends/base/creation.py"
+    ],
+    "instance_id": "django__django-12453",
+    "real_rank": 8,
+    "real_top10": [
+      "django/core/exceptions.py",
+      "django/conf/__init__.py",
+      "django/core/serializers/__init__.py",
+      "django/db/migrations/autodetector.py",
+      "django/core/serializers/base.py",
+      "django/db/backends/base/base.py",
+      "django/db/models/base.py",
+      "django/db/backends/base/creation.py",
+      "django/db/transaction.py",
+      "django/utils/functional.py"
+    ],
+    "repo": "django/django"
+  },
+  {
+    "base_commit": "02dc9ed680e7f53f1b0d410dcdd37341c7958eb1",
+    "bm25_rank": 1,
+    "bm25_top10": [
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/datasets/base.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/data.py",
+      "sklearn/feature_extraction/text.py",
+      "sklearn/utils/testing.py",
+      "sklearn/datasets/svmlight_format.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/preprocessing/_encoders.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12471",
+    "real_rank": 4,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/base.py",
+      "sklearn/utils/validation.py",
+      "sklearn/preprocessing/_encoders.py",
+      "sklearn/utils/fixes.py",
+      "sklearn/exceptions.py",
+      "sklearn/preprocessing/label.py",
+      "sklearn/externals/joblib/parallel.py",
+      "sklearn/externals/_pilutil.py",
+      "sklearn/preprocessing/data.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "bm25_rank": 2,
+    "bm25_top10": [
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py",
+      "sklearn/model_selection/_search.py",
+      "sklearn/svm/classes.py",
+      "sklearn/linear_model/omp.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/linear_model/sag.py",
+      "sklearn/svm/base.py",
+      "sklearn/linear_model/stochastic_gradient.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sklearn/linear_model/logistic.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "real_rank": 9,
+    "real_top10": [
+      "sklearn/utils/__init__.py",
+      "sklearn/utils/validation.py",
+      "sklearn/exceptions.py",
+      "sklearn/linear_model/base.py",
+      "sklearn/utils/extmath.py",
+      "sklearn/base.py",
+      "sklearn/linear_model/stochastic_gradient.py",
+      "sklearn/linear_model/ridge.py",
+      "sklearn/linear_model/logistic.py",
+      "sklearn/linear_model/coordinate_descent.py"
+    ],
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "base_commit": "479939f8c65c8c2908bbedc959549a257a7c0b0b",
+    "bm25_rank": 89,
+    "bm25_top10": [
+      "sympy/assumptions/ask.py",
+      "sympy/matrices/matrices.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/basic.py",
+      "sympy/crypto/crypto.py",
+      "sympy/functions/combinatorial/numbers.py",
+      "sympy/tensor/indexed.py",
+      "sympy/utilities/iterables.py",
+      "sympy/utilities/enumerative.py",
+      "sympy/core/operations.py"
+    ],
+    "condition": "raw",
+    "gold_paths": [
+      "sympy/matrices/expressions/matexpr.py"
+    ],
+    "instance_id": "sympy__sympy-12419",
+    "real_rank": 83,
+    "real_top10": [
+      "sympy/core/compatibility.py",
+      "sympy/core/sympify.py",
+      "sympy/assumptions/ask.py",
+      "sympy/core/basic.py",
+      "sympy/matrices/matrices.py",
+      "sympy/utilities/iterables.py",
+      "sympy/core/numbers.py",
+      "sympy/simplify/simplify.py",
+      "sympy/core/function.py",
+      "sympy/utilities/enumerative.py"
+    ],
+    "repo": "sympy/sympy"
+  }
+]

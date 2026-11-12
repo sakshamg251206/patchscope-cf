@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\paragraph}[runin]{\normalfont\bfseries}{}{0em}{}[.]
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+
+\title{\textbf{PatchScope-CF: Do Code Graphs Really Help Locate Bugs?}\\[0.3em]
+\large A counterfactual, leakage-audited benchmark for repository-level issue localization}
+\author{}
+\date{November 2026}
+
+\begin{document}
+\maketitle
+\vspace{-3em}
+
+\begin{abstract}
+\noindent ABSTRACT-PLACEHOLDER
+\end{abstract}
+
+\section{Introduction and research questions}
+INTRO-PLACEHOLDER
+
+\section{Related work}
+RELATED-PLACEHOLDER
+
+\section{The PatchScope-CF framework}
+FRAMEWORK-PLACEHOLDER
+
+\section{Experimental methodology}
+METHOD-PLACEHOLDER
+
+\section{Results and statistical analysis}
+RESULTS-PLACEHOLDER
+
+\section{Counterfactual findings}
+COUNTERFACTUAL-PLACEHOLDER
+
+\section{Limitations and threats to validity}
+LIMITATIONS-PLACEHOLDER
+
+\section{Conclusion}
+CONCLUSION-PLACEHOLDER
+
+\begin{thebibliography}{9}
+\bibitem{swebench} C.~E.~Jimenez, J.~Yang, A.~Wettig, S.~Yao, K.~Pei, O.~Press, and K.~Narasimhan.
+\emph{SWE-bench: Can Language Models Resolve Real-World GitHub Issues?} arXiv:2310.06770, 2024.
+\bibitem{locagent} Z.~Chen et al.
+\emph{LocAgent: Graph-Guided LLM Agents for Code Localization.} ACL 2025, pp.~8697--8727.
+\bibitem{arb} B.~Qin and Y.~Xie.
+\emph{Agent Retrieval Bench: Evaluating Repository Context Retrieval for Coding Agents.} arXiv:2607.24882, 2026.
+\bibitem{bellam} S.~Bellam.
+\emph{How Much Do Structural Tools Help Small Coding Agents? A Pre-Registered Scale Study of Code Localization.} arXiv:2610.33958, 2026.
+\bibitem{caumartin} G.~Caumartin, T.-H.~Chen, and D.~E.~Costa.
+\emph{Retrieval-Oriented Code Representations in Agentic Bug Localization.} arXiv:2607.11046, 2026.
+\bibitem{lite} SWE-bench. \emph{SWE-bench Lite dataset}, revision \texttt{b0dde109...f0dff5}.
+\url{https://huggingface.co/datasets/SWE-bench/SWE-bench_Lite}
+\end{thebibliography}
+
+\end{document}

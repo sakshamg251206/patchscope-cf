@@ -1,0 +1,170 @@
+[1/5] scikit-learn__scikit-learn-12471
+[2/5] matplotlib__matplotlib-25332
+[3/5] django__django-12453
+[4/5] scikit-learn__scikit-learn-14087
+[5/5] sympy__sympy-12419
+<unknown>:420: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:462: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:860: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:1124: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:1614: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:2838: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:3122: SyntaxWarning: invalid escape sequence '\O'
+<unknown>:119: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\m'
+<unknown>:1472: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:2272: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:3: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:1844: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:334: SyntaxWarning: invalid escape sequence '\,'
+<unknown>:453: SyntaxWarning: invalid escape sequence '\,'
+<unknown>:453: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:453: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:347: SyntaxWarning: invalid escape sequence '\9'
+<unknown>:1745: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:1816: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:1910: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:676: SyntaxWarning: invalid escape sequence '\|'
+<unknown>:457: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:479: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:573: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:753: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:2418: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1860: SyntaxWarning: invalid escape sequence '\c'
+<unknown>:720: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:837: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:2013: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:578: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:684: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:173: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:304: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:1715: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:251: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:316: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:35: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:888: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:3307: SyntaxWarning: invalid escape sequence '\m'
+<unknown>:1557: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:1600: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:1648: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1714: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:1811: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\^'
+<unknown>:47: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:14: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:113: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:151: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:690: SyntaxWarning: invalid escape sequence '\g'
+<unknown>:937: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:419: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:203: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:79: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:388: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:106: SyntaxWarning: invalid escape sequence '\m'
+<unknown>:132: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:405: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:406: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:407: SyntaxWarning: invalid escape sequence '\('
+<unknown>:408: SyntaxWarning: invalid escape sequence '\['
+<unknown>:409: SyntaxWarning: invalid escape sequence '\('
+<unknown>:410: SyntaxWarning: invalid escape sequence '\<'
+<unknown>:565: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:578: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:791: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:846: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:1084: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:1267: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:1527: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:1664: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:660: SyntaxWarning: invalid escape sequence '\o'
+<unknown>:678: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1397: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:1427: SyntaxWarning: invalid escape sequence '\c'
+<unknown>:1606: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:1610: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:1699: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:490: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:1629: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:576: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:687: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:10: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:187: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:199: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:328: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:297: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:913: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:171: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:1656: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:631: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:107: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:1404: SyntaxWarning: invalid escape sequence '\g'
+<unknown>:1466: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1526: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1652: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:2390: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:2553: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:2594: SyntaxWarning: invalid escape sequence '\e'
+<unknown>:2605: SyntaxWarning: invalid escape sequence '\c'
+<unknown>:2615: SyntaxWarning: invalid escape sequence '\g'
+<unknown>:2743: SyntaxWarning: invalid escape sequence '\i'
+<unknown>:2970: SyntaxWarning: invalid escape sequence '\g'
+<unknown>:3049: SyntaxWarning: invalid escape sequence '\g'
+<unknown>:1: SyntaxWarning: invalid escape sequence '\l'
+<unknown>:72: SyntaxWarning: invalid escape sequence '\o'
+<unknown>:350: SyntaxWarning: invalid escape sequence '\o'
+<unknown>:461: SyntaxWarning: invalid escape sequence '\o'
+<unknown>:663: SyntaxWarning: invalid escape sequence '\o'
+<unknown>:359: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:39: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:760: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:12: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:471: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:1: SyntaxWarning: invalid escape sequence '\_'
+<unknown>:31: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:541: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:1328: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:1575: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:1783: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:1787: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:260: SyntaxWarning: invalid escape sequence '\m'
+<unknown>:453: SyntaxWarning: invalid escape sequence '\m'
+{
+  "started_at_utc": "2026-11-12T14:13:53.795731+00:00",
+  "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
+  "split": "test",
+  "requested": 5,
+  "seed": 2026,
+  "candidate_budget": 100,
+  "seed_budget": 20,
+  "alpha": 0.5,
+  "rewiring_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "bootstrap_replicates": 2000,
+  "query_repetitions": 3,
+  "python": "3.12.4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "protocol": "fixed a priori; no test tuning; pool-identical one-hop outgoing-import reranking",
+  "index": "AST names/imports/docstrings + path/module; 24000 chars per file",
+  "timing": "median of 3 warm lexical + median of 3 ranking times; graph prep excluded",
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "networkx": "3.4.2",
+    "matplotlib": "3.10.3",
+    "pyarrow": "19.0.1",
+    "certifi": "2026.10.23"
+  },
+  "finished_at_utc": "2026-11-12T14:13:59.527174+00:00",
+  "eligible": 5,
+  "excluded": 0,
+  "completed": true,
+  "repos": [
+    "django/django",
+    "matplotlib/matplotlib",
+    "scikit-learn/scikit-learn",
+    "sympy/sympy"
+  ]
+}

@@ -51,7 +51,8 @@ for judging, max team size 5, identity verification required.
 | Writeup body | `paper/KAGGLE_WRITEUP.md` — paste as-is (Markdown) |
 | Public project link | <https://github.com/sakshamg251206/patchscope-cf> |
 | PDF (optional) | `paper/patchscope_cf.pdf` |
-| Figures | `results/full300/figures/accuracy_vs_budget.png`, `results/full300/figures/paired_hit5.png`, `results/dev_sensitivity/dev_sensitivity.png` |
+| Figures (embedded in the Writeup) | `results/full300/figures/budget_effect.png`, `results/full300/figures/gold_in_degree.png` |
+| Further figures | `results/full300/figures/{accuracy_vs_budget,paired_hit5,by_repo_hit5}.png`, `results/dev_sensitivity/dev_sensitivity.png` |
 
 ## 3. Manual steps, in order
 
@@ -63,7 +64,7 @@ for judging, max team size 5, identity verification required.
 4. **Writeups → New Writeup.**
    - Paste the title and subtitle from section 2.
    - Paste the body of `paper/KAGGLE_WRITEUP.md`.
-   - Re-upload the three figures through Kaggle's image button. The Markdown file
+   - Re-upload the two embedded figures through Kaggle's image button. The Markdown file
      references repository-relative paths that will not resolve inside Kaggle.
    - Put the GitHub URL in the **Public Project Link** field (or attach the PDF there).
 5. **Save**, then read the rendered page end to end once.

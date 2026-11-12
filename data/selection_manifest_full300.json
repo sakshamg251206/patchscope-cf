@@ -1502,6 +1502,1508 @@
       "repo": "django/django"
     }
   ],
+  "outcomes": [
+    {
+      "instance_id": "scikit-learn__scikit-learn-12471",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25332",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12453",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12419",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15320",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-10508",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-15535",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-863",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13915",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15738",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16595",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-7114",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8282",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15347",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15781",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13033",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14092",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16041",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11179",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23562",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-2148",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-10924",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-26011",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12284",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7975",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7738",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8627",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18087",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13757",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8595",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11999",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13895",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14016",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11630",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13401",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-23117",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11583",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-7686",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13971",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14672",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20212",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pydata__xarray-3364",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14382",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13321",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15202",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-17051",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15061",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14997",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25079",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11964",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25311",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14999",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-10325",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12856",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11039",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-24152",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15814",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21612",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "mwaskom__seaborn-3407",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15308",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-17022",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15498",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-6506",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13496",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13710",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18057",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8801",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-15512",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14155",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20639",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11797",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-6116",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-6938",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-10297",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14238",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18698",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12113",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14667",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8506",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12908",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15252",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13447",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14817",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-23262",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-11040",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-1963",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-11148",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14752",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14534",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-16281",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "mwaskom__seaborn-3190",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11283",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15789",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14308",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13241",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15213",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21614",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-24909",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13933",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14396",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15011",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15790",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18621",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14915",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12915",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14317",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11019",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-24213",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11133",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25433",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13158",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5221",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8273",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13142",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11620",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15996",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pydata__xarray-4094",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-24066",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-10451",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-7168",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13584",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15346",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-8365",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15819",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11564",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12236",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12708",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16139",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13146",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5495",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15609",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21055",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-22711",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13043",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12308",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-17139",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14787",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21627",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18835",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15388",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-5859",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18532",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11049",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12125",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13768",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21171",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11742",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12454",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pallets__flask-4992",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-3362",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-12907",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11815",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-14995",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-7993",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12497",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16046",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13220",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11848",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15695",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14983",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13497",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11422",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-14894",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15678",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-16792",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16820",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-11400",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13773",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16527",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11905",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-19007",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14855",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14580",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-22840",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5103",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-26020",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16408",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23563",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23987",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-17087",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23314",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-7220",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14024",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13031",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15400",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-14774",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12171",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16910",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-2317",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-11143",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12589",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11001",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-14365",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14017",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14608",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13265",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16400",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13437",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13647",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20049",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20154",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-7228",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25498",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14730",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-22005",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15902",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "mwaskom__seaborn-2848",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13925",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-25442",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-19487",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8713",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5413",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16873",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-7432",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20442",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12184",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13590",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23299",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12470",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-18869",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16379",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pydata__xarray-4493",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-9359",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11910",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5227",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-24334",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-7490",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-17655",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-11445",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12286",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13779",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13551",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18199",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-10914",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25747",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-24265",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-24149",
+      "reason": "ValueError: source labels absent at base commit: [\"lib/matplotlib/axes/_axes.py\"]",
+      "status": "excluded"
+    },
+    {
+      "instance_id": "sympy__sympy-21847",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13480",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "mwaskom__seaborn-3010",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20322",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-16988",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13964",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-24970",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-18189",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-15851",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23476",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-11870",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "psf__requests-2674",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8721",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-19254",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25638",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23964",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16255",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13658",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-16106",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25570",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13028",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8474",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13471",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-10949",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-11281",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-11099",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pydata__xarray-4248",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-14411",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-13177",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-23191",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pallets__flask-5063",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12983",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-5692",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12700",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-24102",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-13439",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-8906",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pytest-dev__pytest-7373",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-23913",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "scikit-learn__scikit-learn-25500",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16229",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pydata__xarray-5131",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-22714",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-7746",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-12481",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13230",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pallets__flask-4045",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13448",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-12747",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "astropy__astropy-14182",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "matplotlib__matplotlib-22835",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-11897",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-15345",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-20590",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sphinx-doc__sphinx-8435",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-21379",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-16816",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13315",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-17630",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "sympy__sympy-16503",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "pylint-dev__pylint-7080",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    },
+    {
+      "instance_id": "django__django-13660",
+      "reason": "all source gold paths present at base; all methods completed",
+      "status": "included"
+    }
+  ],
   "requested": 300,
   "revision": "b0dde1093fe417d83b7184254edf8199c1f0dff5",
   "seed": 2026,

@@ -1,0 +1,2 @@
+instance_id,repo,base_commit,reason
+matplotlib__matplotlib-24149,matplotlib/matplotlib,af39f1edffcd828f05cfdd04f2e59506bb4a27bc,"ValueError: source labels absent at base commit: [""lib/matplotlib/axes/_axes.py""]"

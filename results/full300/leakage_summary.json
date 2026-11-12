@@ -1,0 +1,6 @@
+{
+  "changed": 135,
+  "matched_spans": 403,
+  "n": 299,
+  "note": "label-informed diagnostic; matches include guarded stems and dotted modules, not only full paths"
+}

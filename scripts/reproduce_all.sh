@@ -18,8 +18,9 @@ patchscope evaluate --sample 300 --seed 2026 --split test \
   --manifest data/selection_manifest_full300.json --output "$out"
 patchscope report --results "$out"
 
-echo "== budget analysis and figures =="
+echo "== budget, in-degree analysis and figures =="
 python scripts/budget_analysis.py "$out"
+python scripts/degree_analysis.py "$out"
 python scripts/make_figures.py "$out"
 
 echo "== independent verification of the saved artifacts =="
@@ -28,7 +29,10 @@ python scripts/verify_results.py "$out"
 echo "== dev-split-only sensitivity sweep (never used to tune the test run) =="
 python scripts/dev_sensitivity.py --output "$out/../dev_sensitivity_repro"
 
-echo "== paper table consistency =="
+echo "== every number the paper quotes, from the artifacts =="
+python scripts/paper_numbers.py "$out"
+
+echo "== paper table consistency and word limit =="
 python scripts/check_paper.py paper/KAGGLE_WRITEUP.md "$out"
 
 echo "done: $out"

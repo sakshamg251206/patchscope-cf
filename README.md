@@ -96,9 +96,27 @@ reporting them as ineligible cases.
 - **Timing:** query time includes tokenization/BM25 plus ranking, median of three warm measurements each. Rewired timing first averages seeds within an issue. Index, snapshots, and control construction are separately logged in `offline_times.csv`.
 - **Uncertainty:** paired issue bootstrap, 2,000 replicates, seed 2026. Rewired seeds average *within* issue before aggregation. Issues from the same repository are correlated; intervals are descriptive and can understate repository-level uncertainty. Subgroup tables are exploratory.
 
-## Measured pilot result
+## Measured result — complete SWE-bench Lite test split
 
-All 40 selected test issues across seven repositories were eligible; no case exclusions. Raw Hit@5: BM25 **65.0%**, real graph **47.5%**, rewired mean **50.8%**, edge-drop **50.0%**. Real minus rewired is −3.3 percentage points (95% paired issue-bootstrap interval −12.5 to +5.0): inconclusive. This ranking rule does not demonstrate a graph advantage. Masking changes 12/40 issues. All 480 rows reproduce identically except measured latency.
+**299 of 300 issues, 12 repositories, one protocol exclusion** (gold file above the
+250 KB indexing cap). Raw-query Hit@5: BM25 **58.5%**, real graph **48.5%**, rewired
+mean **48.9%**, edge-drop **45.8%**.
+
+- Real minus BM25: **−10.0 pp** (95% paired bootstrap [−14.7, −5.4]); MRR@10 −14.5 [−17.9, −10.9].
+- Real minus the **degree-preserving null**: **−0.4 pp** [−3.3, +2.5] at Hit@5 — indistinguishable;
+  and at the top of the ranking the real graph is *worse* than the null (Hit@1 −5.7 [−9.1, −2.1]).
+- Split by how heavily imported the gold file is, propagation gains **+12.3 pp** [+2.7, +23.3] for
+  the most-imported quartile and loses **−20.2 pp** [−28.1, −13.2] for the least-imported.
+  A random graph with the same degrees reproduces much of that gain.
+
+One-hop import propagation behaves as a **popularity prior**, not as structural reasoning.
+Masking target names out of queries (135/299 issues, 403 spans) does not change the ordering,
+and a dev-split sweep finds no graph weight, seed budget or edge direction that helps.
+
+The earlier 40-issue pilot is preserved unchanged in `results/` and reproduces inside the full
+run with zero ranking disagreements.
+
+![Hit@5 and paired differences by gold-file import in-degree](results/full300/figures/gold_in_degree.png)
 
 ## Outputs
 

@@ -11,7 +11,7 @@ import time
 import numpy as np
 
 from .data import freeze_selection, snapshot, write_json
-from .graph import edge_drop, rewire
+from .graph import edge_drop, load_edges, rewire
 from .index import build_index, tokenize
 from .labels import gold_paths
 from .masking import mask_query
@@ -104,7 +104,16 @@ def evaluate_case(case, index, gold, seed, budget=100, seeds=20, alpha=.5):
 
 
 def run_evaluation(rows, revision, sample, seed, output: Path, cache: Path, split,
-                   snapshot_provider=snapshot, manifest_path: Path | None = None):
+                   snapshot_provider=snapshot, manifest_path: Path | None = None,
+                   graph_edges: Path | None = None):
+    """Run the counterfactual localization audit.
+
+    `graph_edges` points at a directory of externally supplied code graphs, one
+    `<instance_id>.csv` or `<instance_id>.json` per issue (see `graph.load_edges`). It
+    replaces the built-in import graph so any code graph can be measured against its own
+    degree-preserving null. Left as None, the built-in import graph is used and nothing in
+    this function's behaviour changes.
+    """
     output.mkdir(parents=True, exist_ok=True)
     if (output / 'experiment_config.json').exists():
         raise FileExistsError(f'results already exist in {output}; use a fresh output directory')
@@ -115,6 +124,7 @@ def run_evaluation(rows, revision, sample, seed, output: Path, cache: Path, spli
                   bootstrap_replicates=2000, query_repetitions=3,
                   python=platform.python_version(), platform=platform.platform(), machine=platform.machine(),
                   protocol='fixed a priori; no test tuning; pool-identical one-hop outgoing-import reranking',
+                  graph_source=str(graph_edges) if graph_edges else 'builtin_import_graph',
                   index='AST names/imports/docstrings + path/module; 24000 chars per file',
                   timing='median of 3 warm lexical + median of 3 ranking times; graph prep excluded',
                   dependency_versions={},
@@ -140,6 +150,13 @@ def run_evaluation(rows, revision, sample, seed, output: Path, cache: Path, spli
             start = time.perf_counter()
             index = build_index(files)
             ast_ms = (time.perf_counter()-start)*1000
+            external = None
+            if graph_edges is not None:
+                supplied = [c for ext in ('.csv', '.json')
+                            for c in [graph_edges / f'{case["instance_id"]}{ext}'] if c.exists()]
+                if not supplied:
+                    raise ValueError(f'no supplied graph for {case["instance_id"]} in {graph_edges}')
+                index.graph, external = load_edges(supplied[0], index.paths)
             case_rows, audit = evaluate_case(case, index, gold, seed)
             case_audit = dict(instance_id=case['instance_id'], repo=case['repo'], base_commit=case['base_commit'],
                              source=source_audit, index=index.audit, snapshot_ms=snapshot_ms,
@@ -147,6 +164,8 @@ def run_evaluation(rows, revision, sample, seed, output: Path, cache: Path, spli
                              isolates=sum(index.graph.degree(n)==0 for n in index.graph),
                              gold_in_degree=[index.graph.in_degree(g) for g in gold],
                              gold_out_degree=[index.graph.out_degree(g) for g in gold], **audit)
+            if external is not None:
+                case_audit['external_graph'] = external
             audits.append(case_audit)
             results.extend(case_rows)
         except (OSError, ValueError, subprocess.SubprocessError) as exc:

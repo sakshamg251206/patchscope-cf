@@ -83,6 +83,27 @@ the measured run network-free. Failed fetches are reported with the underlying g
 and are **infrastructure exclusions, not protocol exclusions**; rerun them rather than
 reporting them as ineligible cases.
 
+## Bring your own code graph
+
+The degree-preserving null is the instrument, and it does not care where the edges came
+from. `--graph-edges` substitutes an externally supplied graph for the built-in import
+graph, holding the file set, candidate pool, ranking rule, budgets and all controls fixed:
+
+```sh
+uv run --locked python examples/supplied_graph.py          # offline round-trip demo
+uv run --locked patchscope evaluate --sample 40 --seed 2026 \
+  --graph-edges path/to/graphs --output results/supplied
+```
+
+Supply one `<instance_id>.csv` (header `source,target`) or `<instance_id>.json` (a list of
+`[source, target]` pairs) per issue, holding repository-relative file paths. Files outside
+the base-commit snapshot are dropped and counted in `audit.json`; a path convention that
+matches nothing aborts rather than silently reporting "no signal". This makes call graphs,
+embedding-neighbour graphs and host-supplied code graphs testable on the same terms.
+
+**Not run here:** the Gemma 4 track's released code graphs and embeddings. No result on
+them is claimed; the interface exists so anyone can produce one.
+
 ## Protocol and boundaries
 
 - **Snapshot:** exact `base_commit` git objects. No patch is applied. Index cache is keyed by repository/commit, with source/tree checksums and verified source checksum on cache reuse. Labels come solely from solution-diff `+++` paths after selection. All filtered gold paths must exist in the indexed base snapshot; otherwise the case is excluded. Renamed/new paths absent at base cannot be localization labels here.

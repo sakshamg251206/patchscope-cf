@@ -1,6 +1,33 @@
 # PatchScope-CF
 
-Do import graphs improve issue-to-file localization beyond lexical retrieval and node popularity? PatchScope-CF is a CPU-only audit toolkit that compares BM25, real import edges, directed-degree-preserving rewired edges, and edge deletion **inside exactly the same lexical candidate pool**. It indexes real SWE-bench Lite repositories at their pre-fix commits, records exclusions and masking spans, and produces paired results and bootstrap intervals. It evaluates file retrieval; it does not generate or validate patches.
+**Do code graphs really help locate bugs — or do they just promote popular files?**
+
+PatchScope-CF is a CPU-only evaluation resource that answers that question with a control
+most graph-retrieval papers skip: a **directed degree-preserving rewired graph**. Every
+node keeps its exact in-degree and out-degree, only *which* files are connected changes.
+If a real import graph does no better than that null, its dependency structure is not
+what is doing the work.
+
+Four arms — BM25, the real import graph, three rewired controls, and 50% edge deletion —
+are compared **inside byte-identical candidate pools**, with identical lexical scores and
+identical output budgets, over real SWE-bench Lite issues indexed at their exact pre-fix
+commits. No model, no embeddings, no GPU, no API key. A full run finishes in minutes on a
+laptop and exports every ranking it produced.
+
+It evaluates **file retrieval only**; it does not generate or validate patches.
+
+```sh
+uv sync --locked --extra test
+sh scripts/reproduce_all.sh          # tests, 300-issue run, analysis, figures, self-verification
+```
+
+| Where to look | |
+|---|---|
+| The paper | [`paper/KAGGLE_WRITEUP.md`](paper/KAGGLE_WRITEUP.md) |
+| Every number, regenerated from artifacts | `python scripts/paper_numbers.py results/full300` |
+| Independent re-verification of the artifacts | `python scripts/verify_results.py results/full300` |
+| Why the graph loses (dev-split sweep) | `results/dev_sensitivity/` |
+| Honest limits | [Limitations](#limitations-at-a-glance) and the paper's threats-to-validity section |
 
 ## Install and one-minute local demo
 
@@ -78,6 +105,24 @@ All 40 selected test issues across seven repositories were eligible; no case exc
 `results/per_instance.csv` records every issue/condition/method/seed, full candidate rankings, metrics, timing and commit. `summary.csv`, `paired_comparisons.csv`, `by_repo.csv`, `by_num_gold.csv`, `by_coverage.csv`, `leakage_summary.json`, `rank_changes.json`, `offline_times.csv` and plots derive from those rows and audit metadata. `experiment_config.json`, `audit.json`, `exclusions.csv` and selection manifests retain provenance and denominators.
 
 Read [the paper](paper/KAGGLE_WRITEUP.md), [research notes](paper/RESEARCH_NOTES.md), [submission checklist](paper/SUBMISSION_CHECKLIST.md), and [literature audit](paper/LITERATURE_AUDIT.md). This is a pilot on a fixed subset, not a claim about all SWE-bench or all graph-assisted agents. Gold patch paths are a proxy for relevant files, not a complete relevance annotation. No Gemma/model run or downstream fix-success result is claimed.
+
+## Limitations at a glance
+
+- **Reranking only.** The candidate pool is the BM25 top-100 for every arm. This removes
+  pool-composition confounding, but it also makes graph-based *discovery* outside that
+  pool impossible by construction — arguably the main way graphs are expected to help.
+- **Import edges, not call edges.** Static, exact internal-module imports only. Dynamic
+  imports, calls, and namespace packages are missed.
+- **One fixed, unlearned ranking rule.** One-hop residual propagation at a fixed weight.
+  A dev-only sweep over weight, seed budget and edge direction is included precisely so
+  this is not taken on trust.
+- **Labels are one accepted patch.** A file the ranker promotes may be genuinely useful
+  and still count as a miss. File retrieval is an upstream proxy for issue resolution.
+- **No agent, no LLM, no Gemma run, no repair evaluation.** Nothing here measures fix rates.
+- **Degree preservation is not full null control.** It fixes node popularity, not
+  clustering or path structure, and bounded double-edge swaps are not proved to mix.
+- **Descriptive intervals.** Issue-level bootstrap ignores repository clustering and is
+  not multiplicity-adjusted across the many metrics and slices reported.
 
 ## Data, licenses and release
 

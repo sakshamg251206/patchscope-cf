@@ -49,7 +49,7 @@ for judging, max team size 5, identity verification required.
 | Title | `PatchScope-CF: Do Code Graphs Really Help Locate Bugs?` |
 | Subtitle | `A counterfactual, leakage-audited benchmark for repository-level issue localization` |
 | Writeup body | `paper/KAGGLE_WRITEUP.md` — paste as-is (Markdown) |
-| Public project link | the GitHub repository URL printed in `results/verification.json` |
+| Public project link | <https://github.com/sakshamg251206/patchscope-cf> |
 | PDF (optional) | `paper/patchscope_cf.pdf` |
 | Figures | `results/full300/figures/accuracy_vs_budget.png`, `results/full300/figures/paired_hit5.png`, `results/dev_sensitivity/dev_sensitivity.png` |
 

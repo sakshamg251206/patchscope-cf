@@ -7,7 +7,7 @@ Deadline confirmed in indexed official Kaggle requirements: **November 12, 2026,
 - [x] Local toolkit, real frozen-commit runs, tests and research-source audits created.
 - [ ] Human has reviewed final `paper/KAGGLE_WRITEUP.md`, measured results, authorship and limitations.
 - [ ] Joined the **separate paper track** and accepted its account-visible rules. Account state has not been checked.
-- [ ] Public code/results/notebook assets uploaded. Current public project link: **TO BE UPLOADED**.
+- [x] Public code/results assets uploaded. Public project link: <https://github.com/sakshamg251206/patchscope-cf> (verified loading without login).
 - [ ] Writeup created and saved in Kaggle.
 - [ ] **Submit** clicked; confirmed submitted status inspected. No submission has been performed by this assistant.
 
